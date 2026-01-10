@@ -163,10 +163,12 @@ button.reset:hover:not(:has(> *)) {
 * --------------------------------------------------
 */
 .header {
+  display: flex;
+  flex-direction: column; 
   align-items: center;
   background: #fff;
   display: flex;
-  height: var(--header-height);
+  /* height: var(--header-height); */
   padding: 0 1rem;
   position: sticky;
   top: 0;
@@ -191,7 +193,7 @@ button.reset:hover:not(:has(> *)) {
   @media (min-width: 45em) {
     display: flex;
     grid-gap: 1rem;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
   }
 }
 
@@ -208,6 +210,12 @@ button.reset:hover:not(:has(> *)) {
 
 .header-ctas > * {
   min-width: fit-content;
+}
+
+.header-row { 
+  width: 100%; 
+  display: flex; 
+  justify-content: space-between;
 }
 
 /*
