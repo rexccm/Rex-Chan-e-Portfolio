@@ -3,7 +3,6 @@ import {Suspense} from 'react';
 import {Image} from '@shopify/hydrogen';
 import {ProductItem} from '~/components/ProductItem';
 import {Summary} from '~/components/Summary';
-import {Education} from '~/components/Education';
 
 /**
  * @type {Route.MetaFunction}
