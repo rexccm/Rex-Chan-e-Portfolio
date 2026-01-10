@@ -1,5 +1,6 @@
 import {Suspense} from 'react';
 import {Await, NavLink} from 'react-router';
+import {ScrollWave} from '~/components/ScrollWave';
 
 /**
  * @param {FooterProps}
@@ -7,6 +8,7 @@ import {Await, NavLink} from 'react-router';
 export function Footer({footer: footerPromise, header, publicStoreDomain}) {
   return (
     <Suspense>
+      <ScrollWave />
       <Await resolve={footerPromise}>
         {(footer) => (
           <footer className="footer">
