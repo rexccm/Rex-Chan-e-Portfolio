@@ -3,7 +3,8 @@ export function Summary({ content }) {
         <section id="summary" class="shopify-section">
             <h2 class="section-heading">Summary</h2>
             <article class="section-content">
-                {content}
+                {content} 
+                
                 <section id="web-authoring" class="article-section">
                     <h3>Web Authoring</h3>
                     <p>I am experienced in authoring standard-based web pages using the web development layers.</p>
