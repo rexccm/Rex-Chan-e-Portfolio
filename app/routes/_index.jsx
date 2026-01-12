@@ -30,13 +30,17 @@ export async function loader(args) {
  * @param {Route.LoaderArgs}
  */
 async function loadCriticalData({context}) {
-  const [{collections}] = await Promise.all([
+  const [{collections}, shopResult] = await Promise.all([
     context.storefront.query(FEATURED_COLLECTION_QUERY),
+    context.storefront.query(SHOP_SUMMARY_QUERY),
     // Add other queries here, so that they are loaded in parallel
   ]);
 
+  const shopSummary = shopResult?.shop?.metafield?.value ?? '';
+
   return {
     featuredCollection: collections.nodes[0],
+    shopSummary,
   };
 }
 
@@ -65,7 +69,7 @@ export default function Homepage() {
   const data = useLoaderData();
   return (
     <div className="home">
-      <Summary />
+      <Summary content={data.shopSummary} />
       {/* <FeaturedCollection collection={data.featuredCollection} /> */}
       <RecommendedProducts products={data.recommendedProducts} />
     </div>
@@ -169,6 +173,17 @@ const RECOMMENDED_PRODUCTS_QUERY = `#graphql
     products(first: 4, sortKey: UPDATED_AT, reverse: true) {
       nodes {
         ...RecommendedProduct
+      }
+    }
+  }
+`;
+
+const SHOP_SUMMARY_QUERY = `#graphql
+  query ShopSummary($country: CountryCode, $language: LanguageCode)
+    @inContext(country: $country, language: $language) {
+    shop {
+      metafield(namespace: "custom", key: "summary") {
+        value
       }
     }
   }

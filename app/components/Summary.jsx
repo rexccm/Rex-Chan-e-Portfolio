@@ -1,10 +1,9 @@
-export function Summary() { 
+export function Summary({ content }) { 
     return (
         <section id="summary" class="shopify-section">
             <h2 class="section-heading">Summary</h2>
             <article class="section-content">
-                <p>I am Rex Chan (Chan Cheuk Man), a frontend web developer with a Higher Diploma in Computer Game Development.</p>
-                <p>I participated in the system development life cycle (SDLC) so as to build the e-commerce, web, and game systems which consist of inter-dependent components that collectively perform certain functions.</p>
+                {content}
                 <section id="web-authoring" class="article-section">
                     <h3>Web Authoring</h3>
                     <p>I am experienced in authoring standard-based web pages using the web development layers.</p>
