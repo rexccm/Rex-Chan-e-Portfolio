@@ -30,17 +30,20 @@ export async function loader(args) {
  * @param {Route.LoaderArgs}
  */
 async function loadCriticalData({context}) {
-  const [{collections}, shopResult] = await Promise.all([
+  const [{collections}, shopResult, metaobjectsResult] = await Promise.all([
     context.storefront.query(FEATURED_COLLECTION_QUERY),
     context.storefront.query(SHOP_SUMMARY_QUERY),
+    context.storefront.query(METAOBJECTS_QUERY),
     // Add other queries here, so that they are loaded in parallel
   ]);
 
   const shopSummary = shopResult?.shop?.metafield?.value ?? '';
+  const metaobjects = metaobjectsResult?.metaobjects?.nodes ?? [];
 
   return {
     featuredCollection: collections.nodes[0],
     shopSummary,
+    metaobjects,
   };
 }
 
@@ -70,6 +73,7 @@ export default function Homepage() {
   return (
     <div className="home">
       <Summary content={data.shopSummary} />
+      <div>{JSON.stringify(data.metaobjects)}</div>
       {/* <FeaturedCollection collection={data.featuredCollection} /> */}
       <RecommendedProducts products={data.recommendedProducts} />
     </div>
@@ -184,6 +188,22 @@ const SHOP_SUMMARY_QUERY = `#graphql
     shop {
       metafield(namespace: "custom", key: "summary") {
         value
+      }
+    }
+  }
+`;
+
+const METAOBJECTS_QUERY = `#graphql
+  query Metaobjects($country: CountryCode, $language: LanguageCode)
+    @inContext(country: $country, language: $language) {
+    metaobjects(type: "education", first: 250) {
+      nodes {
+        id
+        handle
+        fields {
+          key
+          value
+        }
       }
     }
   }
