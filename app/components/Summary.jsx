@@ -65,9 +65,7 @@ export function Summary({ content }) {
                     <ul class="control-structures">
                         <li><b>Sequence:</b> A series of statements executed one after another in the order they are listed.</li>
                         <li><b>Selection:</b> It is used to choose between different paths of execution based on a condition.</li>
-                        <li><b>Iteration:</b> It allows the ex
-                         to repeat one or more statements multiple times.</li>
-                        <li><b>Loops:</b> Used to execute a block of code multiple times, such as for, while, and do...while loops.</li>
+                        <li><b>Iteration:</b> It allows the execution of one or more statements multiple times.</li>
                     </ul>
                 </section>
                 <section class="article-section">
