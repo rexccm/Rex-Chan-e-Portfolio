@@ -54,17 +54,36 @@ export function Summary({ content }) {
                     <section class="article-section">
                         <h4>Ready-to-Use Widgets</h4>
                         <p>In jQuery UI, there are two types of ready-to-use widgets based on​ above interactions:</p>
-                        <ul>
+                        <ul class="ready-to-use-widgets">
                             <li><b>Low-level interaction helpers:</b> The underlying core based on direct interactions that are designed to work with physical action performed by end-user primarily mouse events. For instance, draggable, droppable, resizable, selectable, and sortable.</li>
                             <li><b>Higher-level widgets:</b> The instruments often build upon the foundation provided by the low-level helpers triggering side effects after end-users performed actions. For instance, accordion, tabs, dialog, auto-complete, slider, and date-picker.</li>
                         </ul>
                     </section>
                 </section>
                 <section class="article-section">
-                    <h3>Framework Concepts</h3>
+                    <h3 class="section-heading">Control Structures</h3>
+                    <ul class="control-structures">
+                        <li><b>Sequence:</b> A series of statements executed one after another in the order they are listed.</li>
+                        <li><b>Selection:</b> It is used to choose between different paths of execution based on a condition.</li>
+                        <li><b>Iteration:</b> It allows the ex
+                         to repeat one or more statements multiple times.</li>
+                        <li><b>Loops:</b> Used to execute a block of code multiple times, such as for, while, and do...while loops.</li>
+                    </ul>
+                </section>
+                <section class="article-section">
+                    <h3>Object-oriented Programming</h3>
+                    <p>Objects are instances of classes while classes define the attributes and behavior of objects. There are three features of OOP: </p>
+                    <ul class="oop-features">
+                        <li><b>Encapsulation:</b> Bundling data and methods that operate on the data within a single class.</li>
+                        <li><b>Inheritance:</b> Allowing a class to inherit properties and methods from its parent class.</li>
+                        <li><b>Polymorphism:</b> Enabling objects of different types to be treated as instances of the same type through a common interface.</li>
+                    </ul>
+                </section>
+                <section class="article-section">
+                    <h3 class="section-heading">Framework Concepts</h3>
                     <p>I practice the following concepts of modern frontend web frameworks during development.</p>
                     <section class="article-section">
-                        <h4>FSM</h4>
+                        <h4>Finite-state Machine</h4>
                         <p>Finite-state machine (FSM) is a design pattern applied in modern frontend web frameworks which provide a clear representation of a finite number of states with transitions between these states triggered by events or specific conditions.</p>
                     </section>
                     <section class="article-section">
