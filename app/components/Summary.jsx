@@ -61,6 +61,11 @@ export function Summary({ content }) {
                     </section>
                 </section>
                 <section class="article-section">
+                    <h3 class="section-heading">AJAX</h3>
+                    <p>Asynchronous JavaScript and XML (AJAX) is a set of web development techniques that allows client-side scripts send requests to the web server programs in an asynchronous format without reloading the entire page.</p>
+                    <p>Web server response was in XML format in the early days of AJAX, but most modern web services use JSON format for data interchange.</p>
+                </section>
+                <section class="article-section">
                     <h3 class="section-heading">Control Structures</h3>
                     <ul class="control-structures">
                         <li><b>Sequence:</b> A series of statements executed one after another in the order they are listed.</li>
@@ -92,6 +97,24 @@ export function Summary({ content }) {
                             <li><b>State:</b> The source of truth of a web application at a specific point in time that is carried by the observable properties. e.g. a string, an integer, a boolean, or an array.</li>
                             <li><b>View:</b> A declarative presentation of user interface mapping the current state. e.g. an unordered list mapping with data in repetitive structure.</li>
                             <li><b>Actions:</b> ​The events or transition condition that trigger updates in the state based on user input. e.g. a click event, a mouseover event, a keyup event, or an input value.</li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="article-section">
+                    <h3>Backend Development</h3>
+                    <p>I developed basic concepts of CRUD, salting, and injections by PHP in Internet Programming course in Higher Diploma programme.</p>
+                    <ul class="backend-concepts">
+                        <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
+                        <li><b>Salting:</b> Salting is a security technique used to enhance password hashing. It involves adding a random value called salt to the password before hashing it. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</li>
+                        <li><b>Injections:</b> Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage. Understanding how to prevent injections.</li>
+                    </ul>
+                    <section class="article-section">
+                        <h4>CRUD Operations</h4>
+                        <ul class="crud-operations">
+                            <li><b>Create</b>: To create a resource, developer sends a POST request containing an object with properties to the API point like /api/products, which then responds with an object which has an ID that includes the relevant data fields.</li>
+                            <li><b>Read</b>: To read a resource, developer sends a GET request to the API endpoint, and then it responds with a list or single object. We sends that request to the original API endpoint like /api/products when we want to read all of the data, while we sends the request to the endpoint with its ID like /api/products/1 if we to search for specific data. </li>
+                            <li><b>UPDATE</b>: To update a resource, developer sends a PUT request containing the updated object to the API endpoint with ID, and then it responds with an object included the relevant data fields. </li>
+                            <li><b>Delete</b>: To delete a resource, developer sends a DELETE request to the API endpoint with the target ID. However, the delete request is not prefer to use due to concerns about data integrity in reality. </li>
                         </ul>
                     </section>
                 </section>
