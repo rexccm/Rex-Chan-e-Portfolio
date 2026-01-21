@@ -6,7 +6,8 @@ export function Summary({ content }) {
                 {content} 
                 
                 <ul class="gallery">
-                    <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/secondary-school-photo.jpg?v=1769016773" /></li>
+                    <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/higher-diploma-photo.jpg" /></li>
+                    <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/secondary-school-photo.jpg" /></li>
                     <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/baby-photo.png" /></li>
                 </ul>
                 <section id="web-authoring" class="article-section">
