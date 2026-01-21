@@ -5,9 +5,15 @@ export function Summary({ content }) {
             <article class="section-content">
                 {content} 
                 
+                <ul class="gallery">
+                    <li class="photo"><img width="480" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/baby-photo.png" /></li>
+                </ul>
                 <section id="web-authoring" class="article-section">
                     <h3>Web Authoring</h3>
-                    <p>I am experienced in authoring standard-based web pages using the web development layers.</p>
+                    <ul class="related-career-history">
+                        <li>Education: E-Commerce and Web Application Development (B+)</li>
+                    </ul>
+                    <p>I am experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
                     <ul id="web-development-layers">
                         <li><b>Content Layer: </b>This layer is created in HyperText Markup Language (HTML) which contains the structure comprised of document type definition (doctype), tags, and character entities, and contents such as text, images, videos, and hyperlinks of web pages.</li>
                         <li><b>Presentation Layer: </b>This layer is created in Cascading Style Sheets (CSS) which defines the appearance including the global, local, and pseudo styles, layout systems, media queries, and animations of web pages.</li>
@@ -16,6 +22,11 @@ export function Summary({ content }) {
                 </section>
                 <section class="article-section">
                     <h3>Web Animation</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Introduction to 3D Animation (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Projects: Midea Eureka, Heybike, CLEARgo.com</li>
+                    </ul>
                     <p>I am familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
                     <section class="article-section">
                         <h4>Animation Types</h4>
@@ -37,6 +48,11 @@ export function Summary({ content }) {
                 </section>
                 <section class="article-section">
                     <h3 class="section-heading">Interactions​</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Internet Programming (A-)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Projects: Broadway Lifestyle, Heybike, Midea Eureka, Telford (Tao Ti), nextCIGAR, South Stream, CLEARgo.com</li>
+                    </ul>
                     <p>I create interactions to give feedback and enrich the user experience (UX) for end-users when they are browsing web pages.</p>
                     <section class="article-section">
                         <h4>Interaction Types</h4>
@@ -62,6 +78,10 @@ export function Summary({ content }) {
                 </section>
                 <section class="article-section">
                     <h3 class="section-heading">AJAX</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Internet Programming (A-)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                    </ul>
                     <p>Asynchronous JavaScript and XML (AJAX) is a set of web development techniques that allows client-side scripts send requests to the web server programs in an asynchronous format without reloading the entire page.</p>
                     <p>Web server response was in XML format in the early days of AJAX, but most modern web services use JSON format for data interchange.</p>
                 </section>
@@ -74,7 +94,12 @@ export function Summary({ content }) {
                     </ul>
                 </section>
                 <section class="article-section">
-                    <h3>Object-oriented Programming</h3>
+                    <h3>OOP</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Object Oriented Programming (B)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Project: Broadway Lifestyle, South Stream, Heybike, nextCIGAR</li>
+                    </ul>
                     <p>Objects are instances of classes while classes define the attributes and behavior of objects. There are three features of OOP: </p>
                     <ul class="oop-features">
                         <li><b>Encapsulation:</b> Bundling data and methods that operate on the data within a single class.</li>
@@ -84,9 +109,14 @@ export function Summary({ content }) {
                 </section>
                 <section class="article-section">
                     <h3 class="section-heading">Framework Concepts</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Logic and Artificial Intelligence in Games (B+)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Project: Telford (Tao Ti)</li>
+                    </ul>
                     <p>I practice the following concepts of modern frontend web frameworks during development.</p>
                     <section class="article-section">
-                        <h4>Finite-state Machine</h4>
+                        <h4>FSM</h4>
                         <p>Finite-state machine (FSM) is a design pattern applied in modern frontend web frameworks which provide a clear representation of a finite number of states with transitions between these states triggered by events or specific conditions.</p>
                     </section>
                     <section class="article-section">
@@ -96,12 +126,24 @@ export function Summary({ content }) {
                         <ul>
                             <li><b>State:</b> The source of truth of a web application at a specific point in time that is carried by the observable properties. e.g. a string, an integer, a boolean, or an array.</li>
                             <li><b>View:</b> A declarative presentation of user interface mapping the current state. e.g. an unordered list mapping with data in repetitive structure.</li>
-                            <li><b>Actions:</b> ​The events or transition condition that trigger updates in the state based on user input. e.g. a click event, a mouseover event, a keyup event, or an input value.</li>
+                            <li><b>Actions:</b> The events or transition condition that trigger updates in the state based on user input. e.g. a click event, a mouseover event, a keyup event, or an input value.</li>
                         </ul>
                     </section>
                 </section>
                 <section class="article-section">
+                    <h3 class="section-heading">SEO</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Certificate of Fundamentals of Digital Marketing (Google) | Certificate of Front-End Web Developer (CLAP@JC)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka</li>
+                    </ul>
+                    <p>I implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
+                </section>
+                <section class="article-section">
                     <h3>Backend Development</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Internet Programming (A-) | Database Management (A)</li>
+                    </ul>
                     <p>I developed basic concepts of CRUD, salting, and injections by PHP in Internet Programming course in Higher Diploma programme.</p>
                     <ul class="backend-concepts">
                         <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
@@ -115,6 +157,20 @@ export function Summary({ content }) {
                             <li><b>Read</b>: To read a resource, developer sends a GET request to the API endpoint, and then it responds with a list or single object. We sends that request to the original API endpoint like /api/products when we want to read all of the data, while we sends the request to the endpoint with its ID like /api/products/1 if we to search for specific data. </li>
                             <li><b>UPDATE</b>: To update a resource, developer sends a PUT request containing the updated object to the API endpoint with ID, and then it responds with an object included the relevant data fields. </li>
                             <li><b>Delete</b>: To delete a resource, developer sends a DELETE request to the API endpoint with the target ID. However, the delete request is not prefer to use due to concerns about data integrity in reality. </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="article-section">
+                    <h3>UX/UI Design</h3>
+                    <section class="article-section">
+                        <h4>Semiotics</h4>
+                        <ul class="related-career-history">
+                            <li>Education: </li>
+                        </ul>
+                        <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
+                        <ul class="semiotic-axes">
+                            <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
+                            <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
                         </ul>
                     </section>
                 </section>
