@@ -585,5 +585,7 @@ button.reset:hover:not(:has(> *)) {
 /* Summary */
 /* Gallery */
 .gallery {
+  max-width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
