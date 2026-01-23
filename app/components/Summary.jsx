@@ -14,7 +14,7 @@ export default function Summary({ content }) {
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
-            { breakpoint: 768, settings: { slidesToShow: 1 } }
+            { breakpoint: 769, settings: { slidesToShow: 1 } }
         ]
     };
 
@@ -237,6 +237,16 @@ export default function Summary({ content }) {
                     </section>
                     <section class="article-section">
                         <h4>Salting</h4>
+                        <div>
+                            <div class="one-way-dataflow-container">
+                            <div class="one-way-dataflow-box"><p>rexChan123</p> <p>(Password)</p></div>
+                            <div class="one-way-dataflow-arrow">→</div>
+                            <div class="one-way-dataflow-box"><p>rexChan123rteZb</p> <p>(Password + Salt)</p></div>
+                            <div class="one-way-dataflow-arrow">→</div>
+                            <div class="one-way-dataflow-box"><p>4b6f9b7e5e2a6b4e6e5b1d32b9b96b223b6f2c5b5dbb5d3e1ff9d3d06b6a3b5a</p> <p>(Hashed Password + Salt)</p></div>
+                            </div>
+                            <p class="figure-caption">Password Hash Salting Figure</p>
+                        </div>
                     </section>
                     <section class="article-section">
                         <h4>Code Injections</h4>

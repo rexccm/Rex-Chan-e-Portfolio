@@ -632,3 +632,37 @@ body .slick-dots li button {
 }
 
 /* Education */
+
+/* Salt */
+.one-way-dataflow-container {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  gap: 16px; 
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 16px; 
+}
+
+.one-way-dataflow-box {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  padding: 16px 32px; 
+  border: 1px solid gray;
+  border-top-left-radius: 16px; 
+  border-bottom-right-radius: 16px; 
+}
+
+.one-way-dataflow-box p { 
+  margin: 0; 
+}
+
+.figure-caption {
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  font-weight: 700; 
+}
