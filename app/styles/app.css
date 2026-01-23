@@ -596,7 +596,7 @@ figure {
 }
 
 /* Featured Image List */
-.featured-img-list {
+.featured-works {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;

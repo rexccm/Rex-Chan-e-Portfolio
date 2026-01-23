@@ -238,28 +238,37 @@ export function Summary({ content }) {
                             <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
                         </ul>
                     </section>
-                    <ul class="featured-img-list">
-                        <figure class="featured-img">
-                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/male-painting_2023.jpg" />
-                            <figcaption>Male Painting, 2023</figcaption>
-                        </figure>
-                        <figure class="featured-img">
-                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/sculpture-drawing_2022.jpg" />
-                            <figcaption>Sculpture Drawing, 2022</figcaption>
-                        </figure>
-                        <figure class="featured-img">
-                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/character-rendering-assignment_2021.jpg" />
-                            <figcaption>Character Rendering, 2021</figcaption>
-                        </figure>
-                        <figure class="featured-img">
-                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
-                            <figcaption>Line Art, 2020</figcaption>
-                        </figure>
-                        <figure class="featured-img">
-                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graduation-poster_2019.jpg" />
-                            <figcaption>Graduation Poster, 2019</figcaption>
-                        </figure>
+                    <section class="article-section">
+                        <h4>Visual Elements</h4>
+                    </section>
+                    <section class="article-section">
+                        <h4>Design Principles</h4>
+                    </section>
+                    <section class="featured-gallery">
+                        <h4 class="section-heading">Featured Works</h4>
+                        <ul class="featured-works">
+                            <figure class="featured-work">
+                                <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/male-painting_2023.jpg" />
+                                <figcaption>Male Painting, 2024</figcaption>
+                            </figure>
+                            <figure class="featured-work">
+                                <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/sculpture-drawing_2022.jpg" />
+                                <figcaption>Sculpture Drawing, 2022</figcaption>
+                            </figure>
+                            <figure class="featured-work">
+                                <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/character-rendering-assignment_2021.jpg" />
+                                <figcaption>Character Rendering, 2021</figcaption>
+                            </figure>
+                            <figure class="featured-work">
+                                <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
+                                <figcaption>Line Art, 2020</figcaption>
+                            </figure>
+                            <figure class="featured-work">
+                                <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graduation-poster_2019.jpg" />
+                                <figcaption>Graduation Poster, 2019</figcaption>
+                            </figure>
                         </ul>
+                    </section>
                 </section>
             </article>
         </section>
