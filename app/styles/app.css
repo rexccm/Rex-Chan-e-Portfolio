@@ -582,6 +582,11 @@ button.reset:hover:not(:has(> *)) {
 }
 
 /* Custom */
+figure {
+  margin: 0;
+  padding-inline: 8px; 
+}
+
 /* Summary */
 /* Gallery */
 .gallery {

@@ -153,7 +153,7 @@ export function Summary({ content }) {
                     <ul class="related-career-history">
                         <li>Education: Object Oriented Programming (B)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Project: Broadway Lifestyle, South Stream, Heybike, nextCIGAR</li>
+                        <li>Projects: Broadway Lifestyle, South Stream, Heybike, nextCIGAR</li>
                     </ul>
                     <p>Objects are instances of classes while classes define the attributes and behavior of objects. There are three features of OOP: </p>
                     <ul class="oop-features">
@@ -167,7 +167,7 @@ export function Summary({ content }) {
                     <ul class="related-career-history">
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Logic and Artificial Intelligence in Games (B+)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Project: Telford (Tao Ti), e-Portfolio</li>
+                        <li>Projects: Telford (Tao Ti), e-Portfolio</li>
                     </ul>
                     <p>Practiced the following concepts of modern frontend web frameworks during development.</p>
                     <section class="article-section">
@@ -237,21 +237,29 @@ export function Summary({ content }) {
                             <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
                             <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
                         </ul>
-                        <ul class="featured-img-list">
-                            <figure class="featured-img">
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/character-rendering-assignment_2021.jpg" />
-                                <figcaption>Character Rendering, 2021</figcaption>
-                            </figure>
-                            <figure class="featured-img">
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
-                                <figcaption>Line Art, 2020</figcaption>
-                            </figure>
-                            <figure class="featured-img">
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graduation-poster_2019.jpg" />
-                                <figcaption>Graduation Poster, 2019</figcaption>
-                            </figure>
-                        </ul>
                     </section>
+                    <ul class="featured-img-list">
+                        <figure class="featured-img">
+                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/male-painting_2023.jpg" />
+                            <figcaption>Male Painting, 2023</figcaption>
+                        </figure>
+                        <figure class="featured-img">
+                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/sculpture-drawing_2022.jpg" />
+                            <figcaption>Sculpture Drawing, 2022</figcaption>
+                        </figure>
+                        <figure class="featured-img">
+                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/character-rendering-assignment_2021.jpg" />
+                            <figcaption>Character Rendering, 2021</figcaption>
+                        </figure>
+                        <figure class="featured-img">
+                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
+                            <figcaption>Line Art, 2020</figcaption>
+                        </figure>
+                        <figure class="featured-img">
+                            <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graduation-poster_2019.jpg" />
+                            <figcaption>Graduation Poster, 2019</figcaption>
+                        </figure>
+                        </ul>
                 </section>
             </article>
         </section>
