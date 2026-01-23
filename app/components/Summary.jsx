@@ -8,9 +8,17 @@ export function Summary({ content }) {
                 <ul class="gallery">
                     <li class="photo">
                         <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/IMG-20251226-WA0012.jpg" />
+                            <figcaption>2025</figcaption>
+                        </figure>
+                    </li>
+                    <li class="photo">
+                        <figure>
                             <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-photo.jpg" />
                             <figcaption>CLEARgo</figcaption>
                         </figure>
+                    </li>
+                    <li class="photo">
                         <figure>
                             <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-certificate-photo.jpg" />
                             <figcaption>CLAP@JC</figcaption>
