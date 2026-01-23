@@ -1,19 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
+import useMediaQuery from './useMediaQuery';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export default function Summary({ content }) { 
+    const isMobile = useMediaQuery('(max-width: 768px)');
+    let slides = 0;
+
+    if(isMobile) {
+        /* Mobile */
+        slides = 1; 
+    } else { 
+        /* Desktop */
+        slides = 3; 
+    }
+
     var settings = {
         dots: true,
         infinite: true,
         speed: 1000,
         centerMode: true,
         autoplay: true,
-        autoplaySpeed: 3000,
-        slidesToShow: 3,
+        autoplaySpeed: 2000, 
+        slidesToShow: slides,
         slidesToScroll: 1,
         responsive: [
+            { breakpoint: 2550, settings: { slidesToShow: 3 } }, 
             { breakpoint: 769, settings: { slidesToShow: 1 } }
         ]
     };
