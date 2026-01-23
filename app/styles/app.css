@@ -582,14 +582,41 @@ button.reset:hover:not(:has(> *)) {
 }
 
 /* Custom */
+/* Layout */
+.row { 
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Figure */
 figure {
   margin: 0;
   padding-inline: 8px; 
 }
 
-.row { 
+figure img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover; 
+}
+
+/* Slick */
+
+.slick-slide figure { 
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.slick-dots li { 
+  margin-inline: 0;
+}
+
+body .slick-dots li button {
+  padding: 0;
 }
 
 /* Summary */

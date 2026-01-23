@@ -7,8 +7,11 @@ export default function Summary({ content }) {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
-        slidesToShow: 4,
+        speed: 1000,
+        centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 3,
         slidesToScroll: 1,
     };
 
@@ -20,60 +23,60 @@ export default function Summary({ content }) {
                 
                 <section className="gallery">
                     <Slider {...settings}>
-                        <li>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/IMG-20251226-WA0012.jpg" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/IMG-20251226-WA0012.jpg" />
                                 <figcaption>2025</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-photo.jpg" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-photo.jpg" />
                                 <figcaption>CLEARgo</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-certificate-photo.jpg" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-certificate-photo.jpg" />
                                 <figcaption>CLAP@JC</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/freelance-2021.jpg" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/freelance-2021.jpg" />
                                 <figcaption>Freelance Designer</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/2021-birthday-photo.jpg" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/2021-birthday-photo.jpg" />
                                 <figcaption>amps</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/higher-diploma-photo.jpg" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/higher-diploma-photo.jpg" />
                                 <figcaption>CUSCS</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/secondary-school-photo.jpg" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/secondary-school-photo.jpg" />
                                 <figcaption>LKPFC</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/child-family-photo.png" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/child-family-photo.png" />
                                 <figcaption>Chan Family</figcaption>
                             </figure>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <figure>
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/baby-photo.png" />
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/baby-photo.png" />
                                 <figcaption>Born</figcaption>
                             </figure>
-                        </li>
+                        </div>
                     </Slider>
                 </section>
                 <section id="web-authoring" class="article-section">
