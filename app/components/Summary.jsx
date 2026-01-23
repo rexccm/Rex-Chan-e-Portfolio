@@ -225,6 +225,10 @@ export function Summary({ content }) {
                             <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
                             <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
                         </ul>
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
+                            <figcaption>Line Art, 2020</figcaption>
+                        </figure>
                     </section>
                 </section>
             </article>
