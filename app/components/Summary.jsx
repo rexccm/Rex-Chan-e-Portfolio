@@ -6,10 +6,52 @@ export function Summary({ content }) {
                 {content} 
                 
                 <ul class="gallery">
-                    <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-certificate-photo.jpg" /></li>
-                    <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/higher-diploma-photo.jpg" /></li>
-                    <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/secondary-school-photo.jpg" /></li>
-                    <li class="photo"><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/baby-photo.png" /></li>
+                    <li class="photo">
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-photo.jpg" />
+                            <figcaption>CLEARgo</figcaption>
+                        </figure>
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-certificate-photo.jpg" />
+                            <figcaption>CLAP@JC</figcaption>
+                        </figure>
+                    </li>
+                    <li class="photo">
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/freelance-2021.jpg" />
+                            <figcaption>Freelance Designer</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="photo">
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/2021-birthday-photo.jpg" />
+                            <figcaption>amps</figcaption>
+                        </figure>
+                    </li>
+                    <li class="photo">
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/higher-diploma-photo.jpg" />
+                            <figcaption>CUSCS</figcaption>
+                        </figure>
+                    </li>
+                    <li class="photo">
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/secondary-school-photo.jpg" />
+                            <figcaption>LKPFC</figcaption>
+                        </figure>
+                    </li>
+                    <li class="photo">
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/child-family-photo.png" />
+                            <figcaption>Chan Family</figcaption>
+                        </figure>
+                    </li>
+                    <li class="photo">
+                        <figure>
+                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/baby-photo.png" />
+                            <figcaption>Born</figcaption>
+                        </figure>
+                    </li>
                 </ul>
                 <section id="web-authoring" class="article-section">
                     <h3>Web Authoring</h3>
