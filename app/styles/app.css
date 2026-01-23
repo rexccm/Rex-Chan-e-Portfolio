@@ -595,9 +595,7 @@ figure {
 /* Summary */
 /* Gallery */
 .gallery {
-  max-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  cursor: grab;
 }
 
 /* Featured Image List */
