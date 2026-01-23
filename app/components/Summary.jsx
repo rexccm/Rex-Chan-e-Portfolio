@@ -68,7 +68,7 @@ export function Summary({ content }) {
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
                     </ul>
-                    <p>I am experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
+                    <p>Experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
                     <ul id="web-development-layers">
                         <li><b>Content Layer: </b>This layer is created in HyperText Markup Language (HTML) which contains the structure comprised of document type definition (doctype), tags, and character entities, and contents such as text, images, videos, and hyperlinks of web pages.</li>
                         <li><b>Presentation Layer: </b>This layer is created in Cascading Style Sheets (CSS) which defines the appearance including the global, local, and pseudo styles, layout systems, media queries, and animations of web pages.</li>
@@ -82,7 +82,7 @@ export function Summary({ content }) {
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: CLEARgo.com, Midea Eureka, Heybike</li>
                     </ul>
-                    <p>I am familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
+                    <p>Familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
                     <section class="article-section">
                         <h4>Animation Types</h4>
                         <ul id="animation-types">
@@ -108,7 +108,7 @@ export function Summary({ content }) {
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, Heybike, Midea Eureka, Telford (Tao Ti), nextCIGAR, South Stream, CLEARgo.com</li>
                     </ul>
-                    <p>I create interactions to give feedback and enrich the user experience (UX) for end-users when they are browsing web pages.</p>
+                    <p>Created interactions to give feedback and enrich the user experience (UX) for end-users when they are browsing web pages.</p>
                     <section class="article-section">
                         <h4>Interaction Types</h4>
                         <p>In Human-Computer Interaction (HCI), there are two major types of interaction on graphical user interface (GUI):</p>
@@ -169,7 +169,7 @@ export function Summary({ content }) {
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Project: Telford (Tao Ti), e-Portfolio</li>
                     </ul>
-                    <p>I practice the following concepts of modern frontend web frameworks during development.</p>
+                    <p>Practiced the following concepts of modern frontend web frameworks during development.</p>
                     <section class="article-section">
                         <h4>FSM</h4>
                         <p>Finite-state machine (FSM) is a design pattern applied in modern frontend web frameworks which provide a clear representation of a finite number of states with transitions between these states triggered by events or specific conditions.</p>
@@ -203,7 +203,7 @@ export function Summary({ content }) {
                     <ul class="backend-concepts">
                         <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
                         <li><b>Salting:</b> Salting is a security technique used to enhance password hashing. It involves adding a random value called salt to the password before hashing it. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</li>
-                        <li><b>Injections:</b> Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage. Understanding how to prevent injections.</li>
+                        <li><b>Code Injections:</b> Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage. Understanding how to prevent injections.</li>
                     </ul>
                     <section class="article-section">
                         <h4>CRUD Operations</h4>
@@ -214,15 +214,24 @@ export function Summary({ content }) {
                             <li><b>Delete</b>: To delete a resource, developer sends a DELETE request to the API endpoint with the target ID. However, the delete request is not prefer to use due to concerns about data integrity in reality. </li>
                         </ul>
                     </section>
+                    <section class="article-section">
+                        <h4>Salting</h4>
+                    </section>
+                    <section class="article-section">
+                        <h4>Code Injections</h4>
+                    </section>
+                    <section class="article-section">
+                        <h4>Database Management</h4>
+                    </section>
                 </section>
                 <section class="article-section">
                     <h3>UX/UI Design</h3>
+                    <ul class="related-career-history">
+                        <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
+                        <li>Experience: Freelance Designer</li>
+                    </ul>
                     <section class="article-section">
                         <h4>Semiotics</h4>
-                        <ul class="related-career-history">
-                            <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
-                            <li>Experience: Freelance Designer</li>
-                        </ul>
                         <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
                         <ul class="semiotic-axes">
                             <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
