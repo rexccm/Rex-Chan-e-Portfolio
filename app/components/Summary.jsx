@@ -249,7 +249,7 @@ export function Summary({ content }) {
                         <ul class="featured-works">
                             <figure class="featured-work">
                                 <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/male-painting_2023.jpg" />
-                                <figcaption>Male Painting, 2024</figcaption>
+                                <figcaption>Realistic Painting, 2024</figcaption>
                             </figure>
                             <figure class="featured-work">
                                 <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/sculpture-drawing_2022.jpg" />

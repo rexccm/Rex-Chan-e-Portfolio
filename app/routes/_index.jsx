@@ -73,9 +73,35 @@ export default function Homepage() {
   return (
     <div className="home">
       <Summary content={data.shopSummary} />
-      <div>{JSON.stringify(data.metaobjects)}</div>
+      <section className="education">
+        <h3 className="section-title">Education</h3>
+        <ul className="education-list">
+          {data.metaobjects.map((entry) => {
+            // Helper to find specific field values by their key
+            const getField = (key) => entry.fields.find(f => f.key === key)?.value;
+
+            const formatDate = (dateString) => {
+              if (!dateString) return "";
+              const date = new Date(dateString);
+              return date.toLocaleDateString('en-US', {
+                month: 'short',
+                year: 'numeric'
+              });
+            }; 
+
+            return (
+              <div className="education-item">
+                <div className="row">
+                  <h4>{getField('title')}</h4>
+                  <p>{formatDate(getField('start_date'))} - {formatDate(getField('end_date'))}</p>
+                </div>
+              </div>
+            );
+          })}
+        </ul>
+      </section>
       {/* <FeaturedCollection collection={data.featuredCollection} /> */}
-      <RecommendedProducts products={data.recommendedProducts} />
+      {/* <RecommendedProducts products={data.recommendedProducts} /> */}
     </div>
   );
 }

@@ -587,6 +587,11 @@ figure {
   padding-inline: 8px; 
 }
 
+.row { 
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Summary */
 /* Gallery */
 .gallery {
@@ -601,3 +606,5 @@ figure {
   display: flex;
   flex-wrap: wrap;
 }
+
+/* Education */
