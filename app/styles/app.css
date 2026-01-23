@@ -589,3 +589,10 @@ button.reset:hover:not(:has(> *)) {
   display: flex;
   flex-wrap: wrap;
 }
+
+/* Featured Image List */
+.featured-img-list {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

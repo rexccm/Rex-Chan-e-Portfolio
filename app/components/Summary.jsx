@@ -65,6 +65,8 @@ export function Summary({ content }) {
                     <h3>Web Authoring</h3>
                     <ul class="related-career-history">
                         <li>Education: E-Commerce and Web Application Development (B+)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Projects: Broadway Lifestyle, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
                     </ul>
                     <p>I am experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
                     <ul id="web-development-layers">
@@ -78,7 +80,7 @@ export function Summary({ content }) {
                     <ul class="related-career-history">
                         <li>Education: Introduction to 3D Animation (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Projects: Midea Eureka, Heybike, CLEARgo.com</li>
+                        <li>Projects: CLEARgo.com, Midea Eureka, Heybike</li>
                     </ul>
                     <p>I am familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
                     <section class="article-section">
@@ -165,7 +167,7 @@ export function Summary({ content }) {
                     <ul class="related-career-history">
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Logic and Artificial Intelligence in Games (B+)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Project: Telford (Tao Ti)</li>
+                        <li>Project: Telford (Tao Ti), e-Portfolio</li>
                     </ul>
                     <p>I practice the following concepts of modern frontend web frameworks during development.</p>
                     <section class="article-section">
@@ -218,17 +220,24 @@ export function Summary({ content }) {
                     <section class="article-section">
                         <h4>Semiotics</h4>
                         <ul class="related-career-history">
-                            <li>Education: </li>
+                            <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
+                            <li>Experience: Freelance Designer</li>
                         </ul>
                         <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
                         <ul class="semiotic-axes">
                             <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
                             <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
                         </ul>
-                        <figure>
-                            <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
-                            <figcaption>Line Art, 2020</figcaption>
-                        </figure>
+                        <ul class="featured-img-list">
+                            <figure class="featured-img">
+                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graduation-poster_2019.jpg" />
+                                <figcaption>Graduation Poster, 2019</figcaption>
+                            </figure>
+                            <figure class="featured-img">
+                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
+                                <figcaption>Line Art, 2020</figcaption>
+                            </figure>
+                        </ul>
                     </section>
                 </section>
             </article>
