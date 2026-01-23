@@ -654,6 +654,7 @@ body .slick-dots li button {
   border: 1px solid gray;
   border-top-left-radius: 16px; 
   border-bottom-right-radius: 16px; 
+  word-break: break-all;
 }
 
 .one-way-dataflow-box p { 
