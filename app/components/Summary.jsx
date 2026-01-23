@@ -239,12 +239,16 @@ export function Summary({ content }) {
                         </ul>
                         <ul class="featured-img-list">
                             <figure class="featured-img">
-                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graduation-poster_2019.jpg" />
-                                <figcaption>Graduation Poster, 2019</figcaption>
+                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/character-rendering-assignment_2021.jpg" />
+                                <figcaption>Character Rendering, 2021</figcaption>
                             </figure>
                             <figure class="featured-img">
                                 <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mesh-line-art.png" />
                                 <figcaption>Line Art, 2020</figcaption>
+                            </figure>
+                            <figure class="featured-img">
+                                <img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graduation-poster_2019.jpg" />
+                                <figcaption>Graduation Poster, 2019</figcaption>
                             </figure>
                         </ul>
                     </section>
