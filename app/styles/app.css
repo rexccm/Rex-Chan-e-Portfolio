@@ -166,7 +166,7 @@ button.reset:hover:not(:has(> *)) {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  background: #fff;
+  /* background: #fff; */
   display: flex;
   /* height: var(--header-height); */
   padding: 0 1rem;
@@ -588,13 +588,19 @@ button.reset:hover:not(:has(> *)) {
   justify-content: space-between;
 }
 
+/* Logo */
+.logo {
+  width: 100%;
+  max-width: 120px;
+}
+
 /* Figure */
 figure {
   margin: 0;
   padding-inline: 8px; 
 }
 
-/* Slick */#
+/* Slick */
 .slick-slide figure { 
   height: 100%;
   display: flex;
