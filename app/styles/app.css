@@ -594,15 +594,7 @@ figure {
   padding-inline: 8px; 
 }
 
-figure img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 3/2;
-  object-fit: cover; 
-}
-
-/* Slick */
-
+/* Slick */#
 .slick-slide figure { 
   height: 100%;
   display: flex;
@@ -623,6 +615,13 @@ body .slick-dots li button {
 /* Gallery */
 .gallery {
   cursor: grab;
+}
+
+.gallery figure img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover; 
 }
 
 /* Featured Image List */
