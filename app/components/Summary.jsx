@@ -252,7 +252,7 @@ export default function Summary({ content }) {
                         <li><b>Custom Elements</b></li>
                         <li><b>Shadow DOM</b>: Shadow DOM serves for encapsulation of internal DOM structure and style rules to prevent style leakage from the light DOM.</li>
                         <li><b>HTML Templates</b></li>
-                        <li><b>Custom StateSet</b></li>
+                        <li><b>Custom State Set</b></li>
                     </ul>
                 </section>
                 <section className="article-section">
@@ -309,12 +309,12 @@ export default function Summary({ content }) {
                         <section className="article-section">
                             <h5>Data Hierarchy</h5>
                             <ol id="data-hierarchy">
-                                <li>Bit</li>
-                                <li>Byte / Character</li>
-                                <li>Column / Field</li>
-                                <li>Row / Record</li>
-                                <li>Table / File</li>
-                                <li>Database / Storage</li>
+                                <li className="data-level">Database / Storage</li>
+                                <li className="data-level">Table / File</li>
+                                <li className="data-level">Row / Record</li>
+                                <li className="data-level">Column / Field</li>
+                                <li className="data-level">Byte / Character</li>
+                                <li className="data-level">Bit</li>
                             </ol>
                         </section>
                         <section className="article-section">
