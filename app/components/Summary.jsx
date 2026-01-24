@@ -117,10 +117,20 @@ export default function Summary({ content }) {
                         <li>Projects: Broadway Lifestyle, Telford (Tao Ti), Hipp, Heybike, South Stream, nextCIGAR, Midea Eureka</li>
                     </ul>
                     <section className="article-section">
-                        <ul id="">
+                        <h4>Selectors</h4>
+                        <ul id="selectors">
                             <li>IDs (#): A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
                             <li>Classes (.): A class name shared by multiple HTML elements. e.g. .gallery, .section-title, .description</li>
                             <li>Pseudo-classes (:): A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en)</li>
+                        </ul>
+                    </section>
+                    <section className="article-section">
+                        <h4>CSS Layout Modules</h4>
+                        <ul id="css-layout-modules">
+                            <li><b>Flow</b></li>
+                            <li><b>Box Model</b></li>
+                            <li><b>Flexbox</b></li>
+                            <li><b>Grid</b></li>
                         </ul>
                     </section>
                 </section>
