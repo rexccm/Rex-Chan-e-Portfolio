@@ -582,6 +582,17 @@ button.reset:hover:not(:has(> *)) {
 }
 
 /* Custom */
+/* Image */
+img {
+  border-radius: 0;
+}
+
+/* Figure */
+figure {
+  margin: 0;
+  padding-inline: 8px; 
+}
+
 /* Layout */
 .row { 
   display: flex;
@@ -594,11 +605,6 @@ button.reset:hover:not(:has(> *)) {
   max-width: 120px;
 }
 
-/* Figure */
-figure {
-  margin: 0;
-  padding-inline: 8px; 
-}
 
 /* Slick */
 .slick-slide figure { 
@@ -672,4 +678,12 @@ body .slick-dots li button {
   display: flex; 
   justify-content: center; 
   font-weight: 700; 
+}
+
+/* Reponsive */
+/* Mobile */
+@media (max-width: 768px) { 
+  .logo {
+    max-width: 60px;
+  }
 }

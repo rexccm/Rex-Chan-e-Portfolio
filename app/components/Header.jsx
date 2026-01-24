@@ -16,6 +16,7 @@ export function Header({header, isLoggedIn, cart, publicStoreDomain}) {
         <strong>{shop.name}</strong>
       </NavLink>
       <PersonalInfo />
+      {/*
       <div className="header-row">
         <HeaderMenu
           menu={menu}
@@ -25,6 +26,7 @@ export function Header({header, isLoggedIn, cart, publicStoreDomain}) {
         />
         <HeaderCtas isLoggedIn={isLoggedIn} cart={cart} />
       </div>
+      */}
     </header>
   );
 }
