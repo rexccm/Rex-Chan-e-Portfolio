@@ -99,7 +99,7 @@ export default function Summary({ content }) {
                 <section id="web-authoring" className="article-section">
                     <h3>Web Authoring</h3>
                     <ul className="related-career-history">
-                        <li>Education: E-Commerce and Web Application Development (B+)</li>
+                        <li>Education: E-Commerce and Web Application Development (B+) | Certificate of Front-End Web Developer (CLAP@JC)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
                     </ul>
@@ -113,15 +113,16 @@ export default function Summary({ content }) {
                 <section id="ui-slicing" className="article-section">
                     <h3>UI Slicing</h3>
                     <ul>
+                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, Telford (Tao Ti), Hipp, Heybike, South Stream, nextCIGAR, Midea Eureka</li>
                     </ul>
                     <section className="article-section">
                         <h4>Selectors</h4>
                         <ul id="selectors">
-                            <li>IDs (#): A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
-                            <li>Classes (.): A class name shared by multiple HTML elements. e.g. .gallery, .section-title, .description</li>
-                            <li>Pseudo-classes (:): A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en)</li>
+                            <li><b>IDs (#)</b>: A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
+                            <li><b>Classes (.)</b>: A class name shared by multiple HTML elements. e.g. .gallery, .section-title, .description</li>
+                            <li><b>Pseudo-classes (:)</b>: A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en)</li>
                         </ul>
                     </section>
                     <section className="article-section">
@@ -211,10 +212,10 @@ export default function Summary({ content }) {
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, South Stream, Heybike, nextCIGAR</li>
                     </ul>
-                    <p>Objects are instances of classes while classes define the attributes and behavior of objects. There are three features of OOP: </p>
+                    <p>Objects are instances of classes or prototypes while classes or prototypes define the attributes and behavior of objects. There are three features of OOP: </p>
                     <ul id="oop-features">
-                        <li><b>Encapsulation:</b> Bundling data and methods that operate on the data within a single class.</li>
-                        <li><b>Inheritance:</b> Allowing a class to inherit properties and methods from its parent class.</li>
+                        <li><b>Encapsulation:</b> Bundling data and methods that operate on the data within a single class or prototype.</li>
+                        <li><b>Inheritance:</b> Allowing a class or prototype to inherit properties and methods from its parent class or prototype.</li>
                         <li><b>Polymorphism:</b> Enabling objects of different types to be treated as instances of the same type through a common interface.</li>
                     </ul>
                 </section>
@@ -230,7 +231,7 @@ export default function Summary({ content }) {
                         <h4>FSM</h4>
                         <p>Finite-state machine (FSM) is a design pattern applied in modern frontend web frameworks which provide a clear representation of a finite number of states with transitions between these states triggered by events or specific conditions.</p>
                     </section>
-                    <section className="article-section">className=
+                    <section className="article-section">
                         <h4>State Management</h4>
                         <p>The view updates automatically through data-binding when the state of data model changes so as to synchronize state and visual presentation. For instance, Knockout observables, React hooks, and Vue Reactivity APIs are variants of reactive state managment system.</p>
                         <p>State management is a self-contained system consists of three parts:</p>
@@ -249,6 +250,10 @@ export default function Summary({ content }) {
                         <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka</li>
                     </ul>
                     <p>I implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
+                </section>
+                <section>
+                    <h3 className="section-heading">Computer Graphic Programming</h3>
+                    <></>
                 </section>
                 <section className="article-section">
                     <h3>Backend Development</h3>
@@ -291,7 +296,7 @@ export default function Summary({ content }) {
                     </section>
                 </section>
                 <section className="article-section">
-                    <h3>UX/UI Design</h3>
+                    <h3>Design</h3>
                     <ul className="related-career-history">
                         <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
                         <li>Experience: Freelance Designer</li>
