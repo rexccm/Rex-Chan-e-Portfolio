@@ -173,6 +173,7 @@ button.reset:hover:not(:has(> *)) {
   position: sticky;
   top: 0;
   z-index: 1;
+  background: linear-gradient(to bottom, rgba(154, 214, 209, .2), rgba(0, 0 , 255, 0));
 }
 
 .header-menu-mobile-toggle {
