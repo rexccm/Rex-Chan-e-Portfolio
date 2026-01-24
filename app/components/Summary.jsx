@@ -220,7 +220,7 @@ export default function Summary({ content }) {
                     </ul>
                 </section>
                 <section className="article-section">
-                    <h3 className="section-heading">Framework Concepts</h3>
+                    <h3 className="section-heading">Modern Frontend Frameworks</h3>
                     <ul className="related-career-history">
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Logic and Artificial Intelligence in Games (B+)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
@@ -241,6 +241,19 @@ export default function Summary({ content }) {
                             <li><b>Actions:</b> The events or transition condition that trigger updates in the state based on user input. e.g. a click event, a mouseover event, a keyup event, or an input value.</li>
                         </ul>
                     </section>
+                </section>
+                <section className="article-section">
+                    <h3 className="section-heading">Web Components</h3>
+                    <ul className="related-career-history">
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Projects: Broadway Lifestyle, South Stream, nextCIGAR</li>
+                    </ul>
+                    <ul>
+                        <li><b>Custom Elements</b></li>
+                        <li><b>Shadow DOM</b>: Shadow DOM serves for encapsulation of internal DOM structure and style rules to prevent style leakage from the light DOM.</li>
+                        <li><b>HTML Templates</b></li>
+                        <li><b>Custom StateSet</b></li>
+                    </ul>
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">SEO</h3>
@@ -293,6 +306,50 @@ export default function Summary({ content }) {
                     </section>
                     <section className="article-section">
                         <h4>Database Management</h4>
+                        <section className="article-section">
+                            <h5>Data Hierarchy</h5>
+                            <ol id="data-hierarchy">
+                                <li>Bit</li>
+                                <li>Byte / Character</li>
+                                <li>Column / Field</li>
+                                <li>Row / Record</li>
+                                <li>Table / File</li>
+                                <li>Database / Storage</li>
+                            </ol>
+                        </section>
+                        <section className="article-section">
+                            <h5>Keys</h5>
+                            <ul>
+                                <li><b>Primary Key</b></li>
+                                <li><b>Candidate Key</b></li>
+                                <li><b>Composite Key</b></li>
+                                <li><b>Super Key</b></li>
+                                <li><b>Foreign Key</b></li>
+                            </ul>
+                        </section>
+                        <section className="article-section">
+                            <h5>Schema</h5>
+                        </section>
+                        <section className="article-section">
+                            <h5>Data Dictionary</h5>
+                        </section>
+                        <section className="article-section">
+                            <h5>Normalization</h5>
+                        </section>
+                        <section className="article-section">
+                            <h5>ER Diagram</h5>
+                        </section>
+                        <section className="article-section">
+                            <h5>SQL</h5>
+                            <ul>
+                                <li><b>Data Definition Language (DDL)</b></li>
+                                <li><b>Data Manipulation Language (DML)</b></li>
+                                <li><b>Data Control Language (DCL)</b></li>
+                                <li><b>Transaction Control Language (TCL)</b></li>
+                                <li><b>Joining</b></li>
+                                <li><b>Views</b></li>
+                            </ul>
+                        </section>
                     </section>
                 </section>
                 <section className="article-section">
