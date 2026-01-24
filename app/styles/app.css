@@ -738,6 +738,19 @@ body .slick-dots li button {
     max-width: 60px;
   }
 
+  .personal-info { 
+    width: 100%; 
+    font-size: 12px;
+  }
+
+  .personal-info tr { 
+    display: flex; 
+  }
+
+  .personal-info td { 
+    flex: 1;
+  }
+
   .gallery {
     margin-block: calc(60vw / 7.68); 
   }
