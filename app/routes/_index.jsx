@@ -32,19 +32,16 @@ export async function loader(args) {
 async function loadCriticalData({context}) {
   const [{collections}, shopResult, metaobjectsResult] = await Promise.all([
     context.storefront.query(FEATURED_COLLECTION_QUERY),
-    context.storefront.query(LOGO_QUERY),
     context.storefront.query(SHOP_SUMMARY_QUERY),
     context.storefront.query(METAOBJECTS_QUERY),
     // Add other queries here, so that they are loaded in parallel
   ]);
 
-  const logoImage = shopResult?.shop?.brand?.logo?.image ?? null;
   const shopSummary = shopResult?.shop?.metafield?.value ?? '';
   const metaobjects = metaobjectsResult?.metaobjects?.nodes ?? [];
 
   return {
     featuredCollection: collections.nodes[0],
-    logoImage,
     shopSummary,
     metaobjects,
   };
@@ -210,23 +207,6 @@ const RECOMMENDED_PRODUCTS_QUERY = `#graphql
     }
   }
 `;
-
-const LOGO_QUERY = `#graphql
-  query Logo($country: CountryCode, $language: LanguageCode)
-    @inContext(country: $country, language: $language) {
-    shop {
-      brand {
-        logo {
-          image {
-            url
-            altText
-          }
-        }
-      }
-    }
-  }
-`;
-
 
 const SHOP_SUMMARY_QUERY = `#graphql
   query ShopSummary($country: CountryCode, $language: LanguageCode)
