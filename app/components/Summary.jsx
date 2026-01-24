@@ -18,7 +18,7 @@ export default function Summary({ content }) {
     }
 
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 1000,
         centerMode: true,
@@ -265,8 +265,8 @@ export default function Summary({ content }) {
                     <p>I implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
                 </section>
                 <section>
-                    <h3 className="section-heading">Computer Graphic Programming</h3>
-                    <></>
+                    <h3 className="section-heading">Computer Graphics Programming</h3>
+                    <ul></ul>
                 </section>
                 <section className="article-section">
                     <h3>Backend Development</h3>

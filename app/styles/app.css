@@ -637,7 +637,9 @@ body .slick-dots li button {
 /* Summary */
 /* Gallery */
 .gallery {
+  margin-block: calc(120vw / 19.2); 
   cursor: grab;
+  transform: rotate(3deg) scale(1.2); 
 }
 
 .gallery figure img {
@@ -731,6 +733,10 @@ body .slick-dots li button {
 @media (max-width: 768px) { 
   .logo {
     max-width: 60px;
+  }
+
+  .gallery {
+    margin-block: calc(40vw / 7.68); 
   }
 
   .data-level {

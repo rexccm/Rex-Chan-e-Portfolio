@@ -8,7 +8,7 @@ import Summary from '~/components/Summary';
  * @type {Route.MetaFunction}
  */
 export const meta = () => {
-  return [{title: 'Hydrogen | Home'}];
+  return [{title: 'Rex Chan | e-Portfolio'}];
 };
 
 /**
