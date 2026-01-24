@@ -262,7 +262,7 @@ export default function Summary({ content }) {
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka</li>
                     </ul>
-                    <p>I implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
+                    <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
                 </section>
                 <section>
                     <h3 className="section-heading">Computer Graphics Programming</h3>
@@ -273,7 +273,7 @@ export default function Summary({ content }) {
                     <ul className="related-career-history">
                         <li>Education: Internet Programming (A-) | Database Management (A)</li>
                     </ul>
-                    <p>I developed basic concepts of CRUD, salting, and injections by PHP in Internet Programming course in Higher Diploma programme.</p>
+                    <p>Developed basic concepts of CRUD, salting, and injections by PHP in Internet Programming course in Higher Diploma programme.</p>
                     <ul id="backend-concepts">
                         <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
                         <li><b>Salting:</b> Salting is a security technique used to enhance password hashing. It involves adding a random value called salt to the password before hashing it. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</li>
@@ -358,6 +358,8 @@ export default function Summary({ content }) {
                         <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
                         <li>Experience: Freelance Designer</li>
                     </ul>
+                    <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
+                    <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
                     <section className="article-section">
                         <h4>Semiotics</h4>
                         <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
