@@ -593,18 +593,21 @@ button.reset:hover:not(:has(> *)) {
 }
 
 /* Custom */
-/* Image */
+/* Figure */
 img {
   border-radius: 0;
 }
 
-/* Figure */
 figure {
   margin: 0;
   padding-inline: 8px; 
 }
 
 /* Layout */
+section {
+  overflow-x: hidden;
+}
+
 .row { 
   display: flex;
   justify-content: space-between;
@@ -736,7 +739,7 @@ body .slick-dots li button {
   }
 
   .gallery {
-    margin-block: calc(40vw / 7.68); 
+    margin-block: calc(60vw / 7.68); 
   }
 
   .data-level {
