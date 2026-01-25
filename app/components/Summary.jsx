@@ -258,6 +258,42 @@ export default function Summary({ content }) {
                     <p>Web server response was in XML format in the early days of AJAX, but most modern web services use JSON format for data interchange.</p>
                 </section>
                 <section className="article-section">
+                    <h3 className="section-heading">Computer Graphics Programming</h3>
+                    <ul className="related-career-history">
+                        <li>Education: Mathematics in Interactive Media (B+) | Integrated 2D and 3D Graphics Programming (A-)</li>
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Projects: CLEARgo.com, Integrated 2D and 3D Graphics Programming Project</li>
+                    </ul>
+                    <p>Created scrolling event-driven 3D transformation animation including rotation and translation for CLEARgo oversea expansion page using Three.js library on WebGL environment.</p>
+                    <p>Developed Chrismas gift collection mini game by DirectX in Higher Diploma course.</p>
+                    <section className="article-section">
+                        <h3 className="section-heading">Mathematics in Interactive Media</h3>
+                        <section className="article-section">
+                            <h4>2D Transformations</h4>
+                            <p>We can represent a 2D transformation as a 3x3 matrix: </p>
+                            <ul>
+                                <li><b>Translation</b></li>
+                                <li><b>Rotation</b></li>
+                                <li><b>Scale</b></li>
+                                <li><b>Skew</b></li>
+                            </ul>
+                        </section>
+                        <section className="article-section">
+                            <h4>3D Transformations</h4>
+                            <p>We can represent a 3D transformation as a 4x4 matrix to account for the z-axis (depth) and homogeneous coordinates: </p>
+                            <ul>
+                                <li><b>Translation</b></li>
+                                <li><b>Rotation</b></li>
+                                <li><b>Scale</b></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section className="article-section">
+                        <h3 className="section-heading">Computer Graphics Programming</h3>
+                        <p>Rasterizers like WebGL and DirectX convert 3D vector primitives included triangles (polygons), points (vertices), and lines (edges) into 2D pixel-based graphics on the screen.</p>
+                    </section>
+                </section>
+                <section className="article-section">
                     <h3 className="section-heading">Control Structures</h3>
                     <ul id="control-structures">
                         <li><b>Sequence:</b> A series of statements executed one after another in the order they are listed.</li>
@@ -340,10 +376,6 @@ export default function Summary({ content }) {
                         <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka, CLEARgo</li>
                     </ul>
                     <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
-                </section>
-                <section className="article-section">
-                    <h3 className="section-heading">Computer Graphics Programming</h3>
-                    <ul></ul>
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">Backend Development</h3>
