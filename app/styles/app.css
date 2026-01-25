@@ -662,6 +662,7 @@ body .slick-dots li button {
 .video-hero-wrapper {
   width: 100%;
   height: calc(100vh - 140px); 
+  margin-bottom: 72px; 
   overflow: hidden; 
   position: relative;
 }
