@@ -860,7 +860,7 @@ body .slick-dots li button {
 /* Reponsive */
 /* Mobile */
 @media (max-width: 768px) { 
-  .logo {
+  header .logo {
     max-width: 60px;
   }
 
@@ -952,7 +952,7 @@ body .slick-dots li button {
 
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1366px) { 
-  .logo {
+ header .logo {
     max-width: 80px;
   }
 
