@@ -425,6 +425,11 @@ export default function Summary({ content }) {
                             <p>Storytelling uses spatial and temporal signs to convey experience consists of narrative, emotion and aesthetic qualities in imagination of a user.</p>
                             <p>One of the strength strategies is to use storytelling to take a non-tangible concept and making it relatable through concrete ideas.</p>
                         </section>
+                        <section className="article-section">
+                            <h5>Feedback</h5>
+                            <p>We should visualize state changes through visual cues and animations to draw attention and explain to end-users about their actions and the system's responses.</p>
+                            <p>For progress of a task, we should provide the degree of completion to indicate the current status and expected completion time.</p>
+                        </section>
                     </section>
                     <section className="featured-gallery">
                         <h4 className="section-heading">Featured Works</h4>
