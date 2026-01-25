@@ -613,6 +613,10 @@ section {
   justify-content: space-between;
 }
 
+.section-header { 
+  margin-bottom: 20px; 
+}
+
 /* Logo */
 .logo {
   width: 100%;
@@ -655,6 +659,28 @@ body .slick-dots li button {
 .gallery .slick-slider { 
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-block: 10px;
+}
+
+/* Organizations */
+.organization-container {
+  width: fit-content; 
+  margin-inline: auto; 
+}
+
+.organizations { 
+  display: flex; 
+  gap: 20px; 
+}
+
+.organization { 
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0; 
+}
+
+.organization img { 
+  width: calc(240vw / 19.2); 
 }
 
 /* Featured Image List */
@@ -760,6 +786,27 @@ body .slick-dots li button {
     margin-block: calc(60vw / 7.68); 
   }
 
+  .organization-container {
+    width: 100%; 
+    overflow-x: auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    background: /* Shadow Cover LEFT */ linear-gradient(#FFF, #FFF) center left, /* Shadow Cover RIGHT */ linear-gradient(#FFF, #FFF) center right, /* Shadow LEFT */ radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) center left, /* Shadow RIGHT */ radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) center right;
+    background-repeat: no-repeat;
+    background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+    background-attachment: local, local, scroll, scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .organization-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .organization img { 
+    width: 160px; 
+  }
+
   .data-level {
     font-size: .75rem; 
   }
@@ -776,5 +823,12 @@ body .slick-dots li button {
 @media (min-width: 769px) and (max-width: 1366px) { 
   .logo {
     max-width: 80px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1920px) { 
+  .organization img { 
+    width: 240px; 
   }
 }

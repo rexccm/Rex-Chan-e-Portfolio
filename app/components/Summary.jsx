@@ -97,12 +97,20 @@ export default function Summary({ content }) {
                     </Slider>
                 </section>
                 <section className="career-organization">
-                    <h3>Career Organizations</h3>
-                    <p>Gained knowledge, skills, and experience in the below corporations and educational organizations.</p>
-                    <ul className="career-organizations">
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <article className="section-header">
+                        <h3>Career Organizations</h3>
+                        <p>Gained knowledge, skills, and experience in the below corporations and educational organizations.</p>
+                    </article>
+                    <div className="organization-container">
+                        <ul className="organizations">
+                            <li className="organization" id="CLAERgo"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-logo.png" /></li>
+                            <li className="organization" id="Shopify Academy"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/shopify-academy-logo.png" /></li>
+                            <li className="organization" id="CLAP@JC"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-logo.png" /></li>
+                            <li className="organization" id="Google Digital Garage"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/google-digital-garage.png" /></li>
+                            <li className="organization" id="amps"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/amps-logo.png" /></li>
+                            <li className="organization" id="CUSCS"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cuscs-logo.png" /></li>
+                        </ul>
+                    </div>
                 </section>
                 <p>The following presents my knowledge tree in the industry.</p>
                 <section id="web-authoring" className="article-section">
