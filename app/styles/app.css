@@ -636,9 +636,11 @@ section {
 }
 
 /* Logo */
-.logo {
+header .logo {
   width: 100%;
-  max-width: 120px;
+  max-width: 120px; 
+  transform: translateY(-100%); 
+  animation: logoAnim .9s ease-in-out forwards; 
 }
 
 /* Slick */
@@ -844,6 +846,16 @@ body .slick-dots li button {
 .data-level:nth-child(3) { width: 260px; }
 .data-level:nth-child(2) { width: 210px; }
 .data-level:nth-child(1) { width: 160px; }
+
+/* Animations */
+@keyframes logoAnim {
+  0% { 
+    transform: translateY(-100%); 
+  }
+  100% { 
+    transform: translateY(0); 
+  }
+}
 
 /* Reponsive */
 /* Mobile */
