@@ -642,6 +642,15 @@ body .slick-dots li button {
 }
 
 /* Summary */
+/* Personal information */
+.personal-info #phone:before { 
+  content: "📞";
+}
+
+.personal-info #email:before { 
+  content: "📧";
+}
+
 /* Gallery */
 .gallery {
   margin-block: calc(120vw / 19.2); 
@@ -662,26 +671,47 @@ body .slick-dots li button {
 }
 
 /* Organizations */
-.organization-container {
+.logo-list-container {
   width: fit-content; 
   margin-inline: auto; 
 }
 
-.organizations { 
+.logo-list { 
   display: flex; 
   gap: 20px; 
+  justify-content: center;
 }
 
-.organization { 
+.logo-list li { 
   width: fit-content;
   display: flex;
   align-items: center;
   margin-bottom: 0; 
+  transition: all .3s;
+}
+
+.organization:hover {
+  filter: brightness(0);
 }
 
 .organization img { 
   width: calc(240vw / 19.2); 
 }
+
+#projects { 
+  flex-wrap: wrap;
+}
+
+.logo-list .project:hover {
+  transform: translateY(-10px);
+}
+
+.logo-list .project img {
+  width: calc(160vw / 19.2); 
+  max-height: 100px;
+  object-fit: contain;
+}
+
 
 /* Featured Image List */
 .featured-works {
@@ -782,11 +812,15 @@ body .slick-dots li button {
     flex: 1;
   }
 
+  .personal-info td b { 
+    display: none; 
+  }
+
   .gallery {
     margin-block: calc(60vw / 7.68); 
   }
 
-  .organization-container {
+  .logo-list-container {
     width: 100%; 
     overflow-x: auto;
     -ms-overflow-style: none; 
@@ -799,11 +833,23 @@ body .slick-dots li button {
     scrollbar-width: none;
   }
 
-  .organization-container::-webkit-scrollbar {
+  .logo-list-container::-webkit-scrollbar {
     display: none;
   }
 
+  .logo-list {
+    justify-content: flex-start;
+  }
+
   .organization img { 
+    width: 160px; 
+  }
+
+  #projects { 
+    flex-wrap: nowrap;
+  }
+
+  .logo-list .project img { 
     width: 160px; 
   }
 
@@ -824,11 +870,19 @@ body .slick-dots li button {
   .logo {
     max-width: 80px;
   }
+
+  .logo-list .project img {
+    width: calc(160vw / 13.66); 
+  }
 }
 
 /* Desktop */
 @media (min-width: 1920px) { 
   .organization img { 
     width: 240px; 
+  }
+
+  .organization img { 
+    width: 160px; 
   }
 }

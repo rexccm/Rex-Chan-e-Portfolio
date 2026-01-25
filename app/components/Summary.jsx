@@ -96,19 +96,39 @@ export default function Summary({ content }) {
                         </div>
                     </Slider>
                 </section>
-                <section className="career-organization">
+                <section id="career-organization" className="article-section">
                     <article className="section-header">
-                        <h3>Career Organizations</h3>
+                        <h3>Organizations</h3>
                         <p>Gained knowledge, skills, and experience in the below corporations and educational organizations.</p>
                     </article>
-                    <div className="organization-container">
-                        <ul className="organizations">
-                            <li className="organization" id="CLAERgo"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-logo.png" /></li>
-                            <li className="organization" id="Shopify Academy"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/shopify-academy-logo.png" /></li>
-                            <li className="organization" id="CLAP@JC"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-logo.png" /></li>
-                            <li className="organization" id="Google Digital Garage"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/google-digital-garage.png" /></li>
-                            <li className="organization" id="amps"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/amps-logo.png" /></li>
-                            <li className="organization" id="CUSCS"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cuscs-logo.png" /></li>
+                    <div className="logo-list-container">
+                        <ul id="organizations" className="logo-list">
+                            <li className="organization" id="cleargo"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-logo.png" alt="CLAERgo" /></li>
+                            <li className="organization" id="shopify-academy"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/shopify-academy-logo.png" alt="hopify Academy" /></li>
+                            <li className="organization" id="clap-jc"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-logo.png" alt="CLAP@JC" /></li>
+                            <li className="organization" id="google-digital-garage"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/google-digital-garage.png" alt="Google Digital Garage" /></li>
+                            <li className="organization" id="amps"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/amps-logo.png" alt="amps" /></li>
+                            <li className="organization" id="cuscs"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cuscs-logo.png" alt="CUSCS" /></li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="project-clients" className="article-section">
+                    <article className="section-header">
+                        <h3>Projects</h3>
+                        <p>Participated in the following projects in frontend web development career.</p>
+                    </article>
+                    <div className="logo-list-container">
+                        <ul id="projects" className="logo-list">
+                            <li className="project" id="broadway-lifestyle"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/broadway-logo.png" alt="Broadway Lifestyle" /></li>
+                            <li className="project" id="midea-eureka"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/eureka-logo.png" alt="Midea Eureka" /></li>
+                            <li className="project" id="hipp"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/hipp-logo.png" alt="HiPP" /></li>
+                            <li className="project" id="heybike"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/heybike-logo.png" alt="Heybike" /></li>
+                            <li className="project" id="telford"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/telford-logo.png" alt="Telford (Tao Ti)" /></li>
+                            <li className="project" id="south-stream"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/south-stream-logo.png" alt="South Stream" /></li>
+                            <li className="project" id="nextcigar"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/nextcigar-logo.png" alt="nextCIGAR" /></li>
+                            <li className="project" id="cleargo"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-logo.png" alt="e-Jacob" /></li>
+                            <li className="project" id="hoi-tin"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/hoi-tin-logo.png" alt="Hoi Tin" /></li>
+                            <li className="project" id="e-jacob"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/e-jacob-logo.png" alt="e-Jacob" /></li>
                         </ul>
                     </div>
                 </section>
@@ -118,7 +138,7 @@ export default function Summary({ content }) {
                     <ul className="related-career-history">
                         <li>Education: E-Commerce and Web Application Development (B+) | Certificate of Front-End Web Developer (CLAP@JC)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Projects: Broadway Lifestyle, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
+                        <li>Projects: Broadway Lifestyle, HiPP, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
                     </ul>
                     <p>Experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
                     <ul id="web-development-layers">
@@ -132,7 +152,7 @@ export default function Summary({ content }) {
                     <ul>
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Projects: Broadway Lifestyle, Telford (Tao Ti), Hipp, Heybike, South Stream, nextCIGAR, Midea Eureka</li>
+                        <li>Projects: Broadway Lifestyle, Telford (Tao Ti), HiPP, Heybike, South Stream, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson), e-Jacob</li>
                     </ul>
                     <section className="article-section">
                         <h4>Selectors</h4>
@@ -227,7 +247,7 @@ export default function Summary({ content }) {
                     <ul className="related-career-history">
                         <li>Education: Object Oriented Programming (B)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Projects: Broadway Lifestyle, South Stream, Heybike, nextCIGAR</li>
+                        <li>Projects: Broadway Lifestyle, South Stream, Heybike, nextCIGAR, HiPP</li>
                     </ul>
                     <p>Objects are instances of classes or prototypes while classes or prototypes define the attributes and behavior of objects. There are three features of OOP: </p>
                     <ul id="oop-features">
