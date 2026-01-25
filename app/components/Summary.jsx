@@ -100,7 +100,7 @@ export default function Summary({ content }) {
                 </section>
                 <section id="career-organization" className="article-section">
                     <article className="section-header">
-                        <h3>Organizations</h3>
+                        <h3 className="section-heading">Organizations</h3>
                         <p>Gained knowledge, skills, and experience in the below corporations and educational organizations.</p>
                     </article>
                     <div className="logo-list-container">
@@ -116,7 +116,7 @@ export default function Summary({ content }) {
                 </section>
                 <section id="project-clients" className="article-section">
                     <article className="section-header">
-                        <h3>Projects</h3>
+                        <h3 className="section-heading">Projects</h3>
                         <p>Participated in the following projects in frontend web development career.</p>
                     </article>
                     <div className="logo-list-container">
@@ -138,7 +138,7 @@ export default function Summary({ content }) {
                     <p>The following presents my knowledge tree in the industry.</p>
                 </section>
                 <section id="web-authoring" className="article-section">
-                    <h3>Web Authoring</h3>
+                    <h3 className="section-heading">Web Authoring</h3>
                     <ul className="related-career-history">
                         <li>Education: E-Commerce and Web Application Development (B+) | Certificate of Front-End Web Developer (CLAP@JC)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
@@ -152,7 +152,7 @@ export default function Summary({ content }) {
                     </ul>
                 </section>
                 <section id="ui-slicing" className="article-section">
-                    <h3>UI Slicing</h3>
+                    <h3 className="section-heading">UI Slicing</h3>
                     <ul>
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
@@ -162,7 +162,7 @@ export default function Summary({ content }) {
                         <h4>Selectors</h4>
                         <ul id="selectors">
                             <li><b>IDs (#)</b>: A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
-                            <li><b>Classes (.)</b>: A class name shared by multiple HTML elements. e.g. .gallery, .section-title, .description</li>
+                            <li><b>Classes (.)</b>: A class name shared by multiple HTML elements. e.g. .gallery, .section-heading, .description</li>
                             <li><b>Pseudo-classes (:)</b>: A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en)</li>
                         </ul>
                     </section>
@@ -177,7 +177,7 @@ export default function Summary({ content }) {
                     </section>
                 </section>
                 <section className="article-section">
-                    <h3>Web Animation</h3>
+                    <h3 className="section-heading">Web Animation</h3>
                     <ul className="related-career-history">
                         <li>Education: Introduction to 3D Animation (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
@@ -247,7 +247,7 @@ export default function Summary({ content }) {
                     </ul>
                 </section>
                 <section className="article-section">
-                    <h3>OOP</h3>
+                    <h3 className="section-heading">OOP</h3>
                     <ul className="related-career-history">
                         <li>Education: Object Oriented Programming (B)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
@@ -327,7 +327,7 @@ export default function Summary({ content }) {
                     <ul></ul>
                 </section>
                 <section className="article-section">
-                    <h3>Backend Development</h3>
+                    <h3 className="section-heading">Backend Development</h3>
                     <ul className="related-career-history">
                         <li>Education: Internet Programming (A-) | Database Management (A)</li>
                     </ul>
@@ -411,7 +411,7 @@ export default function Summary({ content }) {
                     </section>
                 </section>
                 <section className="article-section">
-                    <h3>Design</h3>
+                    <h3 className="section-heading">Design</h3>
                     <ul className="related-career-history">
                         <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
                         <li>Experience: Freelance Designer</li>

@@ -631,12 +631,15 @@ section {
   margin-bottom: 20px; 
 }
 
+.section-heading:first-letter {
+  color: var(--color-secondary); 
+}
+
 /* Logo */
 .logo {
   width: 100%;
   max-width: 120px;
 }
-
 
 /* Slick */
 .slick-slide figure { 
