@@ -697,6 +697,7 @@ body .slick-dots li button {
 
 /* Gallery */
 .gallery {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-block: calc(120vw / 19.2); 
   cursor: grab;
   transform: rotate(3deg) scale(1.2) skewX(0.01turn); 
@@ -710,8 +711,13 @@ body .slick-dots li button {
 }
 
 .gallery .slick-slider { 
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-block: 10px;
+}
+
+.gallery figcaption {
+    font-weight: 700;
+    transform: scaleX(1.1);
+    font-size: 1.125rem;
 }
 
 /* Logo lists */
