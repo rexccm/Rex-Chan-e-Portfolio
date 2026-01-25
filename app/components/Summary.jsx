@@ -39,7 +39,6 @@ export default function Summary({ content }) {
                     <h2 className="section-heading">Summary</h2>
                     <article className="description">{content}</article>
                 </section>
-
                 <section className="gallery">
                     <Slider {...settings}>
                         <div>
@@ -98,14 +97,25 @@ export default function Summary({ content }) {
                         </div>
                     </Slider>
                 </section>
-                <section id="career-organization" className="article-section">
+                <section id="career-corporations" className="article-section">
                     <article className="section-header">
-                        <h3 className="section-heading">Organizations</h3>
-                        <p>Gained knowledge, skills, and experience in the below corporations and educational organizations.</p>
+                        <h3 className="section-heading">Corporations</h3>
+                        <p>Gained fulltime and freelance experience in the below corporations.</p>
+                    </article>
+                    <div className="logo-list-container">
+                        <ul id="corporations" className="logo-list">
+                            <li className="corporation" id="cleargo"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-logo.png" alt="CLAERgo" /></li>
+                            <li className="corporation" id="penker"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/penker-logo.png" alt="Penker" /></li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="educational-organization" className="article-section">
+                    <article className="section-header">
+                        <h3 className="section-heading">Educational Organizations</h3>
+                        <p>Developed knowledge and skills in the below educational organizations.</p>
                     </article>
                     <div className="logo-list-container">
                         <ul id="organizations" className="logo-list">
-                            <li className="organization" id="cleargo"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-logo.png" alt="CLAERgo" /></li>
                             <li className="organization" id="shopify-academy"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/shopify-academy-logo.png" alt="hopify Academy" /></li>
                             <li className="organization" id="clap-jc"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/clapjc-logo.png" alt="CLAP@JC" /></li>
                             <li className="organization" id="google-digital-garage"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/google-digital-garage.png" alt="Google Digital Garage" /></li>
@@ -135,6 +145,7 @@ export default function Summary({ content }) {
                     </div>
                 </section>
                 <section id="page-header" className="article-section">
+                    <h3 className="section-heading">Knowledge Tree</h3>
                     <p>The following presents my knowledge tree in the industry.</p>
                 </section>
                 <section id="web-authoring" className="article-section">
@@ -145,6 +156,9 @@ export default function Summary({ content }) {
                         <li>Projects: Broadway Lifestyle, HiPP, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
                     </ul>
                     <p>Experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
+                    <figure>
+                        <figcaption>Web Development Layers</figcaption>
+                    </figure>
                     <ul id="web-development-layers">
                         <li><b>Content Layer: </b>This layer is created in HyperText Markup Language (HTML) which contains the structure comprised of document type definition (doctype), tags, and character entities, and contents such as text, images, videos, and hyperlinks of web pages.</li>
                         <li><b>Presentation Layer: </b>This layer is created in Cascading Style Sheets (CSS) which defines the appearance including the global, local, and pseudo styles, layout systems, media queries, and animations of web pages.</li>
@@ -163,7 +177,7 @@ export default function Summary({ content }) {
                         <ul id="selectors">
                             <li><b>IDs (#)</b>: A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
                             <li><b>Classes (.)</b>: A class name shared by multiple HTML elements. e.g. .gallery, .section-heading, .description</li>
-                            <li><b>Pseudo-classes (:)</b>: A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en)</li>
+                            <li><b>Pseudo-classes (:)</b>: A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en), :before, :first-letter</li>
                         </ul>
                     </section>
                     <section className="article-section">
@@ -348,7 +362,7 @@ export default function Summary({ content }) {
                     </section>
                     <section className="article-section">
                         <h4>Salting</h4>
-                        <div>
+                        <figure>
                             <div className="one-way-dataflow-container">
                             <div className="one-way-dataflow-box"><p>rexChan123</p> <p>(Password)</p></div>
                             <div className="one-way-dataflow-arrow">→</div>
@@ -356,8 +370,8 @@ export default function Summary({ content }) {
                             <div className="one-way-dataflow-arrow">→</div>
                             <div className="one-way-dataflow-box"><p>4b6f9b7e5e2a6b4e6e5b1d32b9b96b223b6f2c5b5dbb5d3e1ff9d3d06b6a3b5a</p> <p>(Hashed Password + Salt)</p></div>
                             </div>
-                            <p className="figure-caption">Password Hash Salting Figure</p>
-                        </div>
+                            <figcaption className="figure-caption">Password Hash Salting Figure</figcaption>
+                        </figure>
                     </section>
                     <section className="article-section">
                         <h4>Code Injections</h4>
@@ -366,14 +380,17 @@ export default function Summary({ content }) {
                         <h4>Database Management</h4>
                         <section className="article-section">
                             <h5>Data Hierarchy</h5>
-                            <ol id="data-hierarchy">
-                                <li className="data-level">Database / Storage</li>
-                                <li className="data-level">Table / File</li>
-                                <li className="data-level">Row / Record</li>
-                                <li className="data-level">Column / Field</li>
-                                <li className="data-level">Byte / Character</li>
-                                <li className="data-level">Bit</li>
-                            </ol>
+                            <figure>
+                                <ol id="data-hierarchy">
+                                    <li className="data-level">Database / Storage</li>
+                                    <li className="data-level">Table / File</li>
+                                    <li className="data-level">Row / Record</li>
+                                    <li className="data-level">Column / Field</li>
+                                    <li className="data-level">Byte / Character</li>
+                                    <li className="data-level">Bit</li>
+                                </ol>
+                                <figcaption className="figure-caption">Data Hierarchy Figure</figcaption>
+                            </figure>
                         </section>
                         <section className="article-section">
                             <h5>Keys</h5>

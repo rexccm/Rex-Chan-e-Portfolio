@@ -704,7 +704,11 @@ body .slick-dots li button {
   display: flex;
   align-items: center;
   margin-bottom: 0; 
-  transition: all .3s;
+  transition: all .3s ease-in-out;
+}
+
+.corporation:hover {
+  transform: skew(-20deg);
 }
 
 .organization:hover {
