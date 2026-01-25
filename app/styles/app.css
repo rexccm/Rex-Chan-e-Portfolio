@@ -664,9 +664,20 @@ body .slick-dots li button {
 .video-hero-wrapper {
   width: 100%;
   height: calc(100vh - 140px); 
+  position: relative;
   margin-bottom: 72px; 
   overflow: hidden; 
-  position: relative;
+}
+
+.video-hero-wrapper:after {
+  content: ''; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  background: url(https://cdn.shopify.com/s/files/1/0626/2253/1645/files/bg-pat_orig.png?v=1769345869) repeat 0 0;
 }
 
 .video-container {
