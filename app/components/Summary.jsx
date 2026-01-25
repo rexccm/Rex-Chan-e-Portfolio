@@ -291,6 +291,16 @@ export default function Summary({ content }) {
                     <section className="article-section">
                         <h3 className="section-heading">Computer Graphics Programming</h3>
                         <p>Rasterizers like WebGL and DirectX convert 3D vector primitives included triangles (polygons), points (vertices), and lines (edges) into 2D pixel-based graphics on the screen.</p>
+                        <section className="featured-gallery">
+                            <h4 className="section-heading">Featured Works</h4>
+                            <ul className="featured-works">
+                                <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation01.jpg" /></li>
+                                <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation02.jpg" /></li>
+                                <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation03.jpg" /></li>
+                                <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation04.jpg" /></li>
+                                <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation05.jpg" /></li>
+                            </ul>
+                        </section>
                     </section>
                 </section>
                 <section className="article-section">
