@@ -22,6 +22,17 @@ export default async function handleRequest(
       checkoutDomain: context.env.PUBLIC_CHECKOUT_DOMAIN,
       storeDomain: context.env.PUBLIC_STORE_DOMAIN,
     },
+    frameSrc: [
+      "'self'", 
+      "https://www.youtube.com", 
+      "https://youtube.com",
+      "https://www.youtube-nocookie.com" // 若使用隱私增強模式則需加入此項
+    ],
+    scriptSrc: [
+      "'self'", 
+      "https://www.youtube.com", 
+      "https://s.ytimg.com"
+    ],
   });
 
   const body = await renderToReadableStream(

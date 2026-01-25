@@ -658,6 +658,32 @@ body .slick-dots li button {
   padding: 0;
 }
 
+/* Hero video */
+.video-hero-wrapper {
+  width: 100%;
+  height: calc(100vh - 140px); 
+  overflow: hidden; 
+  position: relative;
+}
+
+.video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%) scale(1.35); 
+  pointer-events: none; 
+}
+
+.video-container iframe {
+  width: 500%; 
+  height: 100%; 
+  margin-left: -200%; 
+  border: 0 none; 
+  pointer-events: none; 
+}
+
 /* Summary */
 /* Personal information */
 .personal-info #phone:before { 
@@ -687,7 +713,7 @@ body .slick-dots li button {
     padding-block: 10px;
 }
 
-/* Organizations */
+/* Logo lists */
 .logo-list-container {
   width: fit-content; 
   margin-inline: auto; 
@@ -732,7 +758,6 @@ body .slick-dots li button {
   max-height: 100px;
   object-fit: contain;
 }
-
 
 /* Featured Image List */
 .featured-works {
@@ -837,6 +862,10 @@ body .slick-dots li button {
     display: none; 
   }
 
+  .video-hero-wrapper { 
+    height: calc(100vh - 90px); 
+  }
+
   .gallery {
     margin-block: calc(60vw / 7.68); 
   }
@@ -910,6 +939,10 @@ body .slick-dots li button {
 
   .logo-list .project img {
     width: calc(160vw / 13.66); 
+  }
+
+  .video-hero-wrapper { 
+    height: calc(100vh - 110px); 
   }
 }
 
