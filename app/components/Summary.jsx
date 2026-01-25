@@ -104,6 +104,7 @@ export default function Summary({ content }) {
                         <li></li>
                     </ul>
                 </section>
+                <p>The following presents my knowledge tree in the industry.</p>
                 <section id="web-authoring" className="article-section">
                     <h3>Web Authoring</h3>
                     <ul className="related-career-history">
@@ -256,12 +257,29 @@ export default function Summary({ content }) {
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, South Stream, nextCIGAR</li>
                     </ul>
-                    <ul>
-                        <li><b>Custom Elements</b></li>
-                        <li><b>Shadow DOM</b>: Shadow DOM serves for encapsulation of internal DOM structure and style rules to prevent style leakage from the light DOM.</li>
-                        <li><b>HTML Templates</b></li>
-                        <li><b>Custom State Set</b></li>
-                    </ul>
+                    <section className="article-section">
+                        <h4>Custom Elements</h4>
+                    </section>
+                    <section className="article-section">
+                        <h4>Shadow DOM</h4>
+                        <p>Shadow DOM serves for encapsulation of internal DOM structure and style rules to prevent style leakage from the light DOM.</p>
+                        <ul className="">
+                            <li><b>Shadow Host:</b> The regular DOM node that the shadow DOM is attached to.</li>
+                            <li><b>Shadow Root:</b> The root node of the shadow DOM tree.</li>
+                            <li><b>Shadow Tree:</b> The DOM subtree within the shadow root that contains the elements and styles encapsulated from the light DOM.</li>
+                        </ul>
+                    </section>
+                    <section className="article-section">
+                        <h4>HTML Templates</h4>
+                    </section>
+                    <section className="article-section">
+                        <h4>Custom State</h4>
+                        <p>The CustomStateSet and :state() are mechanisms for defining and managing custom state within custom elements based on state management. </p>
+                        <ul className="custom-state-mechanisms">
+                            <li><b>CustomStateSet</b>: The CustomStateSet interface stores an ordered list of state values for an custom element and allows states to be added and removed from the set.</li>
+                            <li><b>:state()</b>: The :state() pseudo-class allows for styling based on the current state of the element.</li>
+                        </ul>
+                    </section>
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">SEO</h3>
