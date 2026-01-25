@@ -945,6 +945,10 @@ body .slick-dots li button {
     flex-wrap: nowrap;
   }
 
+  .featured-works img {
+    max-width: 100%;
+  }
+
   .logo-list .project img { 
     width: 160px; 
   }
