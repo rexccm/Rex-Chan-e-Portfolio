@@ -361,26 +361,29 @@ export default function Summary({ content }) {
                     <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
                     <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
                     <section className="article-section">
-                        <h4>Semiotics</h4>
-                        <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
-                        <ul id="semiotic-axes">
-                            <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
-                            <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
-                        </ul>
-                    </section>
-                    <section className="article-section">
-                        <h4>Visual Elements</h4>
-                    </section>
-                    <section className="article-section">
-                        <h4>Design Principles</h4>
-                    </section>
-                    <section className="article-section">
-                        <h4>Deformation</h4>
-                        <ul>
-                            <li><b>Simplification</b></li>
-                            <li><b>Exaggeration</b></li>
-                            <li><b>Distortion</b></li>
-                        </ul>
+                        <h4>UI</h4>
+                        <section className="article-section">
+                            <h5>Semiotics</h5>
+                            <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
+                            <ul id="semiotic-axes">
+                                <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
+                                <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
+                            </ul>
+                        </section>
+                        <section className="article-section">
+                            <h5>Visual Elements</h5>
+                        </section>
+                        <section className="article-section">
+                            <h5>Design Principles</h5>
+                        </section>
+                        <section className="article-section">
+                            <h5>Deformation</h5>
+                            <ul>
+                                <li><b>Simplification</b></li>
+                                <li><b>Exaggeration</b></li>
+                                <li><b>Distortion</b></li>
+                            </ul>
+                        </section>
                     </section>
                     <section>
                         <h4>UX</h4>
