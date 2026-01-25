@@ -96,6 +96,14 @@ export default function Summary({ content }) {
                         </div>
                     </Slider>
                 </section>
+                <section className="career-organization">
+                    <h3>Career Organizations</h3>
+                    <p>Gained knowledge, skills, and experience in the below corporations and educational organizations.</p>
+                    <ul className="career-organizations">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
                 <section id="web-authoring" className="article-section">
                     <h3>Web Authoring</h3>
                     <ul className="related-career-history">
@@ -364,11 +372,17 @@ export default function Summary({ content }) {
                         <h4>UI</h4>
                         <section className="article-section">
                             <h5>Semiotics</h5>
-                            <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
-                            <ul id="semiotic-axes">
-                                <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
-                                <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
-                            </ul>
+                            <section className="article-section">
+                                <h6>Paradigms and Syntagms</h6>
+                                <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>
+                                <ul id="semiotic-axes">
+                                    <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
+                                    <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h5></h5>
+                            </section>
                         </section>
                         <section className="article-section">
                             <h5>Visual Elements</h5>

@@ -183,7 +183,7 @@ button.reset:hover:not(:has(> *)) {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: linear-gradient(to bottom, rgba(154, 214, 209, .3), rgba(0, 0 , 255, 0));
+  background: linear-gradient(to bottom, rgba(154, 214, 209, .5), rgba(0, 0 , 255, 0));
 }
 
 .header-menu-mobile-toggle {
@@ -642,7 +642,7 @@ body .slick-dots li button {
 .gallery {
   margin-block: calc(120vw / 19.2); 
   cursor: grab;
-  transform: rotate(3deg) scale(1.2); 
+  transform: rotate(3deg) scale(1.2) skewX(0.01turn); 
 }
 
 .gallery figure img {
@@ -650,6 +650,11 @@ body .slick-dots li button {
   height: auto;
   aspect-ratio: 3/2;
   object-fit: cover; 
+}
+
+.gallery .slick-slider { 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-block: 10px;
 }
 
 /* Featured Image List */
