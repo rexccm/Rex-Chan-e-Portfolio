@@ -26,7 +26,7 @@ export default async function handleRequest(
       "'self'", 
       "https://www.youtube.com", 
       "https://youtube.com",
-      "https://www.youtube-nocookie.com" // 若使用隱私增強模式則需加入此項
+      "https://www.youtube-nocookie.com"
     ],
     scriptSrc: [
       "'self'", 
