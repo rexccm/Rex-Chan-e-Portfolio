@@ -23,7 +23,7 @@ export default function Summary({ content }) {
         speed: 1000,
         centerMode: true,
         autoplay: true,
-        autoplaySpeed: 2000, 
+        autoplaySpeed: 3000, 
         slidesToShow: slides,
         slidesToScroll: 1,
         responsive: [
@@ -373,6 +373,23 @@ export default function Summary({ content }) {
                     </section>
                     <section className="article-section">
                         <h4>Design Principles</h4>
+                    </section>
+                    <section className="article-section">
+                        <h4>Deformation</h4>
+                        <ul>
+                            <li><b>Simplification</b></li>
+                            <li><b>Exaggeration</b></li>
+                            <li><b>Distortion</b></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4>UX</h4>
+                        <p>User Experience (UX)</p>
+                        <section className="article-section">
+                            <h5>Storytelling</h5>
+                            <p>Storytelling uses spatial and temporal signs to convey experience consists of narrative, emotion and aesthetic qualities in imagination of a user.</p>
+                            <p>One of the strength strategies is to use storytelling to take a non-tangible concept and making it relatable through concrete ideas.</p>
+                        </section>
                     </section>
                     <section className="featured-gallery">
                         <h4 className="section-heading">Featured Works</h4>
