@@ -35,6 +35,8 @@ export default function Summary({ content }) {
     return (
         <section id="summary" className="shopify-section">
             <article className="section-content">
+                <p>Testing</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/W4_rUHyA6WE?si=Y-H9AZY9-L7mgOdG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <section className="article-section">
                     <h2 className="section-heading">Summary</h2>
                     <article className="description">{content}</article>
