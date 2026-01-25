@@ -28,11 +28,6 @@ export default async function handleRequest(
       "https://youtube.com",
       "https://www.youtube-nocookie.com"
     ],
-    scriptSrc: [
-      "'self'", 
-      "https://www.youtube.com", 
-      "https://s.ytimg.com"
-    ],
   });
 
   const body = await renderToReadableStream(
