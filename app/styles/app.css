@@ -1,10 +1,14 @@
-/* Color scheme */
+/* Theme styles */
 :root {
+  /* Color scheme */
   --color-primary: #9AD6D1; 
   --color-secondary: #008B8B; 
 
   /* Accent colors */
   --color-orange: #F7941E; 
+
+  /* Layout */
+  --page-width: 1600px;
 }
 
 /* Original */
@@ -604,8 +608,18 @@ figure {
 }
 
 /* Layout */
+body > main { 
+  margin: 0; 
+}
+
 section {
   overflow-x: hidden;
+}
+
+.article-section {
+  max-width: var(--page-width); 
+  margin-inline: auto; 
+  padding: 0 20px; 
 }
 
 .row { 
@@ -820,6 +834,14 @@ body .slick-dots li button {
     margin-block: calc(60vw / 7.68); 
   }
 
+  .article-section:has(> .logo-list-container) { 
+    padding-inline: 0;
+  }
+
+  .article-section:has(> .logo-list-container) .section-header {
+    padding-inline: 20px;
+  }
+
   .logo-list-container {
     width: 100%; 
     overflow-x: auto;
@@ -839,6 +861,14 @@ body .slick-dots li button {
 
   .logo-list {
     justify-content: flex-start;
+  }
+
+  .logo-list li:first-child { 
+    padding-left: 20px;
+  }
+
+  .logo-list li:last-child { 
+    padding-right: 20px;
   }
 
   .organization img { 
@@ -879,10 +909,10 @@ body .slick-dots li button {
 /* Desktop */
 @media (min-width: 1920px) { 
   .organization img { 
-    width: 240px; 
+    width: 200px; 
   }
 
-  .organization img { 
-    width: 160px; 
+  .logo-list .project img {
+    width: 120px; 
   }
 }

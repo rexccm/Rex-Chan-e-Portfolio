@@ -34,10 +34,12 @@ export default function Summary({ content }) {
 
     return (
         <section id="summary" className="shopify-section">
-            <h2 className="section-heading">Summary</h2>
             <article className="section-content">
-                {content} 
-                
+                <section className="article-section">
+                    <h2 className="section-heading">Summary</h2>
+                    <article className="description">{content}</article>
+                </section>
+
                 <section className="gallery">
                     <Slider {...settings}>
                         <div>
@@ -132,7 +134,9 @@ export default function Summary({ content }) {
                         </ul>
                     </div>
                 </section>
-                <p>The following presents my knowledge tree in the industry.</p>
+                <section id="page-header" className="article-section">
+                    <p>The following presents my knowledge tree in the industry.</p>
+                </section>
                 <section id="web-authoring" className="article-section">
                     <h3>Web Authoring</h3>
                     <ul className="related-career-history">
@@ -318,7 +322,7 @@ export default function Summary({ content }) {
                     </ul>
                     <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
                 </section>
-                <section>
+                <section className="article-section">
                     <h3 className="section-heading">Computer Graphics Programming</h3>
                     <ul></ul>
                 </section>
