@@ -595,7 +595,7 @@ export default function Summary({ content }) {
                         <li className="certificate">
                             <figure>
                                 <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/penker-commission01.jpg" />
-                                <figcaption>Penker Commission, 2023</figcaption>
+                                <figcaption>Penker Commission, 2022</figcaption>
                             </figure>
                         </li>
                         <li className="certificate">
