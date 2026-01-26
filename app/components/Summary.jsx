@@ -188,7 +188,7 @@ export default function Summary({ content }) {
                     <section className="article-section">
                         <h4>CSS Layout Modules</h4>
                         <ul id="css-layout-modules">
-                            <li><b>Flow</b></li>
+                            <li><b>Float</b></li>
                             <li><b>Box Model</b></li>
                             <li><b>Flexbox</b></li>
                             <li><b>Grid</b></li>
@@ -379,11 +379,25 @@ export default function Summary({ content }) {
                     </section>
                 </section>
                 <section className="article-section">
+                    <h3 className="section-heading">Headless CMS</h3>
+                    <ul className="related-career-history">
+                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+                        <li>Projects: Telford (Tao Ti), e-Porfolio</li>
+                    </ul>
+                    <p>Worked on headless content management systems (Headless CMS) included Shopify Hydrogen and Magento PWA Studio which decoupled frontend from backend repository and allow for independent scalability and provided better security.</p>
+                    <p>A headless CMS makes content accessible via an API for applications displaying on any device, without pre-defined frontend templates.</p>
+                    <p>For instance, Hydrogen is a Shopify React-based Remix framework fetching raw data typically in JSON by GraphQL from the Storefront API of Shopify CMS while Magento PWA Studio fetching databy GraphQL through state management library Apollo Client.</p>
+                    <ul>
+                        <li><b>Hydrogen</b></li>
+                        <li><b>Magento PWA Studio</b></li>
+                    </ul>
+                </section>
+                <section className="article-section">
                     <h3 className="section-heading">SEO</h3>
                     <ul className="related-career-history">
                         <li>Education: Certificate of Fundamentals of Digital Marketing (Google) | Certificate of Front-End Web Developer (CLAP@JC)</li>
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka, CLEARgo</li>
+                        <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka, CLEARgo.com</li>
                     </ul>
                     <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
                 </section>
