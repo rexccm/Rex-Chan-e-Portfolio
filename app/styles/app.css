@@ -858,6 +858,29 @@ body .slick-dots li button {
 .data-level:nth-child(2) { width: 210px; }
 .data-level:nth-child(1) { width: 160px; }
 
+/* Certificate */
+.certificates {
+  display: flex; 
+  flex-direction: column;
+}
+
+.certificate {
+  margin-inline: auto; 
+}
+
+.certificate img {
+  max-width: 720px; 
+}
+
+.certificate figure { 
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate figcaption { 
+  text-align: center; 
+}
+
 /* Animations */
 @keyframes logoAnim {
   0% { 
@@ -963,6 +986,10 @@ body .slick-dots li button {
   .data-level:nth-child(3) { width: calc(350vw / 7.68); }
   .data-level:nth-child(2) { width: calc(300vw / 7.68); }
   .data-level:nth-child(1) { width: calc(250vw / 7.68); }
+
+  .certificate img {
+    max-width: 100%; 
+  }
 }
 
 /* Tablet */
