@@ -582,6 +582,12 @@ export default function Summary({ content }) {
                     <ul className="certificates">
                         <li className="certificate">
                             <figure>
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/badge-of-liquid-storefronts-for-theme-developers.png" />
+                                <figcaption>Badge of Liquid Storefronts for Theme Developers, 2023</figcaption>
+                            </figure>
+                        </li>
+                        <li className="certificate">
+                            <figure>
                                 <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/certificate-of-front-end-web-developer-program.jpg" />
                                 <figcaption>Certificate of Front-end Web Developer Program, 2023</figcaption>
                             </figure>
