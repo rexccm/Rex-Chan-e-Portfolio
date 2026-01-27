@@ -412,6 +412,26 @@ export default function Summary({ content }) {
                     <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
                 </section>
                 <section className="article-section">
+                    <h3 className="section-heading">MVC Architecture</h3>
+                    <p>The Model-View-Controller (MVC) is an architectural pattern which seperates an application into three main components based on seperation of concepts (SoC) while each component is built to handle specific development aspect of the application.</p>
+                    <p>MVC is one of the most frequently used industry-standard web development framework to create scalable and extensible projects. And this architecture inspired variants included MVVM and MVP.</p>
+                    <section className="article-section">
+                        <h4 className="section-heading">Model</h4>
+                        <p>Model corresponds to all data-related logic which can represent data transfering between View and Controller or business logic-related data.</p>
+                        <p>For instance, an PHP object retrieve data from database, and then manipulate and update it.</p>
+                    </section>
+                    <section className="article-section">
+                        <h4 className="section-heading">View</h4>
+                        <p>View is used for all the presentation logic in user interface (UI) components like React components which the end-user ineracts with.</p>
+                        <p>For instance, React root component pass the data through properties (props) downward to children React components.</p>
+                    </section>
+                    <section className="article-section">
+                        <h4 className="section-heading">Controller</h4>
+                        <p>Controller acts as an interface between Model and View to process all the business logic and incoming requests, manipulate data using Model and interact with View and to render the screen.</p>
+                        <p>For instance, Controller handle all the interactions and inputs from and Controller View and update the database using Controller Model.</p>
+                    </section>
+                </section>
+                <section className="article-section">
                     <h3 className="section-heading">Backend Development</h3>
                     <ul className="related-career-history">
                         <li>Education: Internet Programming (A-) | Database Management (A)</li>
@@ -421,7 +441,7 @@ export default function Summary({ content }) {
                     <ul id="backend-concepts">
                         <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
                         <li><b>Salting:</b> Salting is a security technique used to enhance password hashing. It involves adding a random value called salt to the password before hashing it. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</li>
-                        <li><b>Code Injections:</b> Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage. Understanding how to prevent injections.</li>
+                        <li><b>Code Injections:</b> Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage.</li>
                     </ul>
                     <section className="article-section">
                         <h4>CRUD Operations</h4>
@@ -479,9 +499,20 @@ export default function Summary({ content }) {
                         </section>
                         <section className="article-section">
                             <h5>Data Dictionary</h5>
+                            <p>A data dictionary is a collection of table structure which explains an unfamiliar dataset and clarify the meanings of various data terms to developers and users by listing codes, data types, lengths, examples, and descriptions of the fields.</p>
+                        </section>
+                        <section>
+                            <h5>Data Redundancy</h5>
+                            <p>Data redundancy refers to repetition of data stored in different locations. Storing same data redundantly in more than one place within a database can lead to anomalies.</p>
+                            <ul>
+                                <li><b>Update Anomalies</b>: Once one copy of repeated data is updated, inconsistency is created unless all copies updated.</li>
+                                <li><b>Insertion Anomalies</b>: It may not be possible to store some data unless the other is stored as well.</li>
+                                <li><b>Deletion Anomalies</b>: It may not be possible to drop some data unless the other is dropped as well.</li>
+                            </ul>
                         </section>
                         <section className="article-section">
                             <h5>Normalization</h5>
+                            <p>Normalization is a systematic approach of decomposing tables to eliminate data redundancy. A flat file database store all the data in one table which led to anomalies.</p>
                         </section>
                         <section className="article-section">
                             <h5>ER Diagram</h5>
