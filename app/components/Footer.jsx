@@ -8,6 +8,9 @@ import {ScrollWave} from '~/components/ScrollWave';
 export function Footer({footer: footerPromise, header, publicStoreDomain}) {
   return (
     <Suspense>
+      <a href="https://api.whatsapp.com/send?phone=85252247740" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
       <ScrollWave />
       <Await resolve={footerPromise}>
         {(footer) => (

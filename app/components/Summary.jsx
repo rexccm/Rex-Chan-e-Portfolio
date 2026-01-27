@@ -407,6 +407,7 @@ export default function Summary({ content }) {
                         <li>Education: Internet Programming (A-) | Database Management (A)</li>
                     </ul>
                     <p>Developed basic concepts of CRUD, salting, and injections by PHP in Internet Programming course in Higher Diploma programme.</p>
+                    <p>Built-up a login and signup system by using PHP and MySQL on XAMPP environment.</p>
                     <ul id="backend-concepts">
                         <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
                         <li><b>Salting:</b> Salting is a security technique used to enhance password hashing. It involves adding a random value called salt to the password before hashing it. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</li>
@@ -487,6 +488,16 @@ export default function Summary({ content }) {
                             </ul>
                         </section>
                     </section>
+                    <ul className="featured-works">
+                        <li className="featured-work">
+                            <figure className="presentation-video">
+                                <video controls autoplay muted loop>
+                                    <source src="https://cdn.shopify.com/videos/c/o/v/2da43598b08c48e089a7b82b76a3088d.mp4" type="video/mp4" />
+                                </video>
+                                <figcaption>Singup and Login System, 2018</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">Design</h3>

@@ -635,6 +635,11 @@ section {
   color: var(--color-secondary); 
 }
 
+/* Video */
+video {
+  max-width: 100%; 
+}
+
 /* Logo */
 header .logo {
   width: 100%;
@@ -787,7 +792,6 @@ body .slick-dots li button {
 }
 
 /* Education */
-
 /* Salt */
 .one-way-dataflow-container {
   display: flex; 
@@ -879,6 +883,24 @@ body .slick-dots li button {
 
 .certificate figcaption { 
   text-align: center; 
+}
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:999;
+}
+
+.my-float{
+  margin-top:16px;
 }
 
 /* Animations */
