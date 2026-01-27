@@ -418,7 +418,7 @@ export default function Summary({ content }) {
                         <ul id="crud-operations">
                             <li><b>Create</b>: To create a resource, developer sends a POST request containing an object with properties to the API point like /api/products, which then responds with an object which has an ID that includes the relevant data fields.</li>
                             <li><b>Read</b>: To read a resource, developer sends a GET request to the API endpoint, and then it responds with a list or single object. We sends that request to the original API endpoint like /api/products when we want to read all of the data, while we sends the request to the endpoint with its ID like /api/products/1 if we to search for specific data. </li>
-                            <li><b>UPDATE</b>: To update a resource, developer sends a PUT request containing the updated object to the API endpoint with ID, and then it responds with an object included the relevant data fields. </li>
+                            <li><b>Update</b>: To update a resource, developer sends a PUT request containing the updated object to the API endpoint with ID, and then it responds with an object included the relevant data fields. </li>
                             <li><b>Delete</b>: To delete a resource, developer sends a DELETE request to the API endpoint with the target ID. However, the delete request is not prefer to use due to concerns about data integrity in reality. </li>
                         </ul>
                     </section>
@@ -494,7 +494,7 @@ export default function Summary({ content }) {
                                 <video controls autoplay muted loop>
                                     <source src="https://cdn.shopify.com/videos/c/o/v/2da43598b08c48e089a7b82b76a3088d.mp4" type="video/mp4" />
                                 </video>
-                                <figcaption>Singup and Login System, 2018</figcaption>
+                                <figcaption>Signup and Login System, 2018</figcaption>
                             </figure>
                         </li>
                     </ul>
