@@ -259,6 +259,23 @@ export default function Summary({ content }) {
                     </section>
                 </section>
                 <section className="article-section">
+                    <h3 className="section-heading">Data Interchange</h3>
+                    <p>XML and JSON are used for data interchange in client-server communication.</p>
+                    <p>In modern web development, JSON is preferred whenever the additional features implemented by XML are deemed to be unnecessary.</p>
+                    <section className="article-section">
+                        <h4 className="section-heading">XML</h4>
+                        <p>Extensible Markup Language (XML) is a markup language which represents data as tag-based tree structure in data interchange.</p>
+                        <p>Unlike JSON, XML uses namespaces to distinguish between properties that are different but share the same name.</p>
+                        <p>While JSON limited data types to basic types, XML supports many complex data types.</p>
+                    </section>
+                    <section className="article-section">
+                        <h4 className="section-heading">JSON</h4>
+                        <p>JavaScript Object Notation (JSON) is the most popular interchange language in modern web development since JSON is directly understandable to JavaScript on the grounds of vast majority of JavaScript popularity.</p>
+                        <p>JSON is a lightweight interchange format which is parsed quicker than XML with less computational resource usage.</p>
+                        <p>JSON uses a map with key-value pairs while it can use array in value.</p>
+                    </section>
+                </section>
+                <section className="article-section">
                     <h3 className="section-heading">AJAX</h3>
                     <ul className="related-career-history">
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Internet Programming (A-)</li>
