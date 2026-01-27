@@ -186,12 +186,22 @@ export default function Summary({ content }) {
                         </ul>
                     </section>
                     <section className="article-section">
-                        <h4>CSS Layout Modules</h4>
-                        <ul id="css-layout-modules">
-                            <li><b>Float</b></li>
-                            <li><b>Box Model</b></li>
-                            <li><b>Flexbox</b></li>
-                            <li><b>Grid</b></li>
+                        <h4>Box Model</h4>
+                        <p>The CSS box model is essentially a box wraps around each HTML element where a box consists of the below: </p>
+                        <ul>
+                            <li><b>Content</b>: The content like plain text or multimedia of the box.</li>
+                            <li><b>Padding</b>: The area inside the border and surrounding the content.</li>
+                            <li><b>Border</b>: A visible border of the box between the padding and margin.</li>
+                            <li><b>Margin</b>: The area outside the border and surrounding the border.</li>
+                        </ul>
+                    </section>
+                    <section className="article-section">
+                        <h4>Layout</h4>
+                        <ul id="layouts">
+                            <li><b>Table</b>: Traditional nested HTML layout system consists of table rows and items included table head and table data.</li>
+                            <li><b>Float</b>: Traditional CSS layout system placed element on the left or right.</li>
+                            <li><b>Flexbox</b>: A 1-dimentional CSS3 layout module for greater control over arranging elements along on x-axis or y-axis.</li>
+                            <li><b>Grid</b>: A 2-dimentional CSS3 layout module imported concept of gird from print design into web. It provides a system for laying elements out in rows and columns.</li>
                         </ul>
                     </section>
                 </section>
