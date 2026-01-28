@@ -676,10 +676,12 @@ body .slick-dots li button {
 }
 
 /* Hero video */
-.video-hero-wrapper {
-  width: 100%;
+.video-hero-wrapper { 
+  width: 100%; 
   height: calc(100vh - 140px); 
-  position: relative;
+  position: relative; 
+  border-top-left-radius: 5rem; 
+  border-bottom-right-radius: 5rem; 
   margin-bottom: 72px; 
   overflow: hidden; 
 }
