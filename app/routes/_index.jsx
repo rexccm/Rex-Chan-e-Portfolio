@@ -4,6 +4,10 @@ import {Image} from '@shopify/hydrogen';
 import {ProductItem} from '~/components/ProductItem';
 import Summary from '~/components/Summary';
 import FrameworkConcepts from '~/components/FrameworkConcepts';
+import BackendDevelopment from '~/components/BackendDevelopment';
+import Design from '~/components/Design';
+import Certification from '~/components/Certification';
+
 
 /**
  * @type {Route.MetaFunction}
@@ -75,6 +79,9 @@ export default function Homepage() {
     <div className="home">
       <Summary content={data.shopSummary} />
       <FrameworkConcepts />
+      <BackendDevelopment />
+      <Design />
+      <Certification />
       <section className="education">
         <h3 className="section-title">Education</h3>
         <ul className="education-list">

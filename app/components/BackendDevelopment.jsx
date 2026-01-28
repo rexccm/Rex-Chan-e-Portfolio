@@ -1,0 +1,115 @@
+const BackendDevelopment = () => { 
+    return (
+        <section className="article-section">
+            <h3 className="section-heading">Backend Development</h3>
+            <ul className="related-career-history">
+                <li>Education: Internet Programming (A-) | Database Management (A)</li>
+            </ul>
+            <p>Developed basic concepts of CRUD, salting, and injections by PHP in Internet Programming course in Higher Diploma programme.</p>
+            <p>Built-up a login and signup system by using PHP and MySQL on XAMPP environment.</p>
+            <ul id="backend-concepts">
+                <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
+                <li><b>Salting:</b> Salting is a security technique used to enhance password hashing. It involves adding a random value called salt to the password before hashing it. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</li>
+                <li><b>Code Injections:</b> Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage.</li>
+            </ul>
+            <section className="article-section">
+                <h4>CRUD Operations</h4>
+                <ul id="crud-operations">
+                    <li><b>Create</b>: To create a resource, developer sends a POST request containing an object with properties to the API point like /api/products, which then responds with an object which has an ID that includes the relevant data fields.</li>
+                    <li><b>Read</b>: To read a resource, developer sends a GET request to the API endpoint, and then it responds with a list or single object. We sends that request to the original API endpoint like /api/products when we want to read all of the data, while we sends the request to the endpoint with its ID like /api/products/1 if we to search for specific data. </li>
+                    <li><b>Update</b>: To update a resource, developer sends a PUT request containing the updated object to the API endpoint with ID, and then it responds with an object included the relevant data fields. </li>
+                    <li><b>Delete</b>: To delete a resource, developer sends a DELETE request to the API endpoint with the target ID. However, the delete request is not prefer to use due to concerns about data integrity in reality. </li>
+                </ul>
+            </section>
+            <section className="article-section">
+                <h4>Salting</h4>
+                <figure>
+                    <div className="one-way-dataflow-container">
+                        <div className="one-way-dataflow-box"><p>rexChan123</p> <p>(Password)</p></div>
+                        <div className="one-way-dataflow-arrow">→</div>
+                        <div className="one-way-dataflow-box"><p>rexChan123rteZb</p> <p>(Password + Salt)</p></div>
+                        <div className="one-way-dataflow-arrow">→</div>
+                        <div className="one-way-dataflow-box"><p>4b6f9b7e5e2a6b4e6e5b1d32b9b96b223b6f2c5b5dbb5d3e1ff9d3d06b6a3b5a</p> <p>(Hashed Password + Salt)</p></div>
+                    </div>
+                    <figcaption className="figure-caption">Password Hash Salting Figure</figcaption>
+                </figure>
+            </section>
+            <section className="article-section">
+                <h4>Code Injections</h4>
+            </section>
+            <section className="article-section">
+                <h4>Database Management</h4>
+                <section className="article-section">
+                    <h5>Data Hierarchy</h5>
+                    <figure>
+                        <ol id="data-hierarchy">
+                            <li className="data-level">Database / Storage</li>
+                            <li className="data-level">Table / File</li>
+                            <li className="data-level">Row / Record</li>
+                            <li className="data-level">Column / Field</li>
+                            <li className="data-level">Byte / Character</li>
+                            <li className="data-level">Bit</li>
+                        </ol>
+                        <figcaption className="figure-caption">Data Hierarchy Figure</figcaption>
+                    </figure>
+                </section>
+                <section className="article-section">
+                    <h5>Keys</h5>
+                    <ul>
+                        <li><b>Primary Key</b></li>
+                        <li><b>Candidate Key</b></li>
+                        <li><b>Composite Key</b></li>
+                        <li><b>Super Key</b></li>
+                        <li><b>Foreign Key</b></li>
+                    </ul>
+                </section>
+                <section className="article-section">
+                    <h5>Schema</h5>
+                </section>
+                <section className="article-section">
+                    <h5>Data Dictionary</h5>
+                    <p>A data dictionary is a collection of table structure which explains an unfamiliar dataset and clarify the meanings of various data terms to developers and users by listing codes, data types, lengths, examples, and descriptions of the fields.</p>
+                </section>
+                <section>
+                    <h5>Data Redundancy</h5>
+                    <p>Data redundancy refers to repetition of data stored in different locations. Storing same data redundantly in more than one place within a database can lead to anomalies.</p>
+                    <ul>
+                        <li><b>Update Anomalies</b>: Once one copy of repeated data is updated, inconsistency is created unless all copies updated.</li>
+                        <li><b>Insertion Anomalies</b>: It may not be possible to store some data unless the other is stored as well.</li>
+                        <li><b>Deletion Anomalies</b>: It may not be possible to drop some data unless the other is dropped as well.</li>
+                    </ul>
+                </section>
+                <section className="article-section">
+                    <h5>Normalization</h5>
+                    <p>Normalization is a systematic approach of decomposing tables to eliminate data redundancy. A flat file database store all the data in one table which led to anomalies.</p>
+                </section>
+                <section className="article-section">
+                    <h5>ER Diagram</h5>
+                </section>
+                <section className="article-section">
+                    <h5>SQL</h5>
+                    <ul>
+                        <li><b>Data Definition Language (DDL)</b></li>
+                        <li><b>Data Manipulation Language (DML)</b></li>
+                        <li><b>Data Control Language (DCL)</b></li>
+                        <li><b>Transaction Control Language (TCL)</b></li>
+                        <li><b>Joining</b></li>
+                        <li><b>Views</b></li>
+                    </ul>
+                </section>
+            </section>
+            <ul className="featured-works">
+                <li className="featured-work">
+                    <figure className="presentation-video">
+                        <video controls autoplay muted loop>
+                            <source src="https://cdn.shopify.com/videos/c/o/v/2da43598b08c48e089a7b82b76a3088d.mp4" type="video/mp4" />
+                        </video>
+                        <figcaption>Signup and Login System, 2018</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    ); 
+}
+
+export default BackendDevelopment;

@@ -18,7 +18,6 @@ const FrameworkConcepts = () => {
       content: 'The <b>events</b> or <b>transition condition</b> that trigger updates in the state based on user input.<br>e.g. a click event, a mouseover event, a keyup event, or an input value.' 
     }
   ];
-  
 
   return (
     <section id="framework" className="article-section">
@@ -67,8 +66,8 @@ const FrameworkConcepts = () => {
           </div>
 
           {/* Figure */}
-          <figure className="flex flex-col items-center">
-            <div className="relative w-48 h-48 rounded-full border-4 border-dashed border-gray-300 flex items-center justify-center">
+          <figure className="">
+            <div className="">
               <menu className="ring">
                 {components.map((comp, index) => {
                   const angle = (index * 360) / components.length;
