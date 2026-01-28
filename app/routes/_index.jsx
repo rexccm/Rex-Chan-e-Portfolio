@@ -82,10 +82,10 @@ export default function Homepage() {
       <Summary content={data.shopSummary} />
       <Platforms />
       <FrameworkConcepts />
+      <ArtworkMarquee />
       <WebAuthoring />
       <BackendDevelopment />
       <Design />
-      <ArtworkMarquee />
       <Certification />
       <section className="education">
         <h3 className="section-title">Education</h3>

@@ -28,6 +28,7 @@ const ArtworkMarquee = () => {
     <section>
       <article className="section-header article-section">
         <h3 className="section-heading">Portraits</h3>
+        <p>Mastered Adobe Photoshop with rich experience in digital art. The following portraits representing myself and my friends.</p>
       </article>
       <div className="marquee-container">
         <div className="photo-banner">
