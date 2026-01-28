@@ -3,6 +3,7 @@ import {Suspense} from 'react';
 import {Image} from '@shopify/hydrogen';
 import {ProductItem} from '~/components/ProductItem';
 import Summary from '~/components/Summary';
+import FrameworkConcepts from '~/components/FrameworkConcepts';
 
 /**
  * @type {Route.MetaFunction}
@@ -73,6 +74,7 @@ export default function Homepage() {
   return (
     <div className="home">
       <Summary content={data.shopSummary} />
+      <FrameworkConcepts />
       <section className="education">
         <h3 className="section-title">Education</h3>
         <ul className="education-list">

@@ -13,6 +13,7 @@
   },
   "prettier": "@shopify/prettier-config",
   "dependencies": {
+    "@fontsource/ubuntu": "^5.2.8",
     "@shopify/hydrogen": "2025.7.1",
     "graphql": "^16.10.0",
     "graphql-tag": "^2.12.6",

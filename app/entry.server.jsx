@@ -28,6 +28,8 @@ export default async function handleRequest(
       "https://youtube.com",
       "https://www.youtube-nocookie.com"
     ],
+    fontSrc: ["'self'", 'https://fonts.gstatic.com'],
+    styleSrc: ["'self'", 'https://fonts.googleapis.com', "'unsafe-inline'"],
   });
 
   const body = await renderToReadableStream(

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
 /* Theme styles */
 :root {
   /* Color scheme */
@@ -6,6 +8,11 @@
 
   /* Accent colors */
   --color-orange: #F7941E; 
+
+  /* Monochrome */
+  --color-content: #5E6C6D; 
+  --color-white: #FFFFFF; 
+  --color-black: #0A0A0A; 
 
   /* Layout */
   --page-width: 1600px;
@@ -610,6 +617,8 @@ figure {
 /* Layout */
 body > main { 
   margin: 0; 
+  color: var(--color-content); 
+  font-family: 'Ubuntu'; 
 }
 
 section {
@@ -903,6 +912,127 @@ body .slick-dots li button {
   margin-top:16px;
 }
 
+/* State Management */
+#state-management { 
+  overflow: hidden; 
+}
+
+#state-management .tabs-with-figure { 
+	display: flex; 
+	gap: 1.25rem; 
+}
+
+#state-management .tabs { 
+	height: fit-content; 
+	display: flex; 
+	border: 3px solid var(--color-black); 
+	border-top-right-radius: 1.25rem; 
+	border-bottom-right-radius: 1.25rem; 
+	background-color: var(--color-white); 
+	flex: 2; 
+}
+
+#state-management .tab-list { 
+	display: flex; 
+    flex-direction: column; 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+#state-management .tab-list .tab { 
+	flex: 1; 
+	border-top: 1px solid var(--color-black); 
+	padding: calc(36vw / 19.2) calc(20vw / 19.2); 
+	writing-mode: vertical-rl; 
+	text-align: center; 
+	font-size: 1.25rem; 
+	transform: rotate(180deg); 
+	transition: all .3s; 
+	cursor: pointer; 
+}
+
+#state-management .tab-list .tab:last-child { 
+	border-top: none; 
+}
+
+#state-management .tab-list .tab.active { 
+	background-color: var(--color-darkcyan); 
+	color: var(--color-primary); 
+	font-weight: 700; 
+}
+
+#state-management .tab-content { 
+	width: 100%; 
+	border-left: 1px solid var(--color-black); 
+	padding: 40px 20px; 
+	line-height: 150%; 
+	font-size: 1.5rem; 
+}
+
+#state-management figure { 
+	display: flex; 
+	flex-direction: column; 
+	gap: 2.5rem; 
+	align-items: center; 
+	flex: 1; 
+	margin: 0; 
+}
+
+#state-management .ring { 
+    width: calc(360vw / 19.2); 
+    height: calc(360vw / 19.2); 
+    aspect-ratio: 1; 
+    position: relative; 
+    border: 2px solid darkcyan; 
+    border-radius: 50%; 
+    margin: 0 auto; 
+    padding: 0; 
+    list-style: none; 
+    animation: ringAnim 24s linear infinite; 
+}
+
+#state-management .ring .state-management-component { 
+    width: fit-content; 
+	height: auto; 
+	aspect-ratio: 1; 
+    position: absolute; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	background-color: var(--color-white); 
+	border-radius: 50%; 
+    padding: calc(12vw / 19.2); 
+	font-size: 1.25rem; 
+    transform-origin: center; 
+	cursor: pointer; 
+}
+
+#state-management .ring .state-management-component:nth-child(1) { 
+    top: 0; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+	animation: ringItemAnim1 24s linear infinite; 
+}
+
+#state-management .ring .state-management-component:nth-child(2) { 
+    top: 75%; 
+    left: 0; 
+    transform: translate(25%, -25%); 
+	animation: ringItemAnim2 24s linear infinite; 
+}
+
+#state-management .ring .state-management-component:nth-child(3) { 
+    top: 75%; 
+    left: 100%; 
+    transform: translate(-100%, -25%); 
+	animation: ringItemAnim3 24s linear infinite; 
+}
+
+#state-management .figure figcaption { 
+	font-size: 1.25rem; 
+}
+
 /* Animations */
 @keyframes logoAnim {
   0% { 
@@ -911,6 +1041,42 @@ body .slick-dots li button {
   100% { 
     transform: translateY(0); 
   }
+}
+
+@keyframes ringAnim { 
+    from {
+        transform: rotate(0); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes ringItemAnim1 { 
+    from {
+        transform: translate(-50%, -50%) rotate(0); 
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(-360deg); 
+    }
+}
+
+@keyframes ringItemAnim2 { 
+    from {
+        transform: translate(25%, -25%) rotate(0); 
+    }
+    to {
+        transform: translate(25%, -25%) rotate(-360deg); 
+    }
+}
+
+@keyframes ringItemAnim3 { 
+    from {
+        transform: translate(-100%, -25%) rotate(0); 
+    }
+    to {
+        transform: translate(-100%, -25%) rotate(-360deg); 
+    }
 }
 
 /* Reponsive */
