@@ -1288,6 +1288,37 @@ body .slick-dots li button {
 	#state-management .ring .state-management-component { 
 		padding: 12px; 
 	}
+
+  #platforms .platform-list { 
+    gap: 10px; 
+    flex-direction: column; 
+  }
+
+  #platforms .platform { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    gap: 10px; 
+    object-fit: contain; 
+  }
+
+  #platforms .platform:hover { 
+    transform: unset;
+  }
+
+  #platforms .platform img { 
+    width: auto; 
+    height: auto; 
+    object-fit: contain;
+  }
+
+  .platform-tooltip { 
+    top: unset; 
+    left: unset; 
+    width: 100%; 
+    position: static; 
+    transform: unset; 
+  }
 }
 
 /* Tablet */
@@ -1332,4 +1363,8 @@ body .slick-dots li button {
 	#state-management .ring .state-management-component { 
 		padding: 12px; 
 	}
+
+  #platforms .platform-list { 
+    gap: 48px; 
+  }
 }
