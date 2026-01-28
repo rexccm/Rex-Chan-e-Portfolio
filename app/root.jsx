@@ -154,6 +154,15 @@ export function Layout({children}) {
         <link rel="stylesheet" href={appStyles}></link>
         <Meta />
         <Links />
+        {/* Font Awesome */}
+        <script src="https://kit.fontawesome.com/cd897b0f6e.js" crossorigin="anonymous"></script>
+        
+        {/* jQuery */}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        
+        {/* jQuery UI */}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/themes/base/jquery-ui.min.css" rel="stylesheet" type="text/css" />
       </head>
       <body>
         {children}

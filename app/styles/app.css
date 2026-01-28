@@ -13,6 +13,7 @@
   --color-content: #5E6C6D; 
   --color-white: #FFFFFF; 
   --color-black: #0A0A0A; 
+  --color-lightgrey: #C5C5C5; 
 
   /* Layout */
   --page-width: 1600px;
@@ -793,6 +794,86 @@ body .slick-dots li button {
   object-fit: contain;
 }
 
+/* Platforms */
+#platforms { 
+  overflow: visible;
+}
+
+#platforms .platform-list { 
+	display: flex; 
+	gap: calc(48vw / 19.2); 
+	justify-content: center; 
+	flex-wrap: wrap; 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+#platforms .platform { 
+	cursor: pointer; 
+	transition: .3s; 
+}
+
+#platforms .platform:hover { 
+	transform: translateY(-5%); 
+}
+
+#platforms .platform img { 
+	width: auto; 
+	height: calc(72vw / 19.2); 
+	max-height: 72px; 
+}
+
+.platform-tooltip { 
+  position: absolute; 
+  width: 300px; 
+  top: 100%; 
+  left: 50%; 
+  background-color: var(--color-white); 
+	border-top-left-radius: 1rem; 
+	border-bottom-right-radius: 1rem; 
+  border: 1px solid var(--color-lightgrey); 
+  transform: translateX(-50%); 
+}
+
+.platform-tooltip .ui-tooltip-content { 
+	padding: 1rem; 
+}
+
+.platform-tooltip .ui-tooltip-content * { 
+  line-height: 120%; 
+}
+
+.platform-tooltip .ui-tooltip-content h3 { 
+	display: flex; 
+	align-items: center; 
+	background: -webkit-linear-gradient(0deg,rgba(0, 139, 139, 1) 0%, rgba(154, 214, 209, 1) 100%);
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent; 
+	border-bottom: 3px solid var(--color-secondary); 
+	border-bottom-right-radius: 1rem; 
+	margin: 0 0 12px; 
+	padding: .5rem 0; 
+	font-size: 1.25rem; 
+}
+
+.platform-tooltip .ui-tooltip-content img { 
+	width: 24px; 
+	height: 24px; 
+	aspect-ratio: 1; 
+	margin-right: 8px; 
+	object-fit: contain; 
+}
+
+.platform-tooltip ol { 
+	margin: 0; 
+	padding-left: 1rem; 
+}
+
+.platform-tooltip .ui-tooltip-content *:not(:last-child) { 
+	padding-bottom: .5rem; 
+}
+
 /* Featured Image List */
 .featured-works {
   max-width: 100%;
@@ -894,22 +975,23 @@ body .slick-dots li button {
   text-align: center; 
 }
 
-.float{
+/* Footer */
+/* WhatsApp */
+.whatsapp { 
   position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
   background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  z-index:999;
-}
-
-.my-float{
-  margin-top:16px;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 999;
 }
 
 /* State Management */

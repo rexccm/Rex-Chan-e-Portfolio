@@ -64,6 +64,12 @@ const Design = () => {
                             </li>
                             <li className="featured-work">
                                 <figure>
+                                    <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/landscape.jpg" />
+                                    <figcaption>Landscape, 2024</figcaption>
+                                </figure>
+                            </li>
+                            <li className="featured-work">
+                                <figure>
                                     <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/sculpture-drawing_2022.jpg" />
                                     <figcaption>Sculpture Drawing, 2022</figcaption>
                                 </figure>
