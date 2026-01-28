@@ -102,7 +102,7 @@ export default function Homepage() {
                 year: 'numeric'
               });
             }; 
-
+            
             return (
               <div className="education-item">
                 <div className="row">
