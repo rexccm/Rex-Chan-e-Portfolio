@@ -8,8 +8,9 @@ import WebAuthoring from '~/components/WebAuthoring';
 import FrameworkConcepts from '~/components/FrameworkConcepts';
 import BackendDevelopment from '~/components/BackendDevelopment';
 import Design from '~/components/Design';
+import ArtworkMarquee from '~/components/ArtworkMarquee';
 import Certification from '~/components/Certification';
-
+ 
 /**
  * @type {Route.MetaFunction}
  */
@@ -84,6 +85,7 @@ export default function Homepage() {
       <WebAuthoring />
       <BackendDevelopment />
       <Design />
+      <ArtworkMarquee />
       <Certification />
       <section className="education">
         <h3 className="section-title">Education</h3>

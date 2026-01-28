@@ -50,6 +50,7 @@ const Design = () => {
                     <p>For progress of a task, we should provide the degree of completion to indicate the current status and expected completion time.</p>
                 </section>
             </section>
+            
             <section className="featured-gallery">
                 <h4 className="section-heading">Featured Works</h4>
                 <ul className="featured-works">
@@ -62,7 +63,7 @@ const Design = () => {
                     <li className="featured-work">
                         <figure>
                             <img width="320" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/landscape.jpg" />
-                            <figcaption>Landscape, 2024</figcaption>
+                            <figcaption>Landscape, 2023</figcaption>
                         </figure>
                     </li>
                     <li className="featured-work">

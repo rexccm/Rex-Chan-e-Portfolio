@@ -1115,6 +1115,46 @@ body .slick-dots li button {
 	font-size: 1.25rem; 
 }
 
+/* Artwork Marquee  */
+.marquee-container {
+      max-width: 100%;
+      overflow: hidden;
+      z-index: 10;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+}
+
+.photo-banner {
+      display: flex;
+      flex-direction: row;
+      animation: bannermove 30s linear infinite;
+      scroll-behavior: smooth;
+      animation-play-state: running;
+}
+
+.photo-banner:hover {
+      animation-play-state: paused;
+}
+
+  
+
+.slider-box {
+      width: calc(20vw - 1.5vw);
+      border: 0.75vw solid #ffffff;
+      object-fit: cover;
+      margin-left: 1.5vw;
+      margin-right: 1.5vw;
+      transition: 0.4s;
+      filter: drop-shadow(2px 2px 5px #000000);
+}
+
+.slider-box:hover {
+      filter: drop-shadow(8px 8px 10px #000000);
+      transform: scale(1.05) !important; /* !important 確保覆蓋 JS 注入的 rotate */
+      z-index: 20;
+      cursor: pointer;
+}
+
 /* Animations */
 @keyframes logoAnim {
   0% { 
@@ -1126,39 +1166,44 @@ body .slick-dots li button {
 }
 
 @keyframes ringAnim { 
-    from {
-        transform: rotate(0); 
-    }
-    to {
-        transform: rotate(360deg); 
-    }
+  from {
+      transform: rotate(0); 
+  }
+  to {
+      transform: rotate(360deg); 
+  }
 }
 
 @keyframes ringItemAnim1 { 
-    from {
-        transform: translate(-50%, -50%) rotate(0); 
-    }
-    to {
-        transform: translate(-50%, -50%) rotate(-360deg); 
-    }
+  from {
+    transform: translate(-50%, -50%) rotate(0); 
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg); 
+  }
 }
 
 @keyframes ringItemAnim2 { 
-    from {
-        transform: translate(25%, -25%) rotate(0); 
-    }
-    to {
-        transform: translate(25%, -25%) rotate(-360deg); 
-    }
+  from {
+    transform: translate(25%, -25%) rotate(0); 
+  }
+  to {
+    transform: translate(25%, -25%) rotate(-360deg); 
+  }
 }
 
 @keyframes ringItemAnim3 { 
-    from {
-        transform: translate(-100%, -25%) rotate(0); 
-    }
-    to {
-        transform: translate(-100%, -25%) rotate(-360deg); 
-    }
+  from {
+    transform: translate(-100%, -25%) rotate(0); 
+  }
+  to {
+    transform: translate(-100%, -25%) rotate(-360deg); 
+  }
+}
+
+@keyframes bannermove {
+  0% { margin-left: 0; }
+  100% { margin-left: -115vw; }
 }
 
 /* Reponsive */
