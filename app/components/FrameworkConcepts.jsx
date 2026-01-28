@@ -18,6 +18,7 @@ const FrameworkConcepts = () => {
       content: 'The <b>events</b> or <b>transition condition</b> that trigger updates in the state based on user input.<br>e.g. a click event, a mouseover event, a keyup event, or an input value.' 
     }
   ];
+  
 
   return (
     <section id="framework" className="article-section">
