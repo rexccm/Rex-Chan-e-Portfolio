@@ -4,11 +4,11 @@ import {Image} from '@shopify/hydrogen';
 import {ProductItem} from '~/components/ProductItem';
 import Summary from '~/components/Summary';
 import Platforms from '~/components/Platforms';
+import WebAuthoring from '~/components/WebAuthoring';
 import FrameworkConcepts from '~/components/FrameworkConcepts';
 import BackendDevelopment from '~/components/BackendDevelopment';
 import Design from '~/components/Design';
 import Certification from '~/components/Certification';
-
 
 /**
  * @type {Route.MetaFunction}
@@ -81,6 +81,7 @@ export default function Homepage() {
       <Summary content={data.shopSummary} />
       <Platforms />
       <FrameworkConcepts />
+      <WebAuthoring />
       <BackendDevelopment />
       <Design />
       <Certification />
