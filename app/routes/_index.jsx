@@ -4,11 +4,12 @@ import {Image} from '@shopify/hydrogen';
 import {ProductItem} from '~/components/ProductItem';
 import Summary from '~/components/Summary';
 import Platforms from '~/components/Platforms';
-import WebAuthoring from '~/components/WebAuthoring';
 import FrameworkConcepts from '~/components/FrameworkConcepts';
+import ArtworkMarquee from '~/components/ArtworkMarquee';
+import Animation from '~/components/Animation';
+import WebAuthoring from '~/components/WebAuthoring';
 import BackendDevelopment from '~/components/BackendDevelopment';
 import Design from '~/components/Design';
-import ArtworkMarquee from '~/components/ArtworkMarquee';
 import Certification from '~/components/Certification';
  
 /**
@@ -83,6 +84,7 @@ export default function Homepage() {
       <Platforms />
       <FrameworkConcepts />
       <ArtworkMarquee />
+      <Animation />
       <WebAuthoring />
       <BackendDevelopment />
       <Design />
@@ -102,7 +104,7 @@ export default function Homepage() {
                 year: 'numeric'
               });
             }; 
-            
+
             return (
               <div className="education-item">
                 <div className="row">

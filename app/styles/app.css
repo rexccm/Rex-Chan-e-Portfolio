@@ -899,6 +899,25 @@ body .slick-dots li button {
 	padding-bottom: .5rem; 
 }
 
+/* Animation section */
+#keyframing-practice { 
+  width: fit-content; 
+  margin-inline: auto; 
+}
+
+#keyframe-works { 
+  display: flex; 
+}
+
+.keyframe-work > img { 
+  width: 100%; 
+  max-width: 520px; 
+}
+
+#keyframing-practice figcaption { 
+  text-align: center;
+}
+
 /* Featured Image List */
 .featured-works {
   max-width: 100%;
