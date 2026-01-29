@@ -1142,11 +1142,11 @@ body .slick-dots li button {
 
 /* Artwork Marquee */
 .marquee-container {
-      max-width: 100%;
-      overflow: hidden;
-      z-index: 10;
-      padding-top: 5vh;
-      padding-bottom: 5vh;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 10;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .photo-banner {
@@ -1419,6 +1419,10 @@ body .slick-dots li button {
     width: 100%; 
     position: static; 
     transform: unset; 
+  }
+
+  #keyframe-works { 
+    flex-direction: column;
   }
 }
 
