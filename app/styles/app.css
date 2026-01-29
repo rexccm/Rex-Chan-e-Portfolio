@@ -726,11 +726,34 @@ body .slick-dots li button {
 }
 
 /* Gallery */
-.gallery {
+.gallery { 
+  position: relative; 
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   margin-block: calc(120vw / 19.2); 
   cursor: grab;
   transform: rotate(3deg) scale(1.2) skewX(0.01turn); 
+}
+
+.gallery:before, 
+.gallery:after { 
+  content: '';
+  top: 50%; 
+  position: absolute; 
+  display: block; 
+  width: 20%;
+  height: 100%;
+  z-index: 1; 
+  transform: translateY(-50%); 
+}
+
+.gallery:before { 
+  left: 0; 
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.4), transparent);
+}
+
+.gallery:after { 
+  right: 0; 
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4)); 
 }
 
 .gallery figure img {
@@ -1160,7 +1183,8 @@ body .slick-dots li button {
   left: 0; 
   position: fixed; 
   transform: translate(-45%, 45%); 
-  animation: wheelAnim 6s linear infinite;
+  animation: wheelAnim 6s linear infinite; 
+  pointer-events: none; 
 }
 
 /* Animations */
