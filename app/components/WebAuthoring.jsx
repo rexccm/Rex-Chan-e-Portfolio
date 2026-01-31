@@ -154,6 +154,9 @@ const WebAuthoring = () => {
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">Algorithm</h3>
+                    <ul className="related-career-history">
+                        <li>Education: Mathematics in Interactive Media (B+) | Integrated 2D and 3D Graphics Programming (A-)</li>
+                    </ul>
                     <p>Learned basic concepts of algorithm design.</p>
                     <section className="article-section">
                         <h4 className="section-heading">Control Structures</h4>
@@ -166,7 +169,7 @@ const WebAuthoring = () => {
                     <section className="article-section">
                         <h4 className="section-heading">Sorting</h4>
                         <ul id="control-structures">
-                            <li><b>Bubble Sort:</b> A sorting algorithm which continuously swapping items by moving the largest or smallest elements to the end of the list until they arrange in the correct order.</li>
+                            <li><b>Bubble Sort:</b> A sorting algorithm which continuously swapping element pairs by moving the largest or smallest elements to the end of the list until they arrange in the correct order.</li>
                             <li><b>Insertion Sort:</b> A sorting algorithm that iterates, removes one element from input list each repetition, finds the location it belongs within the sorted list, and insets it there until no input elements remain.</li>
                             <li><b>Selection Sort</b> A sorting algorithm that repeatedly finds the minimum or maximum element from the unsorted part of the list and swaps it with the element at the beginning of the unsorted section until the entire list is sorted.</li>
                         </ul>

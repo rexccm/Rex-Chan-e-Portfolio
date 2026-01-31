@@ -8,7 +8,7 @@ const Animation = () => {
                 <li>Projects: CLEARgo.com, Midea Eureka, Heybike</li>
             </ul>
             <p>Familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
-            <p>Trained by Japanese traditional animation education and learned animation theory which can transfer to web animation development.</p>
+            <p>Trained by Japanese traditional animation education and learned animation theory and practical skills which can transfer to web animation development.</p>
             <section className="article-section">
                 <h4>Animation Types</h4>
                 <ul id="animation-types">
@@ -25,13 +25,6 @@ const Animation = () => {
                     <li><b>Keyframes</b>: Keyframes are the major scenes in an action where that action ceases or change direction.</li>
                     <li><b>In-betweens</b>: Keyframes are the major scenes in an action where that action ceases or change direction.</li>
                 </ul>
-                <figure id="keyframing-practice">
-                    <ul id="keyframe-works">
-                        <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A1.png?v=1769701806" /></li>
-                        <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A4.png?v=1769701810" /></li>
-                    </ul>
-                    <figcaption>Keyframing Practice, 2022</figcaption>
-                </figure>
             </section>
             <section className="article-section">
                 <h4 className="section-heading">​Web Animation Methods</h4>
@@ -43,6 +36,23 @@ const Animation = () => {
                     <li><b>jQuery Effects:</b> jQuery provides simplification of commonly complex animation operations such as fade-in/out, slide-up/down, and animate, etc.</li>
                 </ul>
             </section>
+            <ul className="featured-works">
+                <li>
+                    <figure id="storybroad">
+                        <img id="storybroad" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/storyboard-of-graduation-project.png?v=1769440868" />
+                        <figcaption>Storybroad of Graduation Project, 2019</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure id="keyframing">
+                        <ul id="keyframe-works">
+                            <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A1.png?v=1769701806" /></li>
+                            <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A4.png?v=1769701810" /></li>
+                            </ul>
+                        <figcaption>Keyframing Practice, 2022</figcaption>
+                    </figure>
+                </li>
+            </ul>
         </section>
     ); 
 }; 

@@ -918,11 +918,16 @@ body .slick-dots li button {
   text-align: center;
 }
 
+#storybroad { 
+  max-width: 1040px; 
+}
+
 /* Featured Image List */
 .featured-works {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Education */
