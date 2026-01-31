@@ -628,8 +628,8 @@ section {
 
 .article-section {
   max-width: var(--page-width); 
-  margin: 0 auto 20px; 
-  padding: 0 20px; 
+  margin: 0 auto; 
+  padding: 40px 20px; 
 }
 
 .row { 
@@ -917,11 +917,12 @@ body .slick-dots li button {
 .featured-works figcaption { 
   width: fit-content; 
   min-width: 250px; 
-  min-height: 30px; 
   display: flex; 
   justify-content: center; 
   align-items: center; 
   text-align: center; 
+  margin-inline: auto; 
+  padding: 6px 12px; 
   background-color: lightyellow; 
   box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px; 
   transform: translateX(2px) translateY(-1px) rotate(3deg); 
