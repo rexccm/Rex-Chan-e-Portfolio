@@ -30,7 +30,7 @@ const Animation = () => {
                         <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A1.png?v=1769701806" /></li>
                         <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A4.png?v=1769701810" /></li>
                     </ul>
-                    <figcaption>Keyframing Pratice, 2022</figcaption>
+                    <figcaption>Keyframing Practice, 2022</figcaption>
                 </figure>
             </section>
             <section className="article-section">

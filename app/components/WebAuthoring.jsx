@@ -153,12 +153,24 @@ const WebAuthoring = () => {
                     </section>
                 </section>
                 <section className="article-section">
-                    <h3 className="section-heading">Control Structures</h3>
-                    <ul id="control-structures">
-                        <li><b>Sequence:</b> A series of statements executed one after another in the order they are listed.</li>
-                        <li><b>Selection:</b> It is used to choose between different paths of execution based on a condition.</li>
-                        <li><b>Iteration:</b> It allows the execution of one or more statements multiple times.</li>
-                    </ul>
+                    <h3 className="section-heading">Algorithm</h3>
+                    <p>Learned basic concepts of algorithm design.</p>
+                    <section className="article-section">
+                        <h4 className="section-heading">Control Structures</h4>
+                        <ul id="control-structures">
+                            <li><b>Sequence</b>: A series of statements executed one after another in the order they are listed.</li>
+                            <li><b>Selection</b>: It is used to choose between different paths of execution based on a condition.</li>
+                            <li><b>Iteration</b>: It allows the execution of one or more statements multiple times.</li>
+                        </ul>
+                    </section>
+                    <section className="article-section">
+                        <h4 className="section-heading">Sorting</h4>
+                        <ul id="control-structures">
+                            <li><b>Bubble Sort:</b> A sorting algorithm which continuously swapping items by moving the largest or smallest elements to the end of the list until they arrange in the correct order.</li>
+                            <li><b>Insertion Sort:</b> A sorting algorithm that iterates, removes one element from input list each repetition, finds the location it belongs within the sorted list, and insets it there until no input elements remain.</li>
+                            <li><b>Selection Sort</b> A sorting algorithm that repeatedly finds the minimum or maximum element from the unsorted part of the list and swaps it with the element at the beginning of the unsorted section until the entire list is sorted.</li>
+                        </ul>
+                    </section>
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">OOP</h3>

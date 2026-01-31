@@ -23,12 +23,23 @@ const Design = () => {
                 </section>
                 <section className="article-section">
                     <h5>Visual Elements</h5>
+                    <ul>
+                        <li>Point, Line and Shape</li>
+                        <li>Chromatics</li>
+                        <li>Pattern</li>
+                        <li>Lighting and Shading</li>
+                        <li>Texture</li>
+                    </ul>
                 </section>
                 <section className="article-section">
                     <h5>Design Principles</h5>
                 </section>
+                <section>
+                    <h5>Composition</h5>
+                </section>
                 <section className="article-section">
                     <h5>Deformation</h5>
+                    <p>Deformation, or known as stylization, is to transform a natural object into stylized imagery through  by designer.</p>
                     <ul>
                         <li><b>Simplification</b></li>
                         <li><b>Exaggeration</b></li>
@@ -40,14 +51,19 @@ const Design = () => {
                 <h4>UX</h4>
                 <p>User Experience (UX)</p>
                 <section className="article-section">
+                    <h5>Feedback</h5>
+                    <p>We should visualize state changes through visual cues and animations to draw attention and explain to end-users about their actions and the system's responses.</p>
+                    <p>For progress of a task, we should provide the degree of completion to indicate the current status and expected completion time.</p>
+                </section>
+                <section className="article-section">
                     <h5>Storytelling</h5>
                     <p>Storytelling uses spatial and temporal signs to convey experience consists of narrative, emotion and aesthetic qualities in imagination of a user.</p>
                     <p>One of the strength strategies is to use storytelling to take a non-tangible concept and making it relatable through concrete ideas.</p>
                 </section>
                 <section className="article-section">
-                    <h5>Feedback</h5>
-                    <p>We should visualize state changes through visual cues and animations to draw attention and explain to end-users about their actions and the system's responses.</p>
-                    <p>For progress of a task, we should provide the degree of completion to indicate the current status and expected completion time.</p>
+                    <h5>Branding</h5>
+                    <p>Branding refers to a specific style of fonts, layouts, animation, interactions, and visual elements used in the presentation of information system by organizations.</p>
+                    <p>Unified styles enable users to associate a particular organization with a professional brand image represented by its assaesthetic qualities, timing of animations, and usability of interactions.</p>
                 </section>
             </section>
             
