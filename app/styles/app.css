@@ -919,6 +919,7 @@ body .slick-dots li button {
 }
 
 #storybroad { 
+  width: 100%; 
   max-width: 1040px; 
 }
 
