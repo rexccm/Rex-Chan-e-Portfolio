@@ -89,6 +89,7 @@ export default function Homepage() {
       <BackendDevelopment />
       <Design />
       <Certification />
+      {/*
       <section className="education">
         <h3 className="section-title">Education</h3>
         <ul className="education-list">
@@ -116,6 +117,7 @@ export default function Homepage() {
           })}
         </ul>
       </section>
+      */}
       {/* <FeaturedCollection collection={data.featuredCollection} /> */}
       {/* <RecommendedProducts products={data.recommendedProducts} /> */}
     </div>
