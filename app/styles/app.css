@@ -914,8 +914,17 @@ body .slick-dots li button {
   max-width: 520px; 
 }
 
-#keyframing-practice figcaption { 
-  text-align: center;
+.featured-works figcaption { 
+  width: fit-content; 
+  min-width: 250px; 
+  min-height: 30px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  background-color: lightyellow; 
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px; 
+  transform: translateX(2px) translateY(-1px) rotate(3deg); 
 }
 
 #storybroad { 
