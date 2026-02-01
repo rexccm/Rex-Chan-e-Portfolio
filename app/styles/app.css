@@ -702,7 +702,8 @@ header .logo {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
+  align-items: center; 
+  margin-bottom: 20px; 
 }
 
 .slick-dots li { 
