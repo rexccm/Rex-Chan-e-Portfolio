@@ -10,12 +10,19 @@ const WebAuthoring = () => {
                     </ul>
                     <p>Experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
                     <figure>
+                        <table>
+                            <tbody>
+                                <tr><td>Content Layer</td></tr>
+                                <tr><td>Presentation Layer</td></tr>
+                                <tr><td>Behaviour Layer</td></tr>
+                            </tbody>
+                        </table>
                         <figcaption>Web Development Layers</figcaption>
                     </figure>
                     <ul id="web-development-layers">
-                        <li><b>Content Layer: </b>This layer is created in HyperText Markup Language (HTML) which contains the structure comprised of document type definition (doctype), tags, and character entities, and contents such as text, images, videos, and hyperlinks of web pages.</li>
-                        <li><b>Presentation Layer: </b>This layer is created in Cascading Style Sheets (CSS) which defines the appearance including the global, local, and pseudo styles, layout systems, media queries, and animations of web pages.</li>
-                        <li><b>Behaviour Layer: </b>This layer is created in scripting language, often JavaScript, which implements event-driven, functional, and imperative logic, document object model (DOM) manipulation, and Web APIs.</li>
+                        <li><b>Content Layer</b>: This layer is created in HyperText Markup Language (HTML) which contains the structure comprised of document type definition (doctype), tags, and character entities, and contents such as text, images, videos, and hyperlinks of web pages.</li>
+                        <li><b>Presentation Layer</b>: This layer is created in Cascading Style Sheets (CSS) which defines the appearance including the global, local, and pseudo styles, layout systems, media queries, and animations of web pages.</li>
+                        <li><b>Behaviour Layer</b>: This layer is created in scripting language, often JavaScript, which implements event-driven, functional, and imperative logic, document object model (DOM) manipulation, and Web APIs.</li>
                     </ul>
                 </section>
                 <section id="ui-slicing" className="article-section">
@@ -155,7 +162,7 @@ const WebAuthoring = () => {
                 <section className="article-section">
                     <h3 className="section-heading">Algorithm</h3>
                     <ul className="related-career-history">
-                        <li>Education: Mathematics in Interactive Media (B+) | Integrated 2D and 3D Graphics Programming (A-)</li>
+                        <li>Education:  (A-)</li>
                     </ul>
                     <p>Learned basic concepts of algorithm design.</p>
                     <section className="article-section">
