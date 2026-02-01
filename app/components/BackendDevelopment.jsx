@@ -101,7 +101,7 @@ const BackendDevelopment = () => {
             <ul className="featured-works">
                 <li className="featured-work">
                     <figure className="presentation-video">
-                        <video controls autoplay muted loop>
+                        <video controls autoPlay muted loop>
                             <source src="https://cdn.shopify.com/videos/c/o/v/2da43598b08c48e089a7b82b76a3088d.mp4" type="video/mp4" />
                         </video>
                         <figcaption>Signup and Login System, 2018</figcaption>
