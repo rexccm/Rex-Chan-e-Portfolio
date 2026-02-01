@@ -805,12 +805,6 @@ body .slick-dots li button {
     padding-block: 10px;
 }
 
-.gallery figcaption {
-    font-weight: 700;
-    transform: scaleX(1.1);
-    font-size: 1.125rem;
-}
-
 /* Logo lists */
 .logo-list-container {
   width: fit-content; 
