@@ -1174,7 +1174,6 @@ body .slick-dots li button {
 	gap: 2.5rem; 
 	align-items: center; 
 	flex: 1; 
-	margin: 0; 
 }
 
 #state-management .ring { 
