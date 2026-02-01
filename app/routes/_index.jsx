@@ -11,7 +11,7 @@ import WebAuthoring from '~/components/WebAuthoring';
 import BackendDevelopment from '~/components/BackendDevelopment';
 import Design from '~/components/Design';
 import Certification from '~/components/Certification';
- 
+
 /**
  * @type {Route.MetaFunction}
  */
