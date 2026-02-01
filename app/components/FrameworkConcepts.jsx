@@ -23,9 +23,16 @@ const FrameworkConcepts = () => {
     <section id="framework" className="article-section">
       {/* Section header */}
       <article className="section-header">
-        <h2 className="section-heading">Modern Framework Concepts</h2>
+        <h2 className="section-heading">Modern Frontend Framework</h2>
         <p className="description">I practice the following concepts of modern frontend web frameworks during development.</p>
       </article>
+
+      {/* Related career history */}
+      <ul className="related-career-history">
+        <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Logic and Artificial Intelligence in Games (B+)</li>
+        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
+        <li>Projects: Telford (Tao Ti), e-Portfolio</li>
+      </ul>
 
       {/* FSM */}
       <article id="fsm" className="section-header">

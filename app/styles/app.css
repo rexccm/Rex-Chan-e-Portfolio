@@ -12,6 +12,9 @@
   /* Monochrome */
   --color-content: #5E6C6D; 
   --color-white: #FFFFFF; 
+  --color-lightgrey: #C0C0C0; 
+  --color-grey: #808080; 
+  --color-darkgrey: #404040; 
   --color-black: #0A0A0A; 
   --color-lightgrey: #C5C5C5; 
 
@@ -641,10 +644,13 @@ section {
   margin-bottom: 20px; 
 }
 
-.section-heading:first-letter {
-  color: var(--color-secondary); 
+.section-heading { 
+  text-shadow: 1px 1px 2px var(--color-lightgrey); 
 }
 
+.section-heading:first-letter { 
+  color: var(--color-secondary); 
+}
 
 /* Figure */
 figure { 
@@ -678,8 +684,12 @@ main table, main th, main td {
   padding: 0; 
 }
 
+main th, 
 main td { 
   padding: 4px 12px; 
+}
+
+main td { 
   text-align: center;
 }
 
@@ -958,6 +968,49 @@ body .slick-dots li button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* OOP */
+.viewmodel-figure-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: calc(64vw / 19.2);
+	justify-content: center;
+	align-items: center;
+}
+
+.viewmodel-figure-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.viewmodel-figure {
+	width: fit-content;
+	border-collapse: collapse;
+}
+
+.viewmodel-figure-wrapper th {
+	background-color: darkcyan;
+	color: #FFFFFF;
+	border: 1px solid darkcyan;
+	border-collapse: collapse;
+}
+
+.viewmodel-figure-wrapper tr,
+.viewmodel-figure-wrapper td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.viewmodel-figure-wrapper ul {
+	list-style-position: inside;
+	list-style-type: '+ ';
+}
+
+.viewmodel-figure-wrapper .operation-item {
+	line-height: 140%;
+	margin-bottom: 0;
 }
 
 /* Education */

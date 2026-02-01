@@ -195,29 +195,55 @@ const WebAuthoring = () => {
                         <li><b>Inheritance:</b> Allowing a class or prototype to inherit properties and methods from its parent class or prototype.</li>
                         <li><b>Polymorphism:</b> Enabling objects of different types to be treated as instances of the same type through a common interface.</li>
                     </ul>
-                </section>
-                <section className="article-section">
-                    <h3 className="section-heading">Modern Frontend Frameworks</h3>
-                    <ul className="related-career-history">
-                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Logic and Artificial Intelligence in Games (B+)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Projects: Telford (Tao Ti), e-Portfolio</li>
-                    </ul>
-                    <p>Practiced the following concepts of modern frontend web frameworks during development.</p>
-                    <section className="article-section">
-                        <h4>FSM</h4>
-                        <p>Finite-state machine (FSM) is a design pattern applied in modern frontend web frameworks which provide a clear representation of a finite number of states with transitions between these states triggered by events or specific conditions.</p>
-                    </section>
-                    <section className="article-section">
-                        <h4>State Management</h4>
-                        <p>The view updates automatically through data-binding when the state of data model changes so as to synchronize state and visual presentation. For instance, Knockout observables, React hooks, and Vue Reactivity APIs are variants of reactive state managment system.</p>
-                        <p>State management is a self-contained system consists of three parts:</p>
-                        <ul>
-                            <li><b>State:</b> The source of truth of a web application at a specific point in time that is carried by the observable properties. e.g. a string, an integer, a boolean, or an array.</li>
-                            <li><b>View:</b> A declarative presentation of user interface mapping the current state. e.g. an unordered list mapping with data in repetitive structure.</li>
-                            <li><b>Actions:</b> The events or transition condition that trigger updates in the state based on user input. e.g. a click event, a mouseover event, a keyup event, or an input value.</li>
-                        </ul>
-                    </section>
+                        <div class="viewmodel-figure-container">
+                            <div class="viewmodel-figure-wrapper">
+                                <table class="viewmodel-figure">
+                                <tr>
+                                    <th class="classifier-name">ClassifierName</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <ul class="attribute-list">
+                                        <li class="operation-item">attribute: type</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <ul class="operation-list">
+                                    <li class="operation-item">operation(parameter: type): returnType</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                </table>
+                                <figcaption class="figure-caption">UML Class (Prototype) Diagram</figcaption>
+                            </div>
+                            <div class="viewmodel-figure-wrapper">
+                                <table class="viewmodel-figure">
+                                <tr>
+                                    <th class="classifier-name">WarningBlock</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <ul class="attribute-list">
+                                        <li class="operation-item">color: string</li>
+                                        <li class="operation-item">fontWeight: string</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    <ul class="operation-list">
+                                    <li class="operation-item">setColor(color: string): void</li>
+                                    <li class="operation-item">setFontWeight(fontWeight: string): void</li>
+                                    <li class="operation-item">changeWarningState(): void</li>
+                                    </ul>
+                                    </td>
+                                </tr>
+                                </table>
+                                <figcaption class="figure-caption">WarningBlock Diagram</figcaption>
+                            </div>
+                        </div>
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">Web Components</h3>
