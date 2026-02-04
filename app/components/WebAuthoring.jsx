@@ -147,7 +147,7 @@ const WebAuthoring = () => {
                         </section>
                         <section className="article-section">
                             <h4>Collision Detection</h4>
-                            <p>Rather than checking the actual shape of the object, graphic programmers often use the following bounding areas to detect if the both of the bounding areas intersect to each other.</p>
+                            <p>Rather than checking the actual shape of the object, graphics programmers often use the following bounding areas to detect if the both of the bounding areas intersect to each other.</p>
                             <ul id="collision-detection">
                                 <li><b>AABB</b>: The axis-aligned bounding box (AABB) is a rectecgular box surrounding an object defined by minimum and maximum corner points on x-axis, y-axis, and z-axis of the minimum 2D/3D space which is used in the simplest and fastest collision detection by checking if all their axis-projected shadows overlap.</li>
                                 <li><b>Bounding Sphere</b>: The bounding sphere enclosing an object which used in hit detection by comparing the radius versus the distance between the center and the hitpoint.</li>

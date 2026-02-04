@@ -41,6 +41,12 @@ const Design = () => {
                     </section>
                     <section className="article-section">
                         <h6 className="section-heading">Chromatics</h6>
+                        <p>French chemist Chevreul introduced the principles of harmony and contrast of colours which considered as the basis of colour scheme. He proposed that there are two types of harmony: similarity and contrast.</p>
+                        <p>The harmony of similarity conveys the mood of peace while harmony of contrasts express dynamism.</p>
+                        <ul id="type-of-harmony">
+                            <li><b>Harmony of Similarity</b>: Combinations of similar hues, lightness, and saturation are harmonious.</li>
+                            <li><b>Harmony of Contrasts</b>: Colours of the same or adjacent hues which are contrasting in lightness, or colours far apart on hue which have contrasting lightness and saturation are harmonious.</li>
+                        </ul>
                         <figure id="colour-codes">
                             <table>
                                 <thead>
