@@ -164,7 +164,7 @@ const WebAuthoring = () => {
                 <section className="article-section">
                     <h3 className="section-heading">Algorithm</h3>
                     <ul className="related-career-history">
-                        <li>Education:  (A-)</li>
+                        <li>Education: Data Structure and Algorithms (B+)</li>
                     </ul>
                     <p>Learned basic concepts of algorithm design.</p>
                     <section className="article-section">
@@ -178,9 +178,10 @@ const WebAuthoring = () => {
                     <section className="article-section">
                         <h4 className="section-heading">Sorting</h4>
                         <ul id="control-structures">
-                            <li><b>Bubble Sort:</b> A sorting algorithm which continuously swapping element pairs by moving the largest or smallest elements to the end of the list until they arrange in the correct order.</li>
+                            <li><b>Bubble Sort:</b> A sorting algorithm that continuously swapping element pairs by moving the largest or smallest elements to the end of the list until they arrange in the correct order.</li>
                             <li><b>Insertion Sort:</b> A sorting algorithm that iterates, removes one element from input list each repetition, finds the location it belongs within the sorted list, and insets it there until no input elements remain.</li>
-                            <li><b>Selection Sort</b> A sorting algorithm that repeatedly finds the minimum or maximum element from the unsorted part of the list and swaps it with the element at the beginning of the unsorted section until the entire list is sorted.</li>
+                            <li><b>Selection Sort</b>: A sorting algorithm that repeatedly finds the minimum or maximum element from the unsorted part of the list and swaps it with the element at the beginning of the unsorted section until the entire list is sorted.</li>
+                            <li><b>Merge Sort</b>: A sorting algorithm that divides a sequence into multiple levels of subsequences, sorts the subsequences recursively, and then merge the pairs of sorted subsequences.</li>
                         </ul>
                     </section>
                 </section>
