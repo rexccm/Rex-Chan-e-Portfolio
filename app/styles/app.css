@@ -793,6 +793,7 @@ body .slick-dots li button {
   height: 100%;
   z-index: 1; 
   transform: translateY(-50%); 
+  pointer-events: none;
 }
 
 .gallery:before { 
