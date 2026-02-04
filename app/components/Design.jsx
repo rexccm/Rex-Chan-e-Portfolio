@@ -31,13 +31,22 @@ const Design = () => {
                         <li>Texture</li>
                     </ul>
                     <section className="article-section">
+                        <h6 className="section-heading">Shape</h6>
+                        <p>Every objects can be deconstruct into geometric shapes which convey different mood: </p>
+                        <ul id="geometric-shapes">
+                            <li><b>Circle</b>: Circles conveys soft, welcoming, and warm on the grounds of their round edges.</li>
+                            <li><b>Square</b>: Squares conveys stability, quiet, and serious because of their balance and angularity.</li>
+                            <li><b>Triangle</b>: Triangle conveys dynamic and dangerous because of their shape characteristics of the edges.</li>
+                        </ul>
+                    </section>
+                    <section className="article-section">
                         <h6 className="section-heading">Chromatics</h6>
                         <figure id="colour-codes">
                             <table>
                                 <thead>
                                     <tr>
                                         <th>Amount of Light (colour)</th>
-                                        <td>HEX Code</td>
+                                        <th>HEX Code</th>
                                     </tr>
                                 </thead>
                                 <tbody>
