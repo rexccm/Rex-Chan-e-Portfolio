@@ -96,12 +96,14 @@ const WebAuthoring = () => {
                         <p>Extensible Markup Language (XML) is a markup language which represents data as tag-based tree structure in data interchange.</p>
                         <p>Unlike JSON, XML uses namespaces to distinguish between properties that are different but share the same name.</p>
                         <p>While JSON limited data types to basic types, XML supports many complex data types.</p>
+                        <p>XML has to be parsed with an XML parser.</p>
                     </section>
                     <section className="article-section">
                         <h4 className="section-heading">JSON</h4>
                         <p>JavaScript Object Notation (JSON) is the most popular interchange language in modern web development since JSON is directly understandable to JavaScript on the grounds of vast majority of JavaScript popularity.</p>
                         <p>JSON is a lightweight interchange format which is parsed quicker than XML with less computational resource usage.</p>
                         <p>JSON uses a map with key-value pairs while it can use array in value.</p>
+                        <p>Unlike XML, JSON can be directly parsed by a standard JavaScript function.</p>
                     </section>
                 </section>
                 <section className="article-section">
@@ -249,10 +251,23 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">Web Components</h3>
                     <ul className="related-career-history">
                         <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
-                        <li>Projects: Broadway Lifestyle, South Stream, nextCIGAR</li>
+                        <li>Projects: Broadway Lifestyle, Heybike, nextCIGAR</li>
                     </ul>
+                    <p>Web Components refers to a set of web native APIs which allows web developers to create reusable modular custom elements.</p>
                     <section className="article-section">
-                        <h4>Custom Elements</h4>
+                        <h4>Custom Element</h4>
+                        <p>Custom elements are HTML element which allow web developers to define their own properties, behaviors, and styles.</p>
+                        <p>A custom element is implemented as a class that extends the base class HTMLElement or standard HTML elements such as HTMLParagraphElement) and img (HTMLImageElement).</p>
+                        <p>After defining the class, we must register the custom element to the current page and start using it in our code.</p>
+                        <p>The Custom Elements API provides lifecycle callbacks including connectedCallback and disconnectedCallback that enable us to register and unregister events.</p>
+                        <section className="article-section">
+                            <h5>Custom State</h5>
+                            <p>The CustomStateSet and :state() are mechanisms for defining and managing custom state within custom elements based on state management. </p>
+                            <ul className="custom-state-mechanisms">
+                                <li><b>CustomStateSet</b>: The CustomStateSet interface stores an ordered list of state values for an custom element and allows states to be added and removed from the set.</li>
+                                <li><b>:state()</b>: The :state() pseudo-class allows for styling based on the current state of the element.</li>
+                            </ul>
+                        </section>
                     </section>
                     <section className="article-section">
                         <h4>Shadow DOM</h4>
@@ -262,17 +277,21 @@ const WebAuthoring = () => {
                             <li><b>Shadow Root:</b> The root node of the shadow DOM tree.</li>
                             <li><b>Shadow Tree:</b> The DOM subtree within the shadow root that contains the elements and styles encapsulated from the light DOM.</li>
                         </ul>
+                        <section className="article-section">
+                            <h5>Slots</h5>
+                            <p>Slots only exist in Shadow DOM and act as placeholder to get content from Light DOM.</p>
+                            <p>It allows us to build web components modularly while we can modify component instances to hold different components so as to offer more flexibility and versatility.</p>
+                            <p>In shadow DOM, slot element with attribute name="X" defines an insertion point to render elements with attribute slot="X".</p>
+                            <p>For rendering purposes for each slot element with attribute name="X" in Shadow DOM, the browser looks for slot="X" with the same name in the light DOM.</p>
+                            <p>The slot attribute is only valid for top-level children of the shadow host while the grandchildren with this attribute are ignored.</p>
+                            <p>The multiple elements in light DOM are appended into the slot one after another if they have the same name.</p>
+                        </section>
                     </section>
                     <section className="article-section">
-                        <h4>HTML Templates</h4>
-                    </section>
-                    <section className="article-section">
-                        <h4>Custom State</h4>
-                        <p>The CustomStateSet and :state() are mechanisms for defining and managing custom state within custom elements based on state management. </p>
-                        <ul className="custom-state-mechanisms">
-                            <li><b>CustomStateSet</b>: The CustomStateSet interface stores an ordered list of state values for an custom element and allows states to be added and removed from the set.</li>
-                            <li><b>:state()</b>: The :state() pseudo-class allows for styling based on the current state of the element.</li>
-                        </ul>
+                        <h4>HTML Template</h4>
+                        <p>A template is a declarative element to define a reusable snippet of HTML that can be cloned and inserted in the document by script while the browser ignores templates when loading DOM content.</p>
+                        <p>We can create multiple instances of the same HTML with dynamic content without having to rewrite values inside the code by using standard DOM manipulation APIs.</p>
+                        <p>Each template element has an associated DocumentFragment object as template content.</p>
                     </section>
                 </section>
                 <section className="article-section">
