@@ -5,7 +5,6 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">Web Authoring</h3>
                     <ul className="related-career-history">
                         <li>Education: E-Commerce and Web Application Development (B+) | Certificate of Front-End Web Developer (CLAP@JC)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, HiPP, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
                     </ul>
                     <p>Experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
@@ -29,7 +28,6 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">UI Slicing</h3>
                     <ul>
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, Telford (Tao Ti), HiPP, Heybike, South Stream, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson), e-Jacob</li>
                     </ul>
                     <section className="article-section">
@@ -64,7 +62,6 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">Interactions​</h3>
                     <ul className="related-career-history">
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Internet Programming (A-)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, Heybike, Midea Eureka, Telford (Tao Ti), nextCIGAR, South Stream, CLEARgo.com</li>
                     </ul>
                     <p>Created interactions to give feedback and enrich the user experience (UX) for end-users when they are browsing web pages.</p>
@@ -110,7 +107,6 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">AJAX</h3>
                     <ul className="related-career-history">
                         <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Internet Programming (A-)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                     </ul>
                     <p>Asynchronous JavaScript and XML (AJAX) is a set of web development techniques that allows client-side scripts send requests to the web server programs in an asynchronous format without reloading the entire page.</p>
                     <p>Web server response was in XML format in the early days of AJAX, but most modern web services use JSON format for data interchange.</p>
@@ -119,7 +115,6 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">Computer Graphics Programming</h3>
                     <ul className="related-career-history">
                         <li>Education: Mathematics in Interactive Media (B+) | Integrated 2D and 3D Graphics Programming (A-)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: CLEARgo.com, Integrated 2D and 3D Graphics Programming Project</li>
                     </ul>
                     <p>Created scrolling event-driven 3D transformation animation including rotation and translation for CLEARgo oversea expansion page using Three.js library on WebGL environment.</p>
@@ -197,7 +192,6 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">OOP</h3>
                     <ul className="related-career-history">
                         <li>Education: Object Oriented Programming (B)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, South Stream, Heybike, nextCIGAR, HiPP</li>
                     </ul>
                     <p>Objects are instances of classes or prototypes while classes or prototypes define the attributes and behavior of objects. There are three features of OOP: </p>
@@ -259,7 +253,6 @@ const WebAuthoring = () => {
                 <section className="article-section">
                     <h3 className="section-heading">Web Components</h3>
                     <ul className="related-career-history">
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, Heybike, nextCIGAR</li>
                     </ul>
                     <p>Web Components refers to a set of web native APIs which allows web developers to create reusable modular custom elements.</p>
@@ -306,7 +299,6 @@ const WebAuthoring = () => {
                 <section className="article-section">
                     <h3 className="section-heading">Headless CMS</h3>
                     <ul className="related-career-history">
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Telford (Tao Ti), e-Porfolio</li>
                     </ul>
                     <p>Worked on headless content management systems (Headless CMS) included Shopify Hydrogen and Magento PWA Studio which decoupled frontend from backend repository and allow for independent scalability and provided better security.</p>
@@ -321,7 +313,6 @@ const WebAuthoring = () => {
                     <h3 className="section-heading">SEO</h3>
                     <ul className="related-career-history">
                         <li>Education: Certificate of Fundamentals of Digital Marketing (Google) | Certificate of Front-End Web Developer (CLAP@JC)</li>
-                        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                         <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka, CLEARgo.com</li>
                     </ul>
                     <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>

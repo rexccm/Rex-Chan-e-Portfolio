@@ -30,7 +30,6 @@ const FrameworkConcepts = () => {
       {/* Related career history */}
       <ul className="related-career-history">
         <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Logic and Artificial Intelligence in Games (B+)</li>
-        <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
         <li>Projects: Telford (Tao Ti), e-Portfolio</li>
       </ul>
 

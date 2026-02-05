@@ -4,7 +4,6 @@ const Animation = () => {
             <h3 className="section-heading">Animation</h3>
             <ul className="related-career-history">
                 <li>Education: Introduction to 3D Animation (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
-                <li>Experience: Junior Web Developer, Frontend Team (CLEARgo)</li>
                 <li>Projects: CLEARgo.com, Midea Eureka, Heybike</li>
             </ul>
             <p>Familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
