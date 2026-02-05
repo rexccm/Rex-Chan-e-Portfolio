@@ -1297,6 +1297,39 @@ body .slick-dots li button {
   pointer-events: none; 
 }
 
+.colour-scheme-wrapper {
+  width: 100%; 
+  max-width: 400px; 
+  height: 40px; 
+  display: flex; 
+  margin: 0 auto 20px; 
+}
+
+.colour-scheme-wrapper > div {
+  height: calc(100% - 2px); 
+  border: 1px solid #000000; 
+  border-right: none; 
+}
+
+.colour-scheme-wrapper > div:last-child {
+  border-right: 1px solid #000000; 
+}
+
+.primary-colour {
+  width: 60%; 
+  background-color: var(--color-primary); 
+}
+
+.secondary-colour {
+  width: 30%; 
+  background-color: var(--color-secondary); 
+}
+
+.accent-colour {
+  width: 10%; 
+  background-color: var(--color-orange); 
+}
+
 /* Animations */
 @keyframes logoAnim {
   0% { 
