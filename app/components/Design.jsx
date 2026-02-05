@@ -23,6 +23,15 @@ const Design = () => {
                     </section>
                 </section>
                 <section className="article-section">
+                    <h5 className="article-section">Aesthetic Theories​</h5>
+                    <p>There are three common aesthetic theories concerning different aesthetic qualities in art criticism: </p>
+                    <ul id="aesthetic-theories">
+                        <li><b>Imitationalism</b>: Imitationalists think that the most important aesthetic qualities of an artwork is the literal qualities. The literal qualities are the realistic presentation of subject matter of an artwork. In their opinion, an artwork can be considered successful if it looks like and reminds the view of what they see in the reality. The Renaissance painter Leonardo da Vinci is a famous Imitationalist who claimed that the painting which is most like nature is the best.</li>
+                        <li><b>Formalism</b>: In formalism​, an artwork is a significant form while formalists mainly concern with design qualities of an artwork. Significant form is a collection of visual elements and design principles that bring viewers aesthetic pleasure. The formalist Clive Bell stated that we need to bring nothing but a sense of form and colour to appreciate a work of art. The modern Post-Impressionist painter Cezanne is one of the well-known formalists who believed all forms can be simplified as geometric forms.</li>
+                        <li><b>Emotionalism</b>: Emotionalists claim that no object can be considered art if it fails to arouse an emotional response in the viewer through the expressive qualities. The expressive qualities are qualities which convey ideas, moods, and feelings we can notice when we study the content of an artwork. The early medieval Chinese painter Gu Kaizhi can be viewed as an Emotionalist since he pointed out the importance of temperament over form.</li>
+                    </ul>
+                </section>
+                <section className="article-section">
                     <h5 className="section-heading">Visual Elements</h5>
                     <ul>
                         <li>Point, Line and Shape</li>
@@ -93,9 +102,9 @@ const Design = () => {
                     <h5>Deformation</h5>
                     <p>Deformation, also known as stylization, is a technique used to transform a natural subject into stylized imagery through intentional approaches by designer.</p>
                     <ul>
-                        <li><b>Simplification</b></li>
-                        <li><b>Exaggeration</b></li>
-                        <li><b>Distortion</b></li>
+                        <li><b>Simplification</b>: Simplification reduces visual noise and complexity of the design so as to create a clear output.</li>
+                        <li><b>Exaggeration</b>: Exaggeration helps us to express the differences of the subject better.</li>
+                        <li><b>Distortion</b>: Distortion intentionally alters natural characteristics to evoke emotion or movement.</li>
                     </ul>
                 </section>
             </section>
