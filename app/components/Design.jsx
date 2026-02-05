@@ -10,8 +10,9 @@ const Design = () => {
             <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
             <section className="article-section">
                 <h4>UI</h4>
+                <p>User interface (UI)</p>
                 <section className="article-section">
-                    <h5>Semiotics</h5>
+                    <h5 className="article-section">Semiotics</h5>
                     <section className="article-section">
                         <h6>Paradigms and Syntagms</h6>
                         <p>In semiotics, all relations on a canvas are either paradigmatic or syntagmatic; an artwork is thus constructed at the intersection of the paradigmatic and syntagmatic axes.</p>

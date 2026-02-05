@@ -64,27 +64,29 @@ const BackendDevelopment = () => {
                     </ul>
                 </section>
                 <section className="article-section">
-                    <h5>Schema</h5>
-                </section>
-                <section className="article-section">
-                    <h5>Data Dictionary</h5>
-                    <p>A data dictionary is a collection of table structure which explains an unfamiliar dataset and clarify the meanings of various data terms to developers and users by listing codes, data types, lengths, examples, and descriptions of the fields.</p>
-                </section>
-                <section>
-                    <h5>Data Redundancy</h5>
-                    <p>Data redundancy refers to repetition of data stored in different locations. Storing same data redundantly in more than one place within a database can lead to anomalies.</p>
-                    <ul>
-                        <li><b>Update Anomalies</b>: Once one copy of repeated data is updated, inconsistency is created unless all copies updated.</li>
-                        <li><b>Insertion Anomalies</b>: It may not be possible to store some data unless the other is stored as well.</li>
-                        <li><b>Deletion Anomalies</b>: It may not be possible to drop some data unless the other is dropped as well.</li>
+                    <p>Data modeling is the process of creating visual representations of data and their relationships.</p>
+                    <p>Data modeling translates reality into models in order to analyze the client requirements of data storage and required information.</p>
+                    <p>By defining data and their relationships, developers organize information to support efficient storage so as to improve performance and decision-making.</p>
+                    <p>Data modeling employs standardized techniques including schema, ER Diagram, and data dictionary to provide a common, consistent, and predictable way of data management.</p>
+                    <ul id="data-modeling-techniques">
+                        <li><b>Schema</b></li>
+                        <li><b>ER Diagram</b></li>
+                        <li><b>Data Dictionary</b>: A data dictionary is a collection of table structures which explains an unfamiliar dataset and clarifies the meanings of various data terms to developers and users by listing codes, data types, lengths, examples, and descriptions of the fields.</li>
                     </ul>
                 </section>
+                
                 <section className="article-section">
                     <h5>Normalization</h5>
                     <p>Normalization is a systematic approach of decomposing tables to eliminate data redundancy. A flat file database store all the data in one table which led to anomalies.</p>
-                </section>
-                <section className="article-section">
-                    <h5>ER Diagram</h5>
+                    <section className="article-section">
+                        <h6>Data Redundancy</h6>
+                        <p>Data redundancy refers to repetition of data stored in different locations. Storing same data redundantly in more than one place within a database can lead to anomalies.</p>
+                        <ul>
+                            <li><b>Update Anomalies</b>: Once one copy of repeated data is updated, inconsistency is created unless all copies updated.</li>
+                            <li><b>Insertion Anomalies</b>: It may not be possible to store some data unless the other is stored as well.</li>
+                            <li><b>Deletion Anomalies</b>: It may not be possible to drop some data unless the other is dropped as well.</li>
+                        </ul>
+                    </section>
                 </section>
                 <section className="article-section">
                     <h5>SQL</h5>
@@ -101,7 +103,7 @@ const BackendDevelopment = () => {
             <ul className="featured-works">
                 <li className="featured-work">
                     <figure className="presentation-video">
-                        <video controls autoPlay muted loop>
+                        <video autoPlay muted loop>
                             <source src="https://cdn.shopify.com/videos/c/o/v/2da43598b08c48e089a7b82b76a3088d.mp4" type="video/mp4" />
                         </video>
                         <figcaption>Signup and Login System, 2018</figcaption>
