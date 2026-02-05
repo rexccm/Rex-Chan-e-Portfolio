@@ -152,6 +152,7 @@ const WebAuthoring = () => {
                     <section className="article-section">
                         <h3 className="section-heading">Computer Graphics Programming</h3>
                         <p>Rasterizers like WebGL and DirectX convert 3D vector primitives included triangles (polygons), points (vertices), and lines (edges) into 2D pixel-based graphics on the screen.</p>
+                        <p>The below is a project implemented AABB collision detection under DirectX environment.</p>
                         <section className="featured-gallery">
                             <h4 className="section-heading">Featured Works</h4>
                             <ul className="featured-works">
