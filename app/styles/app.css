@@ -645,11 +645,16 @@ section {
 }
 
 .section-heading { 
-  text-shadow: 1px 1px 2px var(--color-lightgrey); 
+  margin: 0 auto 20px;
+  font-size: 1.75rem;
 }
 
 .section-heading:first-letter { 
   color: var(--color-secondary); 
+}
+
+.related-career-history { 
+  margin-bottom: 20px; 
 }
 
 /* Figure */
