@@ -126,7 +126,7 @@ const Design = () => {
                         <li><b>Exaggeration</b>: Exaggeration helps us to express the differences of the subject better.</li>
                         <li><b>Distortion</b>: Distortion intentionally alters natural characteristics to evoke emotion or movement.</li>
                     </ul>
-                    <figure>
+                    <figure id="osh-manga">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/occupational-safety-and-health-manga-2022.jpg" />
                         <figcaption>Occupational Safety and Health Manga, 2022</figcaption>
                     </figure>

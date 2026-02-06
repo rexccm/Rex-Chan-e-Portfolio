@@ -1330,6 +1330,11 @@ body .slick-dots li button {
   background-color: var(--color-orange); 
 }
 
+#osh-manga > img { 
+  width: 100%; 
+  max-width: 800px; 
+}
+
 /* Animations */
 @keyframes logoAnim {
   0% { 
