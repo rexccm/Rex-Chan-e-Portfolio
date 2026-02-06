@@ -1362,7 +1362,7 @@ body .slick-dots li button {
 }
   
 #languages-container .language-list .language { 
-  width: 80px; 
+  width: calc(80vw / 19.2); 
   height: fit-content; 
   aspect-ratio: 1; 
   padding: 8px; 
@@ -1647,6 +1647,10 @@ body .slick-dots li button {
 	#state-management .ring .state-management-component { 
 		padding: calc(12vw / 13.66); 
 	}
+
+  #languages-container .language-list .language { 
+    width: calc(80vw / 13.66); 
+  }
 }
 
 /* Desktop */
@@ -1670,5 +1674,9 @@ body .slick-dots li button {
 
   #platforms .platform-list { 
     gap: 48px; 
+  }
+
+  #languages-container .language-list .language { 
+    width: 80px; 
   }
 }

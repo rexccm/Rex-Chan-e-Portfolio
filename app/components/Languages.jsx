@@ -7,9 +7,10 @@ const Languages = () => {
     { id: 3, logos:  ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/css-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/html-logo.png"] },
     { id: 4, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/bootstrap-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/slick-logo.png"] },
     { id: 5, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/jquery-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/three-js-logo.png"] },
-    { id: 6, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/php8-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/sql-logo.png?v=1770401524"] },
-    { id: 7, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/liquid-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/c-sharp-logo.png"] },
-  ];
+    { id: 6, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/php8-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/liquid-logo.png"] },
+    { id: 7, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/sql-logo.png?v=1770401524", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/graphql-logo.png"] },
+    { id: 8, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/c-sharp-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/java-logo.png"] },
+];
 
   return (
     <div id="languages-container" className="article-section">
