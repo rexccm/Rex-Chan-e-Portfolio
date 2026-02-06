@@ -149,10 +149,6 @@ export default function Summary({ content }) {
                         </ul>
                     </div>
                 </section>
-                <section id="page-header" className="article-section">
-                    <h3 className="section-heading">Knowledge Tree</h3>
-                    <p>The following presents my knowledge tree in the industry.</p>
-                </section>
             </article>
         </section>
     ); 

@@ -3,6 +3,7 @@ import {Suspense} from 'react';
 import {Image} from '@shopify/hydrogen';
 import {ProductItem} from '~/components/ProductItem';
 import Summary from '~/components/Summary';
+import Languages from '~/components/Languages';
 import Platforms from '~/components/Platforms';
 import FrameworkConcepts from '~/components/FrameworkConcepts';
 import ArtworkMarquee from '~/components/ArtworkMarquee';
@@ -81,6 +82,7 @@ export default function Homepage() {
   return (
     <div className="home">
       <Summary content={data.shopSummary} />
+      <Languages />
       <Platforms />
       <FrameworkConcepts />
       <ArtworkMarquee />

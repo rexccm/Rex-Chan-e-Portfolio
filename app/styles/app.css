@@ -1334,6 +1334,42 @@ body .slick-dots li button {
   width: 100%; 
   max-width: 800px; 
 }
+  
+#languages-container .language-list-wrapper { 
+  width: 100%; 
+}
+  
+#languages-container .language-list { 
+  position: relative; 
+  display: flex; 
+  justify-content: center; 
+  gap: 16px; 
+  margin: 0; 
+  padding: 20px 0; 
+}
+  
+#languages-container .language-list .logo-column { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+  animation: flowEffectEven 6s infinite; 
+}
+  
+#languages-container .language-list .logo-column:nth-child(odd) { 
+  transform: translateY(12px); 
+  animation: flowEffectOdd 12s infinite; 
+  animation-direction: reverse;
+}
+  
+#languages-container .language-list .language { 
+  width: 80px; 
+  height: fit-content; 
+  aspect-ratio: 1; 
+  padding: 8px; 
+  border-radius: 8px; 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; 
+  object-fit: contain; 
+}
 
 /* Animations */
 @keyframes logoAnim {
@@ -1389,6 +1425,32 @@ body .slick-dots li button {
 @keyframes wheelAnim { 
   0% { transform: translate(-45%, 45%) rotate(0); }
   100% { transform: translate(-45%, 45%) rotate(360deg); }
+}
+
+@keyframes flowEffectOdd { 
+  0% {
+    transform: translateY(12px); 
+  }
+    
+  50% { 
+    transform: translateY(-12px); 
+  }
+    
+  100% {
+    transform: translateY(12px); 
+  }
+}
+  
+@keyframes flowEffectEven {
+  0% {
+    transform: translateY(0); 
+  }
+  50% { 
+    transform: translateY(-24px); 
+  }
+  100% {
+    transform: translateY(0); 
+  }
 }
 
 /* Reponsive */
@@ -1552,6 +1614,14 @@ body .slick-dots li button {
 
   #keyframe-works { 
     flex-direction: column;
+  }
+
+  #languages-container .language-list { 
+    gap: 2.5vw; 
+  }
+
+  #languages-container .language-list .language { 
+    width: 5vw; 
   }
 }
 
