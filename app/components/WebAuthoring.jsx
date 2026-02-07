@@ -180,6 +180,10 @@ const WebAuthoring = () => {
                         </ul>
                     </section>
                     <section className="article-section">
+                        <h4 className="section-heading">Recursion</h4>
+                        <p>Recursion, also known as recursive call, is an problem-solving approach by using a function repeatly calling itself with its return valueto yield another return value until an answer is produced.</p>
+                    </section>
+                    <section className="article-section">
                         <h4 className="section-heading">Sorting</h4>
                         <ul id="control-structures">
                             <li><b>Bubble Sort:</b> A sorting algorithm that continuously swapping element pairs by moving the largest or smallest elements to the end of the list until they arrange in the correct order.</li>

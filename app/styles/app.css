@@ -1623,7 +1623,11 @@ body .slick-dots li button {
   }
 
   #languages-container .language-list { 
-    gap: 2.5vw; 
+    gap: 1.25vw; 
+  }
+
+  #languages-container .language-list .logo-column { 
+    gap: 1.25vw; 
   }
 
   #languages-container .language-list .language { 
