@@ -1323,11 +1323,31 @@ body .slick-dots li button {
   left: 50%; 
   position: absolute; 
   padding: 32px; 
-  border-top-left-radius: 2.5rem; 
-  border-bottom-right-radius: 2.5rem; 
   transform: translate(-50%, -50%); 
   backdrop-filter: blur(32px) invert(10%); 
-  overflow: hidden;
+}
+
+.animation-demos-container .description:before, 
+.animation-demos-container .description:after { 
+  content: ''; 
+  top: 0; 
+  left: 0; 
+  position: absolute; 
+  display: block; 
+  width: 16px; 
+  height: 16px; 
+  aspect-ratio: 1; 
+  border-radius: 50%; 
+  background-color: var(--color-secondary); 
+  box-shadow: var(--color-primary) 0px 7px 29px 0px; 
+  transform: translate(-50%, -50%); 
+  animation: orbitalAnimation1 9s forwards infinite; 
+}
+
+.animation-demos-container .description:after { 
+  top: 100%; 
+  left: 100%; 
+  animation: orbitalAnimation2 9s forwards infinite; 
 }
 
 .animation-demos-container .description * { 
@@ -1524,6 +1544,52 @@ body .slick-dots li button {
   }
 }
 
+@keyframes orbitalAnimation1 { 
+  0% {
+    top: 0; 
+    left: 0; 
+  }
+  25% {
+    top: 0; 
+    left: 100%; 
+  }
+  50% {
+    top: 100%; 
+    left: 100%; 
+  }
+  75% {
+    top: 100%; 
+    left: 0; 
+  }
+  100% {
+    top: 0; 
+    left: 0; 
+  }
+}
+
+@keyframes orbitalAnimation2 { 
+  0% {
+    top: 100%; 
+    left: 100%; 
+  }
+  25% {
+    top: 100%; 
+    left: 0; 
+  }
+  50% {
+    top: 0; 
+    left: 0; 
+  }
+  75% {
+    top: 0; 
+    left: 100%; 
+  }
+  100% {
+    top: 100%; 
+    left: 100%; 
+  }
+}
+
 /* Reponsive */
 /* Mobile */
 @media (max-width: 768px) { 
@@ -1699,6 +1765,11 @@ body .slick-dots li button {
     width: 5vw; 
   }
 
+  .article-section:has(> .animation-demos-container) { 
+    max-width: unset; 
+    padding: 72px 20px; 
+  }
+
   .animation-demos-container .section-header { 
     position: static; 
     transform: unset;
@@ -1739,6 +1810,11 @@ body .slick-dots li button {
 
   #languages-container .language-list .language { 
     width: calc(80vw / 13.66); 
+  }
+
+  .article-section:has(> .animation-demos-container) { 
+    max-width: unset; 
+    padding: 72px 20px; 
   }
 
   .animation-demos-container .section-header { 
