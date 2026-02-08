@@ -1275,6 +1275,71 @@ body .slick-dots li button {
   cursor: pointer;
 }
 
+/* Animation Demos */
+.article-section:has(> .animation-demos-container) { 
+  max-width: unset; 
+  padding: 72px 0;
+}
+
+.animation-demos-container { 
+  position: relative; 
+}
+
+.animation-demos-container .section-header { 
+  top: 0; 
+  left: 50%; 
+  position: absolute; 
+  text-align: center; 
+  transform: translateX(-50%); 
+}
+
+#animation-demos { 
+  display: flex; 
+  padding-block: calc(280vw / 19.2);
+  perspective: 1000px; 
+}
+
+#animation-demos li { 
+  flex: 1; 
+  margin: 0; 
+  padding: 0; 
+  transform-style: preserve-3d; 
+  transform: rotateY(50deg) scale(1.55); 
+}
+
+#animation-demos li:nth-child(even) { 
+  transform: rotateY(-50deg) scale(1.55);
+}
+
+#animation-demos li video { 
+  max-width: 100%; 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.animation-demos-container .description { 
+  top: 50%; 
+  left: 50%; 
+  position: absolute; 
+  padding: 32px; 
+  border-top-left-radius: 2.5rem; 
+  border-bottom-right-radius: 2.5rem; 
+  transform: translate(-50%, -50%); 
+  backdrop-filter: blur(32px) invert(10%); 
+  overflow: hidden;
+}
+
+.animation-demos-container .description * { 
+  font-size: calc(26vw / 19.2); 
+  color: var(--color-white); 
+  text-shadow: 2px 2px var(--color-secondary);
+}
+
+.animation-demos-container .description *:not(:last-child) { 
+  margin-bottom: 20px; 
+}
+
 /* Footer */
 /* WhatsApp */
 .whatsapp { 
@@ -1633,6 +1698,20 @@ body .slick-dots li button {
   #languages-container .language-list .language { 
     width: 5vw; 
   }
+
+  .animation-demos-container .section-header { 
+    position: static; 
+    transform: unset;
+  }
+
+  .animation-demos-container .description { 
+    position: static; 
+    transform: unset;
+  }
+
+  .animation-demos-container .description * { 
+    font-size: 1.25rem; 
+  }
 }
 
 /* Tablet */
@@ -1660,6 +1739,20 @@ body .slick-dots li button {
 
   #languages-container .language-list .language { 
     width: calc(80vw / 13.66); 
+  }
+
+  .animation-demos-container .section-header { 
+    position: static; 
+    transform: unset;
+  }
+
+  .animation-demos-container .description { 
+    position: static; 
+    transform: unset;
+  }
+
+  .animation-demos-container .description * { 
+    font-size: 1.25rem; 
   }
 }
 

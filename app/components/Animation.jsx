@@ -1,13 +1,32 @@
 const Animation = () => { 
     return (
         <section className="article-section">
-            <h3 className="section-heading">Animation</h3>
-            <ul className="related-career-history">
-                <li>Education: Introduction to 3D Animation (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
-                <li>Projects: CLEARgo.com, Midea Eureka, Heybike</li>
-            </ul>
-            <p>Familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
-            <p>Trained by Japanese traditional animation education and learned animation theory and practical skills which can transfer to web animation development.</p>
+            <div className="animation-demos-container">
+                <section className="section-header">
+                    <h3 className="section-heading">Animation</h3>
+                    <ul className="related-career-history">
+                        <li>Education: Introduction to 3D Animation (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
+                        <li>Projects: CLEARgo.com, Midea Eureka, Heybike</li>
+                    </ul>
+                </section>
+                <ul id="animation-demos" className="case-studies">
+                    <li>
+                        <video autoPlay muted loop>
+                            <source src="https://cdn.shopify.com/videos/c/o/v/39e236a502f140588e3a3d655dc045dd.mp4" type="video/mp4" />
+                        </video>
+                    </li>
+                    <li>
+                        <video autoPlay muted loop>
+                            <source src="https://cdn.shopify.com/videos/c/o/v/1335ab8d595445bc9855772fac1510e0.mp4" type="video/mp4" />
+                        </video>
+                    </li>
+                </ul>
+                <article className="description">
+                    <p>Familiar with web animation which adds the dimension of time to the GUI of a web page in order to convey information organized by data, feedback, and aesthetic qualities to end-users through storytelling.</p>
+                    <p>Trained by Japanese traditional animation education and learned animation theory and practical skills which can transfer to web animation development.</p>
+                    <p>Developed scroll event-driven animations for Midea Eureka and Heybike product pages.</p>
+                </article>
+            </div>
             <section className="article-section">
                 <h4>Animation Types</h4>
                 <ul id="animation-types">

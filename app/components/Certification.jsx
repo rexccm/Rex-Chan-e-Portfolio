@@ -55,7 +55,7 @@ const Certification = () => {
                 <li className="certificate">
                     <figure>
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/2016-hong-kong-diploma-of-secondary-education-examination.jpg" />
-                        <figcaption>2016 Hong Kong Diploma of Secondary Education Examination, 2016</figcaption>
+                        <figcaption>Hong Kong Diploma of Secondary Education Examination, 2016</figcaption>
                     </figure>
                 </li>
             </ul>
