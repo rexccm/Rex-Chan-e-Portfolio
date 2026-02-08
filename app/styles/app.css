@@ -1322,9 +1322,10 @@ body .slick-dots li button {
   top: 50%; 
   left: 50%; 
   position: absolute; 
+  border: dashed 2px var(--color-secondary);
+  backdrop-filter: blur(32px) invert(10%); 
   padding: 32px; 
   transform: translate(-50%, -50%); 
-  backdrop-filter: blur(32px) invert(10%); 
 }
 
 .animation-demos-container .description:before, 
