@@ -2,12 +2,15 @@ const Design = () => {
     return (
         <section className="article-section">
             <h3 className="section-heading">Design</h3>
-            <ul className="related-career-history">
-                <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
-                <li>Experience: Freelance Designer</li>
-            </ul>
-            <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
-            <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
+            <section className="section-header">
+                <ul className="related-career-history">
+                    <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
+                    <li>Experience: Freelance Designer</li>
+                </ul>
+                <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
+                <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
+            </section>
+            {/*
             <section className="article-section">
                 <h4>UI</h4>
                 <p>User interface (UI)</p>
@@ -151,6 +154,7 @@ const Design = () => {
                     <p>Unified styles enable users to associate a particular organization with a professional brand image represented by its assaesthetic qualities, timing of animations, and usability of interactions.</p>
                 </section>
             </section>
+            */}
             
             <section className="featured-gallery">
                 <h4 className="section-heading">Featured Works</h4>

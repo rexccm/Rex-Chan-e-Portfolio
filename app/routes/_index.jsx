@@ -90,8 +90,8 @@ export default function Homepage() {
       {/* 
         <WebAuthoring /> 
         <BackendDevelopment />
-        <Design />
       */}
+      <Design />
       <Certification />
       {/*
       <section className="education">
