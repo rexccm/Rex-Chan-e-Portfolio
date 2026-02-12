@@ -63,56 +63,6 @@ const Design = () => {
                                 <li><b>Harmony of Contrasts</b>: Colours of the same or adjacent hues which are contrasting in lightness, or colours far apart on hue which have contrasting lightness and saturation are harmonious.</li>
                             </ul>
                         </section>
-                        <section className="article-section">
-                            <b>Colour Scheme</b>
-                            <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
-                            <ul id="colour-scheme-elements">
-                                <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
-                                <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
-                                <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
-                            </ul>
-                            <figure>
-                                <div class="colour-scheme-wrapper">
-                                    <div class="primary-colour"></div>
-                                    <div class="secondary-colour"></div>
-                                    <div class="accent-colour"></div>
-                                </div>
-                                <figcaption>Colour Scheme</figcaption>
-                            </figure>
-                        </section>
-                        <figure id="colour-codes">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Amount of Light (colour)</th>
-                                        <th>HEX Code</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>Fully on</th>
-                                        <td>FF</td>
-                                    </tr>
-                                    <tr>
-                                        <th>¾ on</th>
-                                        <td>C0</td>
-                                    </tr>
-                                    <tr>
-                                        <th>½ on</th>
-                                        <td>80</td>
-                                    </tr>
-                                    <tr>
-                                        <th>¼ on</th>
-                                        <td>40</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Off</th>
-                                        <td>00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <figcaption>Colour Codes</figcaption>
-                        </figure>
                     </section>
                 </section>
                 <section className="article-section">
@@ -155,7 +105,59 @@ const Design = () => {
                 </section>
             </section>
             */}
-            
+
+            <section className="article-section">
+                <b>Colour Scheme</b>
+                <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
+                <ul id="colour-scheme-elements">
+                    <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
+                    <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
+                    <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
+                </ul>
+                <figure>
+                    <div class="colour-scheme-wrapper">
+                        <div class="primary-colour"></div>
+                        <div class="secondary-colour"></div>
+                        <div class="accent-colour"></div>
+                    </div>
+                    <figcaption>Colour Scheme</figcaption>
+                </figure>
+            </section>
+            {/* 
+            <figure id="colour-codes">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Amount of Light (colour)</th>
+                            <th>HEX Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Fully on</th>
+                            <td>FF</td>
+                        </tr>
+                        <tr>
+                            <th>¾ on</th>
+                            <td>C0</td>
+                        </tr>
+                        <tr>
+                            <th>½ on</th>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <th>¼ on</th>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <th>Off</th>
+                            <td>00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <figcaption>Colour Codes</figcaption>
+            </figure>
+            */}
             <section className="featured-gallery">
                 <h4 className="section-heading">Featured Works</h4>
                 <ul className="featured-works">
