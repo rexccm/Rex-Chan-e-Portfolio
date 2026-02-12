@@ -1794,6 +1794,10 @@ body .slick-dots li button {
   .animation-demos-container .description * { 
     font-size: 1.25rem; 
   }
+
+  figcaption { 
+    min-width: 200px; 
+  }
 }
 
 /* Tablet */
