@@ -109,11 +109,6 @@ const Design = () => {
             <section className="article-section">
                 <b>Colour Scheme</b>
                 <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
-                <ul id="colour-scheme-elements">
-                    <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
-                    <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
-                    <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
-                </ul>
                 <figure>
                     <div class="colour-scheme-wrapper">
                         <div class="primary-colour"></div>
@@ -122,6 +117,11 @@ const Design = () => {
                     </div>
                     <figcaption>Colour Scheme</figcaption>
                 </figure>
+                <ul id="colour-scheme-elements">
+                    <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
+                    <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
+                    <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
+                </ul>
             </section>
             {/* 
             <figure id="colour-codes">

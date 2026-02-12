@@ -609,6 +609,10 @@ button.reset:hover:not(:has(> *)) {
 }
 
 /* Custom */
+p { 
+  margin-bottom: 10px; 
+}
+
 /* Figure */
 img {
   border-radius: 0;
