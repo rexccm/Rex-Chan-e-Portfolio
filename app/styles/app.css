@@ -672,10 +672,20 @@ figcaption {
   align-items: center; 
   text-align: center; 
   margin-inline: auto; 
-  padding: 6px 12px; 
+  padding: 6px 12px 6px 42px; 
   background-color: lightyellow; 
   box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 10px; 
   transform: translateX(2px) translateY(-1px) rotate(3deg); 
+}
+
+figcaption:before { 
+  content: ''; 
+  left: 0; 
+  display: block; 
+  width: 30px; 
+  height: 100%; 
+  background-color: var(--color-secondary); 
+  position: absolute; 
 }
 
 /* Table */
