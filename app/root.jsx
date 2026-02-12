@@ -154,6 +154,7 @@ export function Layout({children}) {
         <link rel="stylesheet" href={appStyles}></link>
         <Meta />
         <Links />
+
         {/* Font Awesome */}
         <script src="https://kit.fontawesome.com/cd897b0f6e.js" crossorigin="anonymous"></script>
         

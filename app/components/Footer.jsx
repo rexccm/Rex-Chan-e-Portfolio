@@ -11,8 +11,17 @@ export function Footer({footer: footerPromise, header, publicStoreDomain}) {
       <a href="https://api.whatsapp.com/send?phone=85252247740" class="float whatsapp" target="_blank">
         <img width="32" height="32" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/whatsapp-icon.png?v=1769606918" />
       </a>
+      <div className="header-animation">
+        <div id="ani_container">
+          <img id="mountain" alt="mountain" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mountains.png?v=1770907945" />
+          <img id="car" alt="car" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/car.png?v=1770907940" width="200px" />
+          <img id="grass" alt="grass" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/grass.png?v=1770907949" width="100px" />
+          <img id="tree" alt="tree" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/tree.png?v=1770907991" width="200px" />
+        </div>
+      </div>
       <img className="wheel" width="174" height="174" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/wheel.png?v=1769618169" />
       <ScrollWave />
+      {/* }
       <Await resolve={footerPromise}>
         {(footer) => (
           <footer className="footer">
@@ -26,6 +35,7 @@ export function Footer({footer: footerPromise, header, publicStoreDomain}) {
           </footer>
         )}
       </Await>
+      */}
     </Suspense>
   );
 }
