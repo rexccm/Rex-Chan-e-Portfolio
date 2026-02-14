@@ -143,8 +143,9 @@ export default function Summary({ content }) {
                             <li className="project" id="heybike"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/heybike-logo.png" alt="Heybike" /></li>
                             <li className="project" id="telford"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/telford-logo.png" alt="Telford (Tao Ti)" /></li>
                             <li className="project" id="south-stream"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/south-stream-logo.png" alt="South Stream" /></li>
-                            <li className="project" id="suunto"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/suunto-logo.png" alt="e-Jacob" /></li>
+                            <li className="project" id="suunto"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/suunto-logo.png" alt="Suunto" /></li>
                             <li className="project" id="nextcigar"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/nextcigar-logo.png" alt="nextCIGAR" /></li>
+                            <li className="project" id="hy-lee-garden"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/hy-lee-garden-logo.png?v=1771097278" alt="Hy! Lee Garden" /></li>
                             <li className="project" id="e-jacob"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/e-jacob-logo.png" alt="e-Jacob" /></li>
                         </ul>
                     </div>
