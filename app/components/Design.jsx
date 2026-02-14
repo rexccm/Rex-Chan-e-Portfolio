@@ -107,7 +107,7 @@ const Design = () => {
             */}
 
             <section className="article-section">
-                <h4 className="">UI Design</h4>
+                <h4 className="section-heading">UI Design</h4>
                 <section className="article-section">
                     <h5 className="section-heading">Semiotics</h5>
                     <section className="article-section">
