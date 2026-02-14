@@ -623,6 +623,10 @@ figure {
   padding-inline: 8px; 
 }
 
+figure img { 
+  max-width: 1040px;
+}
+
 /* Layout */
 body > main { 
   margin: 0; 
@@ -1318,6 +1322,7 @@ body .slick-dots li button {
   display: flex; 
   padding-block: calc(280vw / 19.2);
   perspective: 1000px; 
+  pointer-events: none; 
 }
 
 #animation-demos li { 

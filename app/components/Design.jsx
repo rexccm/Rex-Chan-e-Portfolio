@@ -5,7 +5,7 @@ const Design = () => {
             <section className="section-header">
                 <ul className="related-career-history">
                     <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
-                    <li>Experience: Freelance Designer</li>
+                    <li>Experience: Movie Web Application, Freelance Designer</li>
                 </ul>
                 <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
                 <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
@@ -107,14 +107,30 @@ const Design = () => {
             */}
 
             <section className="article-section">
+                <h4 className="">UI Design</h4>
                 <section className="article-section">
-                    <b>Visual Metaphor</b>
+                    <h5 className="section-heading">Semiotics</h5>
+                    <section className="article-section">
+                        <b>Paradigms and Syntagms</b>
+                        <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where an artwork is constructed of paradigmatic axis and syntagmatic axis.</p>
+                        <figure>
+                            <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/movie-web-application-filters-2023.jpg?v=1771080605" />
+                            <figcaption>Movie Web Application Design, 2023</figcaption>
+                        </figure>
+                        <ul id="semiotic-axes">
+                            <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
+                            <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
+                        </ul>
+                    </section>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Visual Metaphor</h5>
                     <p>Visual metaphor is the ability of image to convey intellectual and emotional meanings, mood, tone, atmosphere, and subtext in addition to their straightforward reality.</p>
                     <p>Every visual elements carry an implied meaning that can be a powerful storytelling tool.</p>
                     <p>For instance, the colour scheme of a design can be a visual metaphor for the brand's identity and values.</p>
                 </section>
                 <section className="article-section">
-                    <b>Colour Scheme</b>
+                    <h5 className="section-heading">Colour Scheme</h5>
                     <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
                     <figure>
                         <div className="colour-scheme-wrapper">
