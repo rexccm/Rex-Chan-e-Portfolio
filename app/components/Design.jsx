@@ -109,19 +109,16 @@ const Design = () => {
             <section className="article-section">
                 <h4 className="section-heading">UI Design</h4>
                 <section className="article-section">
-                    <h5 className="section-heading">Semiotics</h5>
-                    <section className="article-section">
-                        <b>Paradigms and Syntagms</b>
-                        <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where an artwork is constructed of paradigmatic axis and syntagmatic axis.</p>
-                        <figure>
-                            <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/movie-web-application-filters-2023.jpg?v=1771080605" />
-                            <figcaption>Movie Web Application Design, 2023</figcaption>
-                        </figure>
-                        <ul id="semiotic-axes">
-                            <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
-                            <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
-                        </ul>
-                    </section>
+                    <h5 className="section-heading">Paradigms and Syntagms</h5>
+                    <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where an artwork is constructed of paradigmatic axis and syntagmatic axis.</p>
+                    <figure>
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/movie-web-application-filters-2023.jpg?v=1771080605" />
+                        <figcaption>Movie Web Application Design, 2023</figcaption>
+                    </figure>
+                    <ul id="semiotic-axes">
+                        <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
+                        <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
+                    </ul>
                 </section>
                 <section className="article-section">
                     <h5 className="section-heading">Visual Metaphor</h5>
