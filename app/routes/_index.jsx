@@ -87,8 +87,8 @@ export default function Homepage() {
       <FrameworkConcepts />
       <ArtworkMarquee />
       <Animation />
+      <WebAuthoring />
       {/* 
-        <WebAuthoring /> 
         <BackendDevelopment />
       */}
       <Design />

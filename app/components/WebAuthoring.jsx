@@ -1,7 +1,42 @@
 const WebAuthoring = () => { 
     return (
         <>
-        <section id="web-authoring" className="article-section">
+        <section id="ui-slicing" className="article-section">
+            <h3 className="section-heading">UI Slicing</h3>
+            <ul>
+                <li>Education: Certificate of Front-End Web Developer (CLAP@JC)</li>
+                <li>Projects: Broadway Lifestyle, Telford (Tao Ti), HiPP, Heybike, South Stream, nextCIGAR, Midea Eureka, CLEARgo.com, Hoi Tin (Jacobson), e-Jacob</li>
+            </ul>
+            <section className="article-section">
+                <h4>Selectors</h4>
+                <ul id="selectors">
+                    <li><b>IDs (#)</b>: A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
+                    <li><b>Classes (.)</b>: A class name shared by multiple HTML elements. e.g. .gallery, .section-heading, .description</li>
+                    <li><b>Pseudo-classes (:)</b>: A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en), :before, :first-letter</li>
+                </ul>
+            </section>
+            <section className="article-section">
+                <h4>Box Model</h4>
+                <p>The CSS box model is essentially a box wraps around each HTML element where a box consists of the below: </p>
+                <ul>
+                    <li><b>Content</b>: The content like plain text or multimedia of the box.</li>
+                    <li><b>Padding</b>: The area inside the border and surrounding the content.</li>
+                    <li><b>Border</b>: A visible border of the box between the padding and margin.</li>
+                    <li><b>Margin</b>: The area outside the border and surrounding the border.</li>
+                </ul>
+            </section>
+            <section className="article-section">
+                <h4>Layout</h4>
+                <ul id="layouts">
+                    <li><b>Table</b>: Traditional nested HTML layout system consists of table rows and items included table head and table data.</li>
+                    <li><b>Float</b>: Traditional CSS layout system placed element on the left or right.</li>
+                    <li><b>Flexbox</b>: A 1-dimentional CSS3 layout module for greater control over arranging elements along on x-axis or y-axis.</li>
+                    <li><b>Grid</b>: A 2-dimentional CSS3 layout module imported concept of gird from print design into web. It provides a system for laying elements out in rows and columns.</li>
+                </ul>
+            </section>
+        </section>
+        {/*}
+            <section id="web-authoring" className="article-section">
                     <h3 className="section-heading">Web Authoring</h3>
                     <ul className="related-career-history">
                         <li>Education: E-Commerce and Web Application Development (B+) | Certificate of Front-End Web Developer (CLAP@JC)</li>
@@ -23,40 +58,6 @@ const WebAuthoring = () => {
                         </table>
                         <figcaption>Web Development Layers</figcaption>
                     </figure>
-                </section>
-                <section id="ui-slicing" className="article-section">
-                    <h3 className="section-heading">UI Slicing</h3>
-                    <ul>
-                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC)</li>
-                        <li>Projects: Broadway Lifestyle, Telford (Tao Ti), HiPP, Heybike, South Stream, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson), e-Jacob</li>
-                    </ul>
-                    <section className="article-section">
-                        <h4>Selectors</h4>
-                        <ul id="selectors">
-                            <li><b>IDs (#)</b>: A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
-                            <li><b>Classes (.)</b>: A class name shared by multiple HTML elements. e.g. .gallery, .section-heading, .description</li>
-                            <li><b>Pseudo-classes (:)</b>: A pseudo-class let us apply styles based on state transitions on the grounds of FSM. e.g. :hover, :focus, :active, :visited, :disabled, :first-child, :nth-child(even), :lang(en), :before, :first-letter</li>
-                        </ul>
-                    </section>
-                    <section className="article-section">
-                        <h4>Box Model</h4>
-                        <p>The CSS box model is essentially a box wraps around each HTML element where a box consists of the below: </p>
-                        <ul>
-                            <li><b>Content</b>: The content like plain text or multimedia of the box.</li>
-                            <li><b>Padding</b>: The area inside the border and surrounding the content.</li>
-                            <li><b>Border</b>: A visible border of the box between the padding and margin.</li>
-                            <li><b>Margin</b>: The area outside the border and surrounding the border.</li>
-                        </ul>
-                    </section>
-                    <section className="article-section">
-                        <h4>Layout</h4>
-                        <ul id="layouts">
-                            <li><b>Table</b>: Traditional nested HTML layout system consists of table rows and items included table head and table data.</li>
-                            <li><b>Float</b>: Traditional CSS layout system placed element on the left or right.</li>
-                            <li><b>Flexbox</b>: A 1-dimentional CSS3 layout module for greater control over arranging elements along on x-axis or y-axis.</li>
-                            <li><b>Grid</b>: A 2-dimentional CSS3 layout module imported concept of gird from print design into web. It provides a system for laying elements out in rows and columns.</li>
-                        </ul>
-                    </section>
                 </section>
                 <section className="article-section">
                     <h3 className="section-heading">Interactions​</h3>
@@ -342,6 +343,7 @@ const WebAuthoring = () => {
                         <p>For instance, Controller handle all the interactions and inputs from and Controller View and update the database using Controller Model.</p>
                     </section>
                 </section>
+            */}
         </>
     )
 }; 

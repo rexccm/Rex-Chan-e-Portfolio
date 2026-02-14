@@ -145,6 +145,10 @@ const Design = () => {
                     <h5 className="section-heading">Storytelling</h5>
                     <p>Storytelling uses spatial and temporal signs to convey experience consists of narrative, emotion and aesthetic qualities in imagination of a user.</p>
                     <p>One of the strength strategies is to use storytelling to take a non-tangible concept and making it relatable through concrete ideas.</p>
+                    <figure>
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/broadway-storytelling.jpg?v=1771090088" />
+                        <figcaption>Broadway Storytelling, 2026</figcaption>
+                    </figure>
                 </section>
                 <section className="article-section">
                     <h5 className="section-heading">Branding</h5>
