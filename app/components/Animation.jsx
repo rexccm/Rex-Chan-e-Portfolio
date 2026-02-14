@@ -39,10 +39,11 @@ const Animation = () => {
                 <p>An animation can be breakdown into frames including keyframes, breakdowns, and in-betweens.</p>
                 <p>Each frame of an action should be number in the top-right corner on the animation paper. We should always circle keyframe numbers and put parenthesis around breakdown number.</p>
                 <p>With the frames numbered, we should create an action chart with a direction from left (first key) to right (next key) on the first keyframe. This chart indicates how many in-betweens are needed and how they will be spaced between two keyframes.</p>
+                <p>The more in-betweens there are in an animation, the slower and smoother the action will appear.</p>
                 <figure id="keyframing">
                     <ul id="keyframe-works">
-                        <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A1.png?v=1769701806" /></li>
-                        <li class="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A4.png?v=1769701810" /></li>
+                        <li className="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A1.png?v=1769701806" /></li>
+                        <li className="keyframe-work"><img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/anime_1_A4.png?v=1769701810" /></li>
                     </ul>
                     <figcaption>Keyframing Practice, 2022</figcaption>
                 </figure>
