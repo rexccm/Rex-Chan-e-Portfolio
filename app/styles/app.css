@@ -671,6 +671,7 @@ section {
 figure { 
   width: fit-content;
   margin: 0 auto 40px; 
+  padding: 0; 
 }
 
 figcaption { 
