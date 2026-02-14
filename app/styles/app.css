@@ -1113,8 +1113,7 @@ body .slick-dots li button {
 .data-level:nth-child(1) { width: 160px; }
 
 /* Design */
-#paradigms-and-syntagms figure img, 
-#user-stories figure img { 
+.limited-figure img { 
   width: 100%; 
   max-width: 1040px; 
 }

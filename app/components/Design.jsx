@@ -92,7 +92,7 @@ const Design = () => {
                 <section id="paradigms-and-syntagms" className="article-section">
                     <h5 className="section-heading">Paradigms and Syntagms</h5>
                     <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where an artwork is constructed of paradigmatic axis and syntagmatic axis.</p>
-                    <figure>
+                    <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/movie-web-application-filters-2023.jpg?v=1771080605" />
                         <figcaption>Movie Web Application Design, 2023</figcaption>
                     </figure>
@@ -130,30 +130,38 @@ const Design = () => {
                 <section id="user-stories" className="article-section">
                     <h5 className="section-heading">User Stories</h5>
                     <p>Practiced user stories in Movie Web Application project.</p>
-                    <figure>
+                    <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/user-stories01-2023.jpg?v=1771083610" />
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/user-stories02-2023.jpg?v=1771083613" />
                         <figcaption>Movie Web Application User Stories, 2023</figcaption>
                     </figure>
                 </section>
-                <section className="article-section">
+                <section id="feedback" className="article-section">
                     <h5 className="section-heading">Feedback</h5>
                     <p>We should visualize state changes through visual cues and animations to draw attention and explain to end-users about their actions and the system's responses.</p>
                     <p>For progress of a task, we should provide the degree of completion to indicate the current status and expected completion time.</p>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/broadway-feedback-2026.png?v=1771092011" />
+                        <figcaption>Broadway Feedback, 2026</figcaption>
+                    </figure>
                 </section>
-                <section className="article-section">
+                <section id="storytelling" className="article-section">
                     <h5 className="section-heading">Storytelling</h5>
                     <p>Storytelling uses spatial and temporal signs to convey experience consists of narrative, emotion and aesthetic qualities in imagination of a user.</p>
                     <p>One of the strength strategies is to use storytelling to take a non-tangible concept and making it relatable through concrete ideas.</p>
-                    <figure>
+                    <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/broadway-storytelling.jpg?v=1771090088" />
                         <figcaption>Broadway Storytelling, 2026</figcaption>
                     </figure>
                 </section>
-                <section className="article-section">
+                <section id="branding" className="article-section">
                     <h5 className="section-heading">Branding</h5>
                     <p>Branding refers to a specific style of fonts, layouts, animation, interactions, and visual elements used in the presentation of information system by organizations.</p>
                     <p>Unified styles enable users to associate a particular organization with a professional brand image represented by its assaesthetic qualities, timing of animations, and usability of interactions.</p>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/hipp-branding-2025.png?v=1771091527" />
+                        <figcaption>HiPP Branding, 2025</figcaption>
+                    </figure>
                 </section>
             </section>
             {/* 
