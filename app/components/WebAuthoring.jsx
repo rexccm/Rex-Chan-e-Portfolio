@@ -9,6 +9,10 @@ const WebAuthoring = () => {
             </ul>
             <section className="article-section">
                 <h4>Selectors</h4>
+                <figure className="limited-figure">
+                    <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-pseudo-class-2024.png?v=1771095163" />
+                    <figcaption>CLEARgo Pseudo Class, 2024</figcaption>
+                </figure>
                 <ul id="selectors">
                     <li><b>IDs (#)</b>: A unique identity code of an HTML element on single page. e.g. #header, #main, #footer</li>
                     <li><b>Classes (.)</b>: A class name shared by multiple HTML elements. e.g. .gallery, .section-heading, .description</li>
@@ -18,6 +22,10 @@ const WebAuthoring = () => {
             <section className="article-section">
                 <h4>Box Model</h4>
                 <p>The CSS box model is essentially a box wraps around each HTML element where a box consists of the below: </p>
+                <figure className="limited-figure">
+                    <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/hy_-xmas-campaign-cta-nav-2023.png?v=1771094612" />
+                    <figcaption>hy! Xmas Campaign CTA Nav, 2023</figcaption>
+                </figure>
                 <ul>
                     <li><b>Content</b>: The content like plain text or multimedia of the box.</li>
                     <li><b>Padding</b>: The area inside the border and surrounding the content.</li>
@@ -27,6 +35,10 @@ const WebAuthoring = () => {
             </section>
             <section className="article-section">
                 <h4>Layout</h4>
+                <figure className="limited-figure">
+                    <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/heybike-bento-grids-2025.png?v=1771095582" />
+                    <figcaption>Heybike Bento Grids, 2025</figcaption>
+                </figure>
                 <ul id="layouts">
                     <li><b>Table</b>: Traditional nested HTML layout system consists of table rows and items included table head and table data.</li>
                     <li><b>Float</b>: Traditional CSS layout system placed element on the left or right.</li>
