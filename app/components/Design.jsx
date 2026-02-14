@@ -108,7 +108,7 @@ const Design = () => {
 
             <section className="article-section">
                 <h4 className="section-heading">UI Design</h4>
-                <section className="article-section">
+                <section id="paradigms-and-syntagms" className="article-section">
                     <h5 className="section-heading">Paradigms and Syntagms</h5>
                     <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where an artwork is constructed of paradigmatic axis and syntagmatic axis.</p>
                     <figure>

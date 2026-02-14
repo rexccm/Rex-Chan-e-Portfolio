@@ -623,10 +623,6 @@ figure {
   padding-inline: 8px; 
 }
 
-figure img { 
-  max-width: 1040px;
-}
-
 /* Layout */
 body > main { 
   margin: 0; 
@@ -1108,6 +1104,12 @@ body .slick-dots li button {
 .data-level:nth-child(3) { width: 260px; }
 .data-level:nth-child(2) { width: 210px; }
 .data-level:nth-child(1) { width: 160px; }
+
+/* UI Design */
+#paradigms-and-syntagms figure img { 
+  width: 100%; 
+  max-width: 1040px; 
+}
 
 /* Colour codes */
 #colour-codes { 
