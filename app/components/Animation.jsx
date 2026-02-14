@@ -49,7 +49,7 @@ const Animation = () => {
                 </figure>
                 <ul id="tweening-components">
                     <li><b>Keyframes</b>: Keyframes are the major scenes in an action where that action ceases or change direction.</li>
-                    <li><b>In-betweens</b>: Keyframes are the major scenes in an action where that action ceases or change direction.</li>
+                    <li><b>In-betweens</b>: In-betweens are the intermediate frames between keyframes while a breakdown is the first in-between and midway between two keyframes.</li>
                 </ul>
             </section>
             <section className="article-section">
