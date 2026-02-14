@@ -640,6 +640,10 @@ section {
   padding: 40px 20px; 
 }
 
+.article-section .article-section { 
+  padding: 40px 0; 
+}
+
 .row { 
   display: flex;
   justify-content: space-between;

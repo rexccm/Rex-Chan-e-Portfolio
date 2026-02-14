@@ -107,21 +107,29 @@ const Design = () => {
             */}
 
             <section className="article-section">
-                <b>Colour Scheme</b>
-                <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
-                <figure>
-                    <div class="colour-scheme-wrapper">
-                        <div class="primary-colour"></div>
-                        <div class="secondary-colour"></div>
-                        <div class="accent-colour"></div>
-                    </div>
-                    <figcaption>Colour Scheme</figcaption>
-                </figure>
-                <ul id="colour-scheme-elements">
-                    <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
-                    <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
-                    <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
-                </ul>
+                <section className="article-section">
+                    <b>Visual Metaphor</b>
+                    <p>Visual metaphor is the ability of image to convey intellectual and emotional meanings, mood, tone, atmosphere, and subtext in addition to their straightforward reality.</p>
+                    <p>Every visual elements carry an implied meaning that can be a powerful storytelling tool.</p>
+                    <p>For instance, the colour scheme of a design can be a visual metaphor for the brand's identity and values.</p>
+                </section>
+                <section className="article-section">
+                    <b>Colour Scheme</b>
+                    <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
+                    <figure>
+                        <div className="colour-scheme-wrapper">
+                            <div className="primary-colour"></div>
+                            <div className="secondary-colour"></div>
+                            <div className="accent-colour"></div>
+                        </div>
+                        <figcaption>Colour Scheme</figcaption>
+                    </figure>
+                    <ul id="colour-scheme-elements">
+                        <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
+                        <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
+                        <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
+                    </ul>
+                </section>
             </section>
             {/* 
             <figure id="colour-codes">
