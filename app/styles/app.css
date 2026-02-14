@@ -1001,6 +1001,10 @@ body .slick-dots li button {
   justify-content: center;
 }
 
+.featured-works figure img { 
+  padding-inline: 8px; 
+}
+
 /* OOP */
 .viewmodel-figure-container {
 	display: flex;
