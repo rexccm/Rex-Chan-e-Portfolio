@@ -85,25 +85,6 @@ const Design = () => {
                     </figure>
                 </section>
             </section>
-            <section>
-                <h4 className="section-heading">UX</h4>
-                <p>User Experience (UX)</p>
-                <section className="article-section">
-                    <h5 className="section-heading">Feedback</h5>
-                    <p>We should visualize state changes through visual cues and animations to draw attention and explain to end-users about their actions and the system's responses.</p>
-                    <p>For progress of a task, we should provide the degree of completion to indicate the current status and expected completion time.</p>
-                </section>
-                <section className="article-section">
-                    <h5 className="section-heading">Storytelling</h5>
-                    <p>Storytelling uses spatial and temporal signs to convey experience consists of narrative, emotion and aesthetic qualities in imagination of a user.</p>
-                    <p>One of the strength strategies is to use storytelling to take a non-tangible concept and making it relatable through concrete ideas.</p>
-                </section>
-                <section className="article-section">
-                    <h5 className="section-heading">Branding</h5>
-                    <p>Branding refers to a specific style of fonts, layouts, animation, interactions, and visual elements used in the presentation of information system by organizations.</p>
-                    <p>Unified styles enable users to associate a particular organization with a professional brand image represented by its assaesthetic qualities, timing of animations, and usability of interactions.</p>
-                </section>
-            </section>
             */}
 
             <section className="article-section">
@@ -142,6 +123,33 @@ const Design = () => {
                         <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
                         <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
                     </ul>
+                </section>
+            </section>
+            <section className="article-section">
+                <h4 className="section-heading">UX Design</h4>
+                <section id="user-stories" className="article-section">
+                    <h5 className="section-heading">User Stories</h5>
+                    <p>Practiced user stories in Movie Web Application project.</p>
+                    <figure>
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/user-stories01-2023.jpg?v=1771083610" />
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/user-stories02-2023.jpg?v=1771083613" />
+                        <figcaption>Movie Web Application User Stories, 2023</figcaption>
+                    </figure>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Feedback</h5>
+                    <p>We should visualize state changes through visual cues and animations to draw attention and explain to end-users about their actions and the system's responses.</p>
+                    <p>For progress of a task, we should provide the degree of completion to indicate the current status and expected completion time.</p>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Storytelling</h5>
+                    <p>Storytelling uses spatial and temporal signs to convey experience consists of narrative, emotion and aesthetic qualities in imagination of a user.</p>
+                    <p>One of the strength strategies is to use storytelling to take a non-tangible concept and making it relatable through concrete ideas.</p>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Branding</h5>
+                    <p>Branding refers to a specific style of fonts, layouts, animation, interactions, and visual elements used in the presentation of information system by organizations.</p>
+                    <p>Unified styles enable users to associate a particular organization with a professional brand image represented by its assaesthetic qualities, timing of animations, and usability of interactions.</p>
                 </section>
             </section>
             {/* 

@@ -619,6 +619,8 @@ img {
 }
 
 figure {
+  display: flex; 
+  flex-direction: column; 
   margin: 0;
   padding-inline: 8px; 
 }
@@ -1106,8 +1108,9 @@ body .slick-dots li button {
 .data-level:nth-child(2) { width: 210px; }
 .data-level:nth-child(1) { width: 160px; }
 
-/* UI Design */
-#paradigms-and-syntagms figure img { 
+/* Design */
+#paradigms-and-syntagms figure img, 
+#user-stories figure img { 
   width: 100%; 
   max-width: 1040px; 
 }
