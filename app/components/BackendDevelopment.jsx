@@ -100,6 +100,7 @@ const BackendDevelopment = () => {
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/database-management-assignment-data-dictionary-2018.jpg?v=1771180653" />
                         <figcaption className="figure-caption">Data Dictionary, 2018</figcaption>
                     </figure>
+                </section>
             </section>
             {/* }
             <section className="article-section">
