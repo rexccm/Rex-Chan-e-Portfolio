@@ -54,7 +54,7 @@ const WebAuthoring = () => {
                 <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka, CLEARgo.com</li>
              </ul>
             <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
-            <figure>
+            <figure className="limited-figure">
                 <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-jsonld-2024.png?v=1771097798" />
                 <figcaption>CLEARgo JSON-LD, 2024</figcaption>
             </figure>
