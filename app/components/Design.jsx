@@ -129,7 +129,7 @@ const Design = () => {
                 <h4 className="section-heading">UX Design</h4>
                 <section id="user-stories" className="article-section">
                     <h5 className="section-heading">User Research</h5>
-                    <p> User research is to use various methods to understand users' desires, behaviors, habits, motivations, and environments in order to create useful, usable, and delightful digital products.</p>
+                    <p>User research is to use various methods to understand users' pain points consist of desires, behaviors, habits, motivations, and environments in order to create useful, usable, and delightful digital products.</p>
                     <p>Practiced user stories in Movie Web Application project.</p>
                     <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/user-stories01-2023.jpg?v=1771083610" />
