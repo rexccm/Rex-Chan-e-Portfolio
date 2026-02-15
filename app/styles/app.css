@@ -1128,6 +1128,60 @@ body .slick-dots li button {
   text-align: center; 
 }
 
+.skeleton-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.parent-bone {
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  background-color: darkcyan;
+  transform-origin: bottom;
+  transform: translateX(-50%) rotate(45deg);
+  animation: parentAnim 2s ease-in-out infinite alternate;
+}
+
+.parent-bone:before {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  display: block;
+  border-radius: 50%;
+  background-color: darkcyan;
+  transform: translateY(50%);
+}
+
+.child-bone {
+  bottom: 100%;
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  background-color: darkcyan;
+  transform-origin: bottom;
+  transform: rotate(45deg);
+  animation: childAnim 2s ease-in-out infinite alternate;
+}
+
+.child-bone:before {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  display: block;
+  border-radius: 50%;
+  background-color: skyblue;
+  transform: translateY(50%);
+}
+
 /* Certificate */
 .certificates {
   display: flex; 
@@ -1727,6 +1781,26 @@ body .slick-dots li button {
   100% {
     top: 100%; 
     left: 100%; 
+  }
+}
+
+@keyframes parentAnim {
+  0% {
+    transform: translateX(-50%) rotate(30deg);
+  }
+
+  100% {
+    transform: translateX(-50%) rotate(-30deg);
+  }
+}
+
+@keyframes childAnim {
+  0% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
   }
 }
 

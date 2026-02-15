@@ -53,6 +53,21 @@ const Animation = () => {
                 </ul>
             </section>
             <section className="article-section">
+                <h4 className="section-heading">Skeleton</h4>
+                <p>We can utilize skeletons in both 2D and 3D animations while skeleton is a structure for animating articulate and hierarchical actions in order to simulate the actions of physical bodies or machines.</p>
+                <p>​Thus, the child bones linked to another bone will follow their parent once the parent is rotated around the determined pivot points known as joints.</p>
+                <p>Skeletal structures can represent by a tree data structure where it has single root joint, several parent joints, and several child joints.</p>
+                <p>The action of child bone follows its parent is called overlapping action and this motion relate to or is the result of the main action.</p>
+                <figure>
+                    <div className="skeleton-container">
+                        <div className="parent-bone">
+                            <div className="child-bone"></div>
+                        </div>
+                    </div>
+                    <figcaption>Skeleton of Two Bones Interconnected by One Joint, 2024</figcaption>
+                </figure>
+            </section>
+            <section className="article-section">
                 <h4 className="section-heading">​Web Animation Methods</h4>
                 <ul id="web-animation-methods">
                     <li><b>Transitions:</b> By applying the concept of finite-state machines (FSM), CSS fills in the in-betweens smoothly over a specified duration between two states.</li>
