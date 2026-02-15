@@ -91,7 +91,7 @@ const Design = () => {
                 <h4 className="section-heading">UI Design</h4>
                 <section id="paradigms-and-syntagms" className="article-section">
                     <h5 className="section-heading">Paradigms and Syntagms</h5>
-                    <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where an artwork is constructed of paradigmatic axis and syntagmatic axis.</p>
+                    <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where a design no matter user interface, animation, or interaction is constructed of paradigmatic axis and syntagmatic axis.</p>
                     <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/movie-web-application-filters-2023.jpg?v=1771080605" />
                         <figcaption>Movie Web Application Design, 2023</figcaption>
@@ -128,11 +128,11 @@ const Design = () => {
             <section className="article-section">
                 <h4 className="section-heading">UX Design</h4>
                 <section id="user-stories" className="article-section">
-                    <h5 className="section-heading">User Stories</h5>
+                    <h5 className="section-heading">User Research</h5>
+                    <p> User research is to use various methods to understand users' desires, behaviors, habits, motivations, and environments in order to create useful, usable, and delightful digital products.</p>
                     <p>Practiced user stories in Movie Web Application project.</p>
                     <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/user-stories01-2023.jpg?v=1771083610" />
-                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/user-stories02-2023.jpg?v=1771083613" />
                         <figcaption>Movie Web Application User Stories, 2023</figcaption>
                     </figure>
                 </section>
