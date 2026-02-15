@@ -68,7 +68,7 @@ const BackendDevelopment = () => {
                 <section className="article-section">
                     <h5 className="section-heading">Normalization</h5>
                     <p>Normalization is a systematic approach of decomposing tables to eliminate data redundancy. A flat file database store all the data in one table which led to anomalies.</p>
-                    <figure>
+                    <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/dse-sba-2015.jpg?v=1771150144" />
                         <figcaption className="figure-caption">DSE SBA Normalization, 2015</figcaption>
                     </figure>
@@ -77,6 +77,20 @@ const BackendDevelopment = () => {
                         <li><b>Update Anomalies</b>: Once one copy of repeated data is updated, inconsistency is created unless all copies updated.</li>
                         <li><b>Insertion Anomalies</b>: It may not be possible to store some data unless the other is stored as well.</li>
                         <li><b>Deletion Anomalies</b>: It may not be possible to drop some data unless the other is dropped as well.</li>
+                    </ul>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Keys</h5>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/database-management-assignment-2018.jpg?v=1771150972" />
+                        <figcaption className="figure-caption">Database Management Assignment, 2018</figcaption>
+                    </figure>
+                    <ul>
+                        <li><b>Primary Key</b>: A primary key is a attribute  or a combination of attributes (known as composite key) in a table to uniquely identify a record.</li>
+                        <li><b>Candidate Key</b>: A candidate key is a minimal set of attributes that uniquely identifies a record in a table.</li>
+                        <li><b>Composite Key</b>: A composite key is a combination of two or more attributes that uniquely identifies a record in a table.</li>
+                        <li><b>Super Key</b>: A super key is any set of attributes that uniquely identifies a record in a table.</li>
+                        <li><b>Foreign Key</b>: A foreign key is a attribute or a combination of attributes in a table which refers to the primary key of another table.</li>
                     </ul>
                 </section>
             </section>
