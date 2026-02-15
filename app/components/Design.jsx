@@ -2,14 +2,6 @@ const Design = () => {
     return (
         <section className="article-section">
             <h3 className="section-heading">Design</h3>
-            <section className="section-header">
-                <ul className="related-career-history">
-                    <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
-                    <li>Experience: Movie Web Application, Freelance Designer</li>
-                </ul>
-                <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
-                <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
-            </section>
             {/*
             <section className="article-section">
                 <h4>UI</h4>
@@ -86,9 +78,14 @@ const Design = () => {
                 </section>
             </section>
             */}
-
             <section className="article-section">
                 <h4 className="section-heading">UI Design</h4>
+                <ul className="related-career-history">
+                    <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
+                    <li>Experience: Movie Web Application, Freelance Designer</li>
+                </ul>
+                <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
+                <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
                 <section id="paradigms-and-syntagms" className="article-section">
                     <h5 className="section-heading">Paradigms and Syntagms</h5>
                     <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where a design no matter user interface, animation, or interaction is constructed of paradigmatic axis and syntagmatic axis.</p>
@@ -127,6 +124,10 @@ const Design = () => {
             </section>
             <section className="article-section">
                 <h4 className="section-heading">UX Design</h4>
+                <ul className="related-career-history">
+                    <li>Education: System Analysis and Design (B) | Certificate of Front-End Web Developer (CLAP@JC)</li>
+                    <li>Experience: Movie Web Application, Freelance Designer</li>
+                </ul>
                 <section id="user-stories" className="article-section">
                     <h5 className="section-heading">User Research</h5>
                     <p>User research is to use various methods to understand users' pain points consist of desires, behaviors, habits, motivations, and environments in order to create useful, usable, and delightful digital products.</p>
@@ -200,7 +201,8 @@ const Design = () => {
             </figure>
             */}
             <section className="featured-gallery">
-                <h4 className="section-heading">Featured Works</h4>
+                <h4 className="section-heading">Artworks</h4>
+                <p>Kept practicing and improving my artistic skills over the years.</p>
                 <ul className="featured-works">
                     <li className="featured-work">
                         <figure>

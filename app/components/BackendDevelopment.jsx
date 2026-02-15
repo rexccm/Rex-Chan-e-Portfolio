@@ -7,13 +7,9 @@ const BackendDevelopment = () => {
             </ul>
             <p>Developed basic concepts of CRUD, salting, and injections by PHP in Internet Programming course in Higher Diploma programme.</p>
             <p>Built-up a login and signup system by using PHP and MySQL on XAMPP environment.</p>
-            <ul id="backend-concepts">
-                <li><b>CRUD Operations:</b> Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</li>
-                <li><b>Salting:</b> Salting is a security technique used to enhance password hashing. It involves adding a random value called salt to the password before hashing it. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</li>
-                <li><b>Code Injections:</b> Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage.</li>
-            </ul>
             <section className="article-section">
                 <h4 className="section-heading">CRUD Operations</h4>
+                <p>Create, read, update, and delete (CRUD) are the basic operations of data manipulation.</p>
                 <figure className="presentation-video">
                     <video autoPlay muted loop>
                         <source src="https://cdn.shopify.com/videos/c/o/v/2da43598b08c48e089a7b82b76a3088d.mp4" type="video/mp4" />
@@ -29,6 +25,8 @@ const BackendDevelopment = () => {
             </section>
             <section className="article-section">
                 <h4 className="section-heading">Salting</h4>
+                <p>Salting is a security technique used to enhance password hashing by adding a random value called salt. This makes it more difficult for attackers to use precomputed tables such as rainbow tables to crack passwords.</p>
+                <p>In this process, the salt is concatenated and processed with a cryptographic hashing algorithm, and the output is stored along with the salt in the database.</p>
                 <figure>
                     <div className="one-way-dataflow-container">
                         <div className="one-way-dataflow-box"><p>rexChan123</p> <p>(Password)</p></div>
@@ -39,6 +37,17 @@ const BackendDevelopment = () => {
                     </div>
                     <figcaption className="figure-caption">Password Hash Salting Figure</figcaption>
                 </figure>
+            </section>
+            <section className="article-section">
+                <h4 className="section-heading">Code Injection</h4>
+                <p>Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage.</p>
+                <section className="article-section">
+                    <h5 className="section-heading">SQL Injection</h5>
+                    <p>SQL injection attack consists of injection of malicious SQL commands via input data from the client to the application that are later passed to an instance of a database for execution and aim to affect the execution of predefinec SQL commands.</p>
+                    <p>The primary form of SQL injection consists of direct insertion of code into user-input variables which are concatenated with SQL commands and executed.</p>
+                    <p>A less direct attack injects malicious code into strings are subsequently concatenated into a dynamic SQL commands, the malicious code is then executed.</p>
+                    <p>A successful SQL injection exploit can access sensitive data in the database, modify database data, execute administrative operations whithin the database, for instance, shutdown the DBMS, recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system.</p>
+                </section>
             </section>
             <section className="article-section">
                 <h4 className="section-heading">Database Management</h4>
@@ -59,6 +68,10 @@ const BackendDevelopment = () => {
                 <section className="article-section">
                     <h5 className="section-heading">Normalization</h5>
                     <p>Normalization is a systematic approach of decomposing tables to eliminate data redundancy. A flat file database store all the data in one table which led to anomalies.</p>
+                    <figure>
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/dse-sba-2015.jpg?v=1771150144" />
+                        <figcaption className="figure-caption">DSE SBA Normalization, 2015</figcaption>
+                    </figure>
                     <p>Data redundancy refers to repetition of data stored in different locations. Storing same data redundantly in more than one place within a database can lead to anomalies.</p>
                     <ul>
                         <li><b>Update Anomalies</b>: Once one copy of repeated data is updated, inconsistency is created unless all copies updated.</li>

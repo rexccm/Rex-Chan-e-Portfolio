@@ -4,7 +4,7 @@ const WebAuthoring = () => {
         <section id="ui-slicing" className="article-section">
             <h3 className="section-heading">UI Slicing</h3>
             <ul>
-                <li>Education: Certificate of Front-End Web Developer (CLAP@JC)</li>
+                <li>Education: ECertificate of Front-end Web Developer (CLAP@JC)</li>
                 <li>Projects: Broadway Lifestyle, Telford (Tao Ti), HiPP, Heybike, South Stream, nextCIGAR, Midea Eureka, CLEARgo.com, Hoi Tin (Jacobson), e-Jacob</li>
             </ul>
             <section className="article-section">
@@ -50,7 +50,7 @@ const WebAuthoring = () => {
         <section className="article-section">
             <h3 className="section-heading">SEO</h3>
             <ul className="related-career-history">
-                <li>Education: Certificate of Fundamentals of Digital Marketing (Google) | Certificate of Front-End Web Developer (CLAP@JC)</li>
+                <li>Education: Certificate of Fundamentals of Digital Marketing (Google) | Certificate of Front-end Web Developer (CLAP@JC)</li>
                 <li>Projects: Broadway Lifestyle, nextCIGAR, Midea Eureka, CLEARgo.com</li>
              </ul>
             <p>Implemented SEO strategies such as semantic HTML, metadata, JSON-LD, heading hierarchy, and HTML attributes.</p>
@@ -63,7 +63,7 @@ const WebAuthoring = () => {
             <section id="web-authoring" className="article-section">
                     <h3 className="section-heading">Web Authoring</h3>
                     <ul className="related-career-history">
-                        <li>Education: E-Commerce and Web Application Development (B+) | Certificate of Front-End Web Developer (CLAP@JC)</li>
+                        <li>Education: E-Commerce and Web Application Development (B+) | Certificate of Front-end Web Developer (CLAP@JC)</li>
                         <li>Projects: Broadway Lifestyle, HiPP, Telford (Tao Ti), South Stream, Heybike, nextCIGAR, Midea Eureka, Hoi Tin (Jacobson)</li>
                     </ul>
                     <p>Experienced in authoring standard-based web pages epecially e-Commerce using the web development layers.</p>
@@ -86,7 +86,7 @@ const WebAuthoring = () => {
                 <section className="article-section">
                     <h3 className="section-heading">Interactions​</h3>
                     <ul className="related-career-history">
-                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Internet Programming (A-)</li>
+                        <li>Education: Certificate of Front-end Web Developer (CLAP@JC) | Internet Programming (A-)</li>
                         <li>Projects: Broadway Lifestyle, Heybike, Midea Eureka, Telford (Tao Ti), nextCIGAR, South Stream, CLEARgo.com</li>
                     </ul>
                     <p>Created interactions to give feedback and enrich the user experience (UX) for end-users when they are browsing web pages.</p>
@@ -131,7 +131,7 @@ const WebAuthoring = () => {
                 <section className="article-section">
                     <h3 className="section-heading">AJAX</h3>
                     <ul className="related-career-history">
-                        <li>Education: Certificate of Front-End Web Developer (CLAP@JC) | Internet Programming (A-)</li>
+                        <li>Education: Certificate of Front-end Web Developer (CLAP@JC) | Internet Programming (A-)</li>
                     </ul>
                     <p>Asynchronous JavaScript and XML (AJAX) is a set of web development techniques that allows client-side scripts send requests to the web server programs in an asynchronous format without reloading the entire page.</p>
                     <p>Web server response was in XML format in the early days of AJAX, but most modern web services use JSON format for data interchange.</p>
