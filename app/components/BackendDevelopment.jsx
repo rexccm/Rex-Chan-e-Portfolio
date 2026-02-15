@@ -93,6 +93,13 @@ const BackendDevelopment = () => {
                         <li><b>Foreign Key</b>: A foreign key is a attribute or a combination of attributes in a table which refers to the primary key of another table.</li>
                     </ul>
                 </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Data Dictionary</h5>
+                    <p>A data dictionary is a collection of table structures which explains an unfamiliar dataset and clarifies the meanings of various data terms to developers and users by listing codes, data types, lengths, examples, and descriptions of the fields.</p>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/database-management-assignment-data-dictionary-2018.jpg?v=1771180653" />
+                        <figcaption className="figure-caption">Data Dictionary, 2018</figcaption>
+                    </figure>
             </section>
             {/* }
             <section className="article-section">
