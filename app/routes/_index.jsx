@@ -88,10 +88,8 @@ export default function Homepage() {
       <ArtworkMarquee />
       <Animation />
       <WebAuthoring />
-      {/* 
-        <BackendDevelopment />
-      */}
       <Design />
+      <BackendDevelopment />
       <Certification />
       {/*
       <section className="education">
