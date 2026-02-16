@@ -113,6 +113,32 @@ const WebAuthoring = () => {
                 <p>Each template element has an associated DocumentFragment object as template content.</p>
             </section>
         </section>
+        <section className="article-section">
+            <h3 className="section-heading">Computer Graphics Programming</h3>
+            <ul className="related-career-history">
+                <li>Education: Integrated 2D and 3D Graphics Programming (A-) | Mathematics in Interactive Media (B+)</li>
+                <li>Projects: CLEARgo.com, Integrated 2D and 3D Graphics Programming Project</li>
+            </ul>
+            <p>Rasterizers like WebGL and DirectX convert 3D vector primitives included triangles (polygons), points (vertices), and lines (edges) into 2D pixel-based graphics on the screen.</p>
+            <p>Created scrolling event-driven 3D transformation animation including rotation and translation for CLEARgo oversea expansion page using Three.js library on WebGL environment.</p>
+            <figure className="limited-figure">
+                <video autoPlay muted loop>
+                    <source src="https://cdn.shopify.com/videos/c/o/v/4313cbcc34bd4c5cb5f2004ad5bf03fd.mp4" type="video/mp4" />
+                </video>
+                <figcaption>CLEARgo 3D Animation, 2024</figcaption>
+            </figure>
+            <p>Developed Chrismas gift delivery mini game implemented AABB collision detection using DirectX in Higher Diploma course</p>
+            <section className="featured-gallery">
+                <h4 className="section-heading">Featured Works</h4>
+                <ul className="featured-works">
+                    <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation01.jpg" /></li>
+                    <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation02.jpg" /></li>
+                    <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation03.jpg" /></li>
+                    <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation04.jpg" /></li>
+                    <li><img width="400" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/directx-presentation05.jpg" /></li>
+                </ul>
+            </section>
+        </section>
         {/*}
             <section id="web-authoring" className="article-section">
                     <h3 className="section-heading">Web Authoring</h3>
