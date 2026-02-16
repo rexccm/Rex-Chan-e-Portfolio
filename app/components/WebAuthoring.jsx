@@ -120,12 +120,12 @@ const WebAuthoring = () => {
                 <li>Projects: CLEARgo.com, Integrated 2D and 3D Graphics Programming Project</li>
             </ul>
             <p>Rasterizers like WebGL and DirectX convert 3D vector primitives included triangles (polygons), points (vertices), and lines (edges) into 2D pixel-based graphics on the screen.</p>
-            <p>Created scrolling event-driven 3D transformation animation including rotation and translation for CLEARgo oversea expansion page using Three.js library on WebGL environment.</p>
+            <p>Created basic scrolling event-driven 3D transformation animation including rotation and translation of 3D box object for CLEARgo oversea expansion page using Three.js library on WebGL environment.</p>
             <figure className="limited-figure">
                 <video autoPlay muted loop>
                     <source src="https://cdn.shopify.com/videos/c/o/v/4313cbcc34bd4c5cb5f2004ad5bf03fd.mp4" type="video/mp4" />
                 </video>
-                <figcaption>CLEARgo 3D Animation, 2024</figcaption>
+                <figcaption>CLEARgo Oversea Expansion Page, 2024</figcaption>
             </figure>
             <p>Developed Chrismas gift delivery mini game implemented AABB collision detection using DirectX in Higher Diploma course</p>
             <section className="featured-gallery">

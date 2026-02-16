@@ -36,7 +36,7 @@ const Animation = () => {
             </section>
             <section className="article-section">
                 <h4 className="section-heading">Storyboard</h4>
-                <p>Storyboard is a blueprint of a story or concept that is used to plan and organize the sequence of actions in a animation or storytelling flow in pre-production.</p>
+                <p>Storyboard is a blueprint of a story or concept that is used to plan and organize the sequence of actions in an animation or storytelling flow in pre-production.</p>
                 <figure id="storybroad" className="limited-figure">
                     <img id="storybroad" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/storyboard-of-graduation-project.png?v=1769440868" />
                     <figcaption>Storybroad of Graduation Project, 2019</figcaption>
