@@ -1373,6 +1373,10 @@ body .slick-dots li button {
   position: relative; 
 }
 
+.article-section:has(> .animation-demos-container) .article-section { 
+  padding-inline: 20px;
+}
+
 .animation-demos-container .section-header { 
   top: 0; 
   left: 50%; 
