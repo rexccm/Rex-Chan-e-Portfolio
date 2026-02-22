@@ -43,17 +43,17 @@ const BackendDevelopment = () => {
                 <p>Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage.</p>
                 <section className="article-section">
                     <h5 className="section-heading">SQL Injection</h5>
-                    <p>SQL injection attack consists of injection of malicious SQL commands via input data from the client to the application that are later passed to an instance of a database for execution and aim to affect the execution of predefinec SQL commands.</p>
+                    <p>SQL injection attack consists of injection of malicious SQL commands via input data from the client to the application that are later passed to an instance of a database for execution and aim to affect the execution of predefined SQL commands.</p>
                     <p>The primary form of SQL injection consists of direct insertion of code into user-input variables which are concatenated with SQL commands and executed.</p>
                     <p>A less direct attack injects malicious code into strings are subsequently concatenated into a dynamic SQL commands, the malicious code is then executed.</p>
-                    <p>A successful SQL injection exploit can access sensitive data in the database, modify database data, execute administrative operations whithin the database, for instance, shutdown the DBMS, recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system.</p>
+                    <p>A successful SQL injection exploit can access sensitive data in the database, modify database data, execute administrative operations within the database, for instance, shutdown the DBMS, recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system.</p>
                 </section>
                 <section className="article-section">
                     <h5 className="section-heading">XSS</h5>
                     <p>Dynamic websites are more vulnerable to a type of code injection called Cross-Site Scripting (XSS).</p>
                     <p>In this form of injection attack, the attackers introduce improper scripts into the web browsers.</p>
-                    <p>This technique oftenly used is to inject JavaScript, HTML or any other types of codes that web browsers may execute.</p>
-                    <p>Once the injection is successfully performed, hackers can carry out a variety of malicious attacks including account hijacking, changing of user settings. cookie theft and poisoning, or false advertising.</p>
+                    <p>This technique often used is to inject JavaScript, HTML or any other types of codes that web browsers may execute.</p>
+                    <p>Once the injection is successfully performed, hackers can carry out a variety of malicious attacks including account hijacking, changing of user settings, cookie theft and poisoning, or false advertising.</p>
                 </section>
             </section>
             <section className="article-section">
