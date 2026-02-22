@@ -106,7 +106,7 @@ const Design = () => {
                 </section>
                 <section className="article-section">
                     <h5 className="section-heading">Mood Board</h5>
-                    <p>A mood board is a visual tool that gathers images, colours and textures that represent the desired aesthetic and atmosphere of a project. Mood boards are prototypes of colour schemes.</p>
+                    <p>A mood board is a visual tool that gathers images, colours and textures that represent the desired aesthetic and atmosphere of a project. Mood boards are prototypes of colour schemes and entire visual identity.</p>
                     <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mood-board-2022.jpg?v=1771778491" />
                         <figcaption>Mood Board, 2022</figcaption>
