@@ -102,6 +102,13 @@ const BackendDevelopment = () => {
                     </figure>
                 </section>
             </section>
+            <section id="orm" className="article-section">
+                <h4 className="section-heading">ORM</h4>
+                <p>To against SQL injection, ORM is a backend approach that provides a layer of abstraction that helps prevent SQL injection attacks by automatically escaping user input and generating safe SQL queries.</p>
+                <p>An object-relational mapping (ORM), also referred to as object-relational manager, is a process of connecting objects in an object-oriented programming language to tables in an underlying relational database.</p>
+                <p>When building backends, developers define objects as a SQL-free data representation in a modular application to query and manipulate data in databases using the same logic as the backend code.</p>
+                <p>However, this approach slows down CRUD performance because of the overhead of abstraction.</p>
+            </section>
             {/* }
             <section className="article-section">
                 <h4>Code Injections</h4>
