@@ -105,6 +105,14 @@ const Design = () => {
                     <p>For instance, the colour scheme of a design can be a visual metaphor for the brand's identity and values.</p>
                 </section>
                 <section className="article-section">
+                    <h5 className="section-heading">Mood Board</h5>
+                    <p>A mood board is a visual tool that gathers images, colours and textures that represent the desired aesthetic and atmosphere of a project. Mood boards are prototypes of colour schemes.</p>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mood-board-2022.jpg?v=1771778491" />
+                        <figcaption>Mood Board, 2022</figcaption>
+                    </figure>
+                </section>
+                <section className="article-section">
                     <h5 className="section-heading">Colour Scheme</h5>
                     <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
                     <figure>
