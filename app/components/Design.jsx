@@ -172,6 +172,22 @@ const Design = () => {
                         <figcaption>HiPP Branding, 2025</figcaption>
                     </figure>
                 </section>
+                <section id="a-b-testing" className="">
+                    <h5 className="section-heading">A/B Testing</h5>
+                    <p>A/B testing is a quantitative research method comparing two or more variants of a design to determine which one performs better in terms of conversion rate, click-through rate (CTR), bounce rate, retention rate, return on investment (ROI), and average revenue per user (ARPU).</p>
+                    <p>This continous design improvement approach helps design and marketing teams make data-driven decisions to optimize user experience and reach business goals.</p>
+                    <figure className="limited-figure">
+                        <div class="demo-btn-row">
+                            <button class="demo-btn-a demo-btn">
+                                <p>CASE A <small>button</small></p>
+                            </button>
+                            <button class="demo-btn-b demo-btn">
+                                <p>CASE B <small>button</small></p>
+                            </button>
+                        </div>
+                        <figcaption>A/B Testing</figcaption>
+                    </figure>
+                </section>
             </section>
             {/* 
             <figure id="colour-codes">
