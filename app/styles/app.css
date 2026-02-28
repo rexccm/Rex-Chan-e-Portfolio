@@ -609,6 +609,10 @@ button.reset:hover:not(:has(> *)) {
 }
 
 /* Custom */
+html { 
+  scroll-behavior: smooth; 
+}
+
 p { 
   margin-bottom: 10px; 
 }
