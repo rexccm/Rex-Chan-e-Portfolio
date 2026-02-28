@@ -68,6 +68,25 @@ const WebAuthoring = () => {
             <p>Web server response was in XML format in the early days of AJAX, but most modern web services use JSON format for data interchange.</p>
         </section>
         <section className="article-section">
+            <h3 className="section-heading">Data Interchange</h3>
+            <p>XML and JSON are used for data interchange in client-server communication.</p>
+            <p>In modern web development, JSON is preferred whenever the additional features implemented by XML are deemed to be unnecessary.</p>
+            <section className="article-section">
+                <h4 className="section-heading">XML</h4>
+                <p>Extensible Markup Language (XML) is a markup language which represents data as tag-based tree structure in data interchange.</p>
+                <p>Unlike JSON, XML uses namespaces to distinguish between properties that are different but share the same name.</p>
+                <p>While JSON limited data types to basic types, XML supports many complex data types.</p>
+                <p>XML has to be parsed with an XML parser.</p>
+            </section>
+            <section className="article-section">
+                <h4 className="section-heading">JSON</h4>
+                <p>JavaScript Object Notation (JSON) is the most popular interchange language in modern web development since JSON is directly understandable to JavaScript on the grounds of vast majority of JavaScript popularity.</p>
+                <p>JSON is a lightweight interchange format which is parsed quicker than XML with less computational resource usage.</p>
+                <p>JSON uses a map with key-value pairs while it can use array in value.</p>
+                <p>Unlike XML, JSON can be directly parsed by a standard JavaScript function.</p>
+            </section>
+        </section>
+        <section className="article-section">
             <h3 className="section-heading">Web Components</h3>
             <ul className="related-career-history">
                 <li>Projects: Broadway Lifestyle, Heybike, nextCIGAR</li>
@@ -187,25 +206,6 @@ const WebAuthoring = () => {
                             <li><b>Low-level interaction helpers:</b> The underlying core based on direct interactions that are designed to work with physical action performed by end-user primarily mouse events. For instance, draggable, droppable, resizable, selectable, and sortable.</li>
                             <li><b>Higher-level widgets:</b> The instruments often build upon the foundation provided by the low-level helpers triggering side effects after end-users performed actions. For instance, accordion, tabs, dialog, auto-complete, slider, and date-picker.</li>
                         </ul>
-                    </section>
-                </section>
-                <section className="article-section">
-                    <h3 className="section-heading">Data Interchange</h3>
-                    <p>XML and JSON are used for data interchange in client-server communication.</p>
-                    <p>In modern web development, JSON is preferred whenever the additional features implemented by XML are deemed to be unnecessary.</p>
-                    <section className="article-section">
-                        <h4 className="section-heading">XML</h4>
-                        <p>Extensible Markup Language (XML) is a markup language which represents data as tag-based tree structure in data interchange.</p>
-                        <p>Unlike JSON, XML uses namespaces to distinguish between properties that are different but share the same name.</p>
-                        <p>While JSON limited data types to basic types, XML supports many complex data types.</p>
-                        <p>XML has to be parsed with an XML parser.</p>
-                    </section>
-                    <section className="article-section">
-                        <h4 className="section-heading">JSON</h4>
-                        <p>JavaScript Object Notation (JSON) is the most popular interchange language in modern web development since JSON is directly understandable to JavaScript on the grounds of vast majority of JavaScript popularity.</p>
-                        <p>JSON is a lightweight interchange format which is parsed quicker than XML with less computational resource usage.</p>
-                        <p>JSON uses a map with key-value pairs while it can use array in value.</p>
-                        <p>Unlike XML, JSON can be directly parsed by a standard JavaScript function.</p>
                     </section>
                 </section>
                 <section className="article-section">
