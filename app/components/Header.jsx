@@ -11,9 +11,9 @@ export function Header({header, isLoggedIn, cart, publicStoreDomain}) {
   const {shop, menu} = header;
   return (
     <header className="header">
-      <img className="logo" src={header.shop.brand?.logo?.image?.url} alt={header.shop.brand?.logo?.image?.altText} />
       <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
-        <strong>{shop.name}</strong>
+        {/* <strong>{shop.name}</strong> */}
+        <img className="logo" src={header.shop.brand?.logo?.image?.url} alt={header.shop.brand?.logo?.image?.altText} />
       </NavLink>
       <PersonalInfo />
       {/*
