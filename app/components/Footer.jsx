@@ -21,10 +21,11 @@ export function Footer({footer: footerPromise, header, publicStoreDomain}) {
       </div>
       <img className="wheel" width="174" height="174" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/wheel.png?v=1769618169" />
       <ScrollWave />
-      {/* }
       <Await resolve={footerPromise}>
         {(footer) => (
           <footer className="footer">
+            Copyright © {new Date().getFullYear()} {header.shop.name}. All rights reserved.
+            {/* 
             {footer?.menu && header.shop.primaryDomain?.url && (
               <FooterMenu
                 menu={footer.menu}
@@ -32,10 +33,10 @@ export function Footer({footer: footerPromise, header, publicStoreDomain}) {
                 publicStoreDomain={publicStoreDomain}
               />
             )}
+            */}
           </footer>
         )}
       </Await>
-      */}
     </Suspense>
   );
 }
