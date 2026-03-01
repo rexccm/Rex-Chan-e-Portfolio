@@ -682,8 +682,9 @@ section {
 }
 
 .section-heading { 
-  margin: 0 auto 20px;
-  font-size: 1.75rem;
+  display: block; 
+  margin: 0 auto 20px; 
+  font-size: 1.75rem; 
 }
 
 .section-heading:first-letter { 

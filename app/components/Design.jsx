@@ -140,7 +140,6 @@ const Design = () => {
                 <h4 className="section-heading">System Analysis</h4>
                 <ul className="related-career-history">
                     <li>Education: System Analysis and Design (B)</li>
-                    <li>Experience: Movie Web Application</li>
                 </ul>
                 <p>Learned Unified Modeling Language (UML) such as class diagram, use case diagram, and activity diagram.</p>
                 <figure className="limited-figure">

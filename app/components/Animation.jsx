@@ -77,7 +77,6 @@ const Animation = () => {
             </section>
             <section className="article-section">
                 <h4 className="section-heading">​Web Animation Methods</h4>
-                <h4 className="section-heading">​Animation Methods</h4>
                 <ul id="web-animation-methods">
                     <li><b>Transitions:</b> By applying the concept of finite-state machines (FSM), CSS fills in the in-betweens smoothly over a specified duration between two states.</li>
                     <li><b>Keyframes:</b> CSS keyframes implement the traditional animation theory of pose-to-pose since the frontend developer can break down the timeline into several phases by defining the significant points as keyframes.</li>
