@@ -41,6 +41,7 @@ const BackendDevelopment = () => {
             <section className="article-section">
                 <h4 className="section-heading">Code Injection</h4>
                 <p>Injection attacks like SQL injection occur when an attacker is able to inject malicious code into a query or command in order to exfiltrate data or damage storage.</p>
+                <p>To prevent injection attacks, developers should apply data validation and verification techniques from pre-processing to post-processing.</p>
                 <section className="article-section">
                     <h5 className="section-heading">SQL Injection</h5>
                     <p>SQL injection attack consists of injection of malicious SQL commands via input data from the client to the application that are later passed to an instance of a database for execution and aim to affect the execution of predefined SQL commands.</p>
