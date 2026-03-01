@@ -79,62 +79,9 @@ const Design = () => {
             </section>
             */}
             <section className="article-section">
-                <h4 className="section-heading">UI Design</h4>
-                <ul className="related-career-history">
-                    <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
-                    <li>Experience: Movie Web Application, Freelance Designer</li>
-                </ul>
-                <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
-                <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
-                <section id="paradigms-and-syntagms" className="article-section">
-                    <h5 className="section-heading">Paradigms and Syntagms</h5>
-                    <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where a design no matter user interface, animation, or interaction is constructed of paradigmatic axis and syntagmatic axis.</p>
-                    <figure className="limited-figure">
-                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/movie-web-application-filters-2023.jpg?v=1771080605" />
-                        <figcaption>Movie Web Application Design, 2023</figcaption>
-                    </figure>
-                    <ul id="semiotic-axes">
-                        <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
-                        <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
-                    </ul>
-                </section>
-                <section className="article-section">
-                    <h5 className="section-heading">Visual Metaphor</h5>
-                    <p>Visual metaphor is the ability of image to convey intellectual and emotional meanings, mood, tone, atmosphere, and subtext in addition to their straightforward reality.</p>
-                    <p>Every visual elements carry an implied meaning that can be a powerful storytelling tool.</p>
-                    <p>For instance, the colour scheme of a design can be a visual metaphor for the brand's identity and values.</p>
-                </section>
-                <section className="article-section">
-                    <h5 className="section-heading">Mood Board</h5>
-                    <p>A mood board is a visual tool that gathers images, colours and textures that represent the desired aesthetic and atmosphere of a project. Mood boards are prototypes of colour schemes and entire visual identity.</p>
-                    <figure className="limited-figure">
-                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mood-board-2022.jpg?v=1771778491" />
-                        <figcaption>Mood Board, 2022</figcaption>
-                    </figure>
-                </section>
-                <section className="article-section">
-                    <h5 className="section-heading">Colour Scheme</h5>
-                    <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
-                    <figure>
-                        <div className="colour-scheme-wrapper">
-                            <div className="primary-colour"></div>
-                            <div className="secondary-colour"></div>
-                            <div className="accent-colour"></div>
-                        </div>
-                        <figcaption>Colour Scheme</figcaption>
-                    </figure>
-                    <ul id="colour-scheme-elements">
-                        <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
-                        <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
-                        <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
-                    </ul>
-                </section>
-            </section>
-            <section className="article-section">
                 <h4 className="section-heading">UX Design</h4>
                 <ul className="related-career-history">
                     <li>Education: System Analysis and Design (B) | Certificate of Front-End Web Developer (CLAP@JC)</li>
-                    <li>Experience: Movie Web Application, Freelance Designer</li>
                 </ul>
                 <section id="user-stories" className="article-section">
                     <h5 className="section-heading">User Research</h5>
@@ -187,6 +134,78 @@ const Design = () => {
                         </div>
                         <figcaption>A/B Testing</figcaption>
                     </figure>
+                </section>
+            </section>
+            <section className="article-section">
+                <h4 className="section-heading">System Analysis</h4>
+                <ul className="related-career-history">
+                    <li>Education: System Analysis and Design (B)</li>
+                    <li>Experience: Movie Web Application</li>
+                </ul>
+                <p>Learned Unified Modeling Language (UML) such as class diagram, use case diagram, and activity diagram.</p>
+                <figure className="limited-figure">
+                    <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/class-diagram-2018.jpg?v=1772373324" />
+                    <figcaption>Class Diagram, 2018</figcaption>
+                </figure>
+                <figure className="limited-figure">
+                    <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/use-case-diagram-2018.jpg?v=1772372276" />
+                    <figcaption>Use Case Diagram, 2018</figcaption>
+                </figure>
+                <figure className="limited-figure">
+                    <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/activity-diagram-2018.jpg?v=1772373067" />
+                    <figcaption>Activity Diagram, 2018</figcaption>
+                </figure>
+            </section>
+            <section className="article-section">
+                <h4 className="section-heading">UI Design</h4>
+                <ul className="related-career-history">
+                    <li>Education: Multimedia Technologies and Applications (B+) | Certificate of MangAnime Elementary Drawing (amps, Japanese Duly Qualified)</li>
+                    <li>Experience: Freelance Designer</li>
+                </ul>
+                <p>Learned fundamental knowledge and skills of design, art, and traditional animation, and passed examination of elementary drawing held by amps, a duly constituted animation school under Cool Japan Policy introduced by Japanese government.</p>
+                <p>Experienced in pre-production, production, and post-production of freelance design and digital painting commissions.</p>
+                <section id="paradigms-and-syntagms" className="article-section">
+                    <h5 className="section-heading">Paradigms and Syntagms</h5>
+                    <p>In semiotics, all relations on canvas are paradigmatic and syntagmatic relations where a design no matter user interface, animation, or interaction is constructed of paradigmatic axis and syntagmatic axis.</p>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/movie-web-application-filters-2023.jpg?v=1771080605" />
+                        <figcaption>Movie Web Application Design, 2023</figcaption>
+                    </figure>
+                    <ul id="semiotic-axes">
+                        <li><b>Paradigmatic Axis:</b> Relations between elements that can be substituted for one another in a given context.</li>
+                        <li><b>Syntagmatic Axis:</b> Relations between elements that combine the selected signs into one composition.</li>
+                    </ul>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Visual Metaphor</h5>
+                    <p>Visual metaphor is the ability of image to convey intellectual and emotional meanings, mood, tone, atmosphere, and subtext in addition to their straightforward reality.</p>
+                    <p>Every visual elements carry an implied meaning that can be a powerful storytelling tool.</p>
+                    <p>For instance, the colour scheme of a design can be a visual metaphor for the brand's identity and values.</p>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Mood Board</h5>
+                    <p>A mood board is a visual tool that gathers images, colours and textures that represent the desired aesthetic and atmosphere of a project. Mood boards are prototypes of colour schemes and entire visual identity.</p>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mood-board-2022.jpg?v=1771778491" />
+                        <figcaption>Mood Board, 2022</figcaption>
+                    </figure>
+                </section>
+                <section className="article-section">
+                    <h5 className="section-heading">Colour Scheme</h5>
+                    <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
+                    <figure>
+                        <div className="colour-scheme-wrapper">
+                            <div className="primary-colour"></div>
+                            <div className="secondary-colour"></div>
+                            <div className="accent-colour"></div>
+                        </div>
+                        <figcaption>Colour Scheme</figcaption>
+                    </figure>
+                    <ul id="colour-scheme-elements">
+                        <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
+                        <li><b>Secondary colour</b>: Used for about 30% of a design which is usually an analogous colour, in terms of hue, tone, or saturation, of primary colour so as to compliment it and form the harmony.</li>
+                        <li><b>Accent colours</b>: Used for about 10% of a design which are always opposite colors totally differ from primary and secondary colours in order to accessorize the design and grab viewer's attention.</li>
+                    </ul>
                 </section>
             </section>
             {/* 

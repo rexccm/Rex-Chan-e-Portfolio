@@ -669,6 +669,7 @@ section {
 
 .article-section .article-section { 
   padding: 40px 0; 
+  line-height: 140%;
 }
 
 .row { 
