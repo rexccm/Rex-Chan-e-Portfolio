@@ -1,6 +1,6 @@
 # Rex Chan e-Portfolio
 
-This project is an e-Portfolio of Chan Cheuk Man, Rex, a T-shaped frontend web developer, by using modern frontend React/Remix-based e-Commerce framework Hydrogen decoupled from headless CMS backend provided by Shopify.
+This project is an e-Portfolio of Chan Cheuk Man, Rex, a T-shaped frontend web developer, by using modern React/Remix-based e-Commerce framework Hydrogen decoupled from headless CMS backend provided by Shopify.
 
 Headless CMS is a new trend of e-Commerce web development in late 2020s which emerges in the background of the rise of modern frontend frameworks including React, Vue, Angular, and Knockout since 2010s.
 
