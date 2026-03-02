@@ -3,7 +3,7 @@ import React from 'react';
 const Languages = () => {
   const logoGroups = [
     { id: 1, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/react-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/remix-logo.png"] },
-    { id: 2, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/hydrogen-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/javascript-logo.png"] },
+    { id: 2, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/redux-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/javascript-logo.png"] },
     { id: 3, logos:  ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/css-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/html-logo.png"] },
     { id: 4, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/bootstrap-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/slick-logo.png"] },
     { id: 5, logos: ["https://cdn.shopify.com/s/files/1/0626/2253/1645/files/jquery-logo.png", "https://cdn.shopify.com/s/files/1/0626/2253/1645/files/three-js-logo.png"] },
@@ -20,7 +20,7 @@ const Languages = () => {
             <p>The following presents my skillset in the industry.</p>
         </section>
         <div className="language-list-wrapper">
-            <ul class="language-list">
+            <ul className="language-list">
                 {logoGroups.map((group) => (
                     <div className="logo-column" key={group.id}>
                         {group.logos.map((logo) => (
