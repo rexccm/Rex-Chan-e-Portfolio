@@ -2034,6 +2034,10 @@ body .slick-dots li button {
     max-width: 100%; 
   }
 
+  #state-management figure { 
+    padding-block: 2rem; 
+  }
+
   #state-management .tabs-with-figure { 
 		max-width: 100%; 
 		flex-direction: column-reverse; 

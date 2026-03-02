@@ -72,7 +72,7 @@ const FrameworkConcepts = () => {
           </div>
 
           {/* Figure */}
-          <figure className="">
+          <figure id="ring-container">
             <div className="">
               <menu className="ring">
                 {components.map((comp, index) => {
