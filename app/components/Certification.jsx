@@ -5,6 +5,12 @@ const Certification = () => {
             <ul className="certificates">
                 <li className="certificate">
                     <figure>
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-employment-letter-2026.jpg" />
+                        <figcaption>Confirmation of Employment Termination of CLEARgo, 2026</figcaption>
+                    </figure>
+                </li>
+                <li className="certificate">
+                    <figure>
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/badge-of-liquid-storefronts-for-theme-developers.png" />
                         <figcaption>Badge of Liquid Storefronts for Theme Developers, 2024</figcaption>
                     </figure>
