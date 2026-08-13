@@ -48,8 +48,8 @@ export default function Summary({ content }) {
                     <Slider {...settings}>
                         <div>
                             <figure>
-                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/IMG-20251226-WA0012.jpg" />
-                                <figcaption>2025</figcaption>
+                                <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/envisage-photo.jpg" />
+                                <figcaption>Envisage</figcaption>
                             </figure>
                         </div>
                         <div>
@@ -132,7 +132,7 @@ export default function Summary({ content }) {
                 <section id="project-clients" className="article-section">
                     <article className="section-header">
                         <h3 className="section-heading">Projects</h3>
-                        <p>Participated in the following projects in frontend web development career.</p>
+                        <p>Participated in the following projects in web development career.</p>
                     </article>
                     <div className="logo-list-container">
                         <ul id="projects" className="logo-list">
