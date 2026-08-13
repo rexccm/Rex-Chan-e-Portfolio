@@ -186,19 +186,29 @@ const Design = () => {
                     <p>A mood board is a visual tool that gathers images, colours and textures that represent the desired aesthetic and atmosphere of a project. Mood boards are prototypes of colour schemes and entire visual identity.</p>
                     <figure className="limited-figure">
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/mood-board-2022.jpg?v=1771778491" />
-                        <figcaption>Mood Board, 2022</figcaption>
+                        <figcaption>Mood Board of Freelance, 2022</figcaption>
+                    </figure>
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/moodbroad-of-hkos.jpg" />
+                        <figcaption>HKOS Mood Board, 2026</figcaption>
                     </figure>
                 </section>
                 <section className="article-section">
                     <h5 className="section-heading">Colour Scheme</h5>
                     <p>In general design, a effective colour scheme is applying the golden ratio: 60:30:10. Under this proportion, we can divide the colour schema of a design as primary colour, secondary colour, and accent colours. </p>
-                    <figure>
-                        <div className="colour-scheme-wrapper">
-                            <div className="primary-colour"></div>
-                            <div className="secondary-colour"></div>
-                            <div className="accent-colour"></div>
-                        </div>
-                        <figcaption>Colour Scheme</figcaption>
+                    {/* 
+                        <figure>
+                            <div className="colour-scheme-wrapper">
+                                <div className="primary-colour"></div>
+                                <div className="secondary-colour"></div>
+                                <div className="accent-colour"></div>
+                            </div>
+                            <figcaption>Figure of Colour Scheme</figcaption>
+                        </figure>
+                    */}
+                    <figure className="limited-figure">
+                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/colour-scheme-of-hkos.jpg" />
+                        <figcaption>HKOS Colour Scheme, 2026</figcaption>
                     </figure>
                     <ul id="colour-scheme-elements">
                         <li><b>Primary colour</b>: Used for about 60% of a design which mainly builds up the theme and mood of the whole.</li>
