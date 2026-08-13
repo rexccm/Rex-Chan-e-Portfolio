@@ -136,6 +136,7 @@ export default function Summary({ content }) {
                     </article>
                     <div className="logo-list-container">
                         <ul id="projects" className="logo-list">
+                            <li className="project" id="cheung-hing"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cheung-hing-logo.png" alt="Cheung Hing" /></li>
                             <li className="project" id="broadway-lifestyle"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/broadway-logo.png" alt="Broadway Lifestyle" /></li>
                             <li className="project" id="midea-eureka"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/eureka-logo.png" alt="Midea Eureka" /></li>
                             <li className="project" id="hoi-tin"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/hoi-tin-logo.png" alt="Hoi Tin" /></li>
