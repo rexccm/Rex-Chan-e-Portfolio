@@ -109,8 +109,8 @@ export default function Summary({ content }) {
                     </article>
                     <div className="logo-list-container">
                         <ul id="corporations" className="logo-list">
+                            <li className="corporation" id="envisage"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/envisage-logo.png" alt="Envisage" /></li>
                             <li className="corporation" id="cleargo"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/cleargo-logo.png" alt="CLAERgo" /></li>
-                            <li className="corporation" id="penker"><img width="240" src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/penker-logo.png" alt="Penker" /></li>
                         </ul>
                     </div>
                 </section>

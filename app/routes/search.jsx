@@ -17,16 +17,29 @@ export const meta = () => {
 export async function loader({request, context}) {
   const url = new URL(request.url);
   const isPredictive = url.searchParams.has('predictive');
-  const searchPromise = isPredictive
-    ? predictiveSearch({request, context})
-    : regularSearch({request, context});
 
-  searchPromise.catch((error) => {
+  try {
+    return isPredictive
+      ? await predictiveSearch({request, context})
+      : await regularSearch({request, context});
+  } catch (error) {
     console.error(error);
-    return {term: '', result: null, error: error.message};
-  });
 
-  return await searchPromise;
+    const term = String(url.searchParams.get('q') || '').trim();
+    const errorMessage =
+      error instanceof Error ? error.message : 'Search request failed';
+
+    if (isPredictive) {
+      return {
+        type: 'predictive',
+        term,
+        error: errorMessage,
+        result: getEmptyPredictiveSearchResult(),
+      };
+    }
+
+    return {type: 'regular', term, error: errorMessage, result: null};
+  }
 }
 
 /**
