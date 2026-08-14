@@ -6,7 +6,6 @@ const Certification = () => {
                 <li className="certificate">
                     <figure>
                         <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/envisage-employment-letter.jpg" />
-                        <img src="https://cdn.shopify.com/s/files/1/0626/2253/1645/files/envisage-final-settlement-_-handover-acknowledgment.jpg" />
                         <figcaption>Envisage Employment Proof, Aug 2026</figcaption>
                     </figure>
                 </li>
